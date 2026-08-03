@@ -31,19 +31,11 @@
     </div>
   </header>
 
-  <!-- HERO SECTION (GRID PAPER BACKGROUND & SIDE 3D GRAPHIC ELEMENTS - MATCHING REFERENCE SCREENSHOT) -->
-  <section class="sec-editorial bg-grid-paper text-center" id="hero">
-    <div class="overlay-layer overlay-light-gold"></div>
+  <!-- HERO SECTION (CUSTOM 3D BG & SIDE 3D GRAPHIC ELEMENTS - MATCHING REFERENCE SCREENSHOT) -->
+  <section class="sec-editorial text-center" id="hero" style="background: url('assets/bg_hero.png') center center / cover no-repeat; position: relative;">
 
     <!-- TOP-LEFT AMBIENT GLOW AURA (MATCHING REFERENCE SCREENSHOT) -->
     <div class="hero-glow-aura-left"></div>
-
-    <!-- FLOATING 3D GRAPHIC ELEMENTS ON BOTH SIDES (MATCHING REFERENCE SCREENSHOT) -->
-    <img src="assets/analytics_3d.png" alt="3D Analytics Search Graphic" class="hero-side-graphic-right">
-    <div class="hero-side-graphic-left" style="background: #ffffff; border: 2px solid #a5f3fc; padding: 14px; border-radius: 20px; box-shadow: 0 15px 35px rgba(2,132,199,0.2);">
-      <div style="font-size: 2.2rem; margin-bottom: 4px;">📖💡</div>
-      <div style="font-size: 0.78rem; font-weight: 900; color: var(--blue-cobalt);" class="mono-spec">KDP SPEC PASSED</div>
-    </div>
 
     <div class="container">
       
@@ -52,10 +44,12 @@
         Turn Any Single Keyword Into Real Amazon-Compliant Books Across 20+ Formats In Minutes!
       </div>
       
-      <!-- SECTION 2: MAIN HEADLINE WITH ORANGE HIGHLIGHT BOX (MATCHING REFINED COPYWRITING USP ANGLE) -->
-      <h1 class="sec-title hero-title">
-        World's First <span class="highlight-orange-box">Autonomous KDP Publishing Engine</span> <br>
-        Turns Single Keywords Into <span style="color: var(--amber-dark);">Real Amazon-Compliant Books Across 20+ Formats</span> <span style="color: #c026d3;">Without Ever Worrying About Trim Rejections Or AI Slop Flags Again!</span>
+      <!-- SECTION 2: REFERENCE-STYLE MULTI-COLOR HERO HEADLINE -->
+      <h1 class="sec-title hero-title hero-title-reference">
+        <span class="hero-highlight hero-highlight-blue">World's First</span> Autonomous KDP Publishing Engine<br>
+        That <span class="hero-word hero-word-blue">Researches</span>, <span class="hero-word hero-word-purple">Creates</span>, <span class="hero-word hero-word-green">Formats</span> &amp; <span class="hero-word hero-word-orange">Launches</span><br>
+        <span class="hero-highlight hero-highlight-orange">Real Amazon-Compliant Books</span> Across <span class="hero-highlight hero-highlight-blue">20+ Formats</span><br>
+        Without AI Slop Or Trim Rejections.
       </h1>
 
       <!-- SECTION 3: DARK FORMAT PILL BAR (MATCHING REFERENCE SCREENSHOT) -->
@@ -141,15 +135,19 @@
   </section>
 
   <!-- NEW STANDALONE SECTION (BEFORE UNCOMFORTABLE TRUTH): REAL KDP ROYALTY PROOF & INCOME BENEFITS WITH DEDICATED IMAGE -->
-  <section class="sec-editorial bg-grid-paper" id="royalty-proof">
-    <div class="overlay-layer overlay-warm-amber"></div>
-    <div class="container">
-      <div class="text-center" style="max-width: 960px; margin: 0 auto 40px;">
+  <section class="sec-editorial text-left" id="royalty-proof" style="background: url('assets/bg_royalty_proof.jpg') center center / cover no-repeat; position: relative;">
+    <div class="overlay-layer" style="background: rgba(255, 255, 255, 0.1);"></div>
+    <div class="container" style="max-width: 1200px;">
+      <div class="text-center" style="max-width: 1200px; margin: 0 auto 40px;">
         <div class="eyebrow-badge" style="background: var(--amber-bg); color: var(--amber-dark); border-color: var(--amber-border);">
           REAL KDP ROYALTY PROOF & PROVEN RESULTS
         </div>
         <h2 class="sec-title">See How KDP Authors & Publishers Are Generating <span class="highlight-orange-box">$4,200 to $48,000/Month</span> In Passive Amazon Royalties</h2>
         <p class="sec-desc">Zero inventory, zero shipping labor — build a catalog of compliant low-content, puzzle, and activity books that pay you every single month.</p>
+        <div style="margin: 30px auto 45px; text-align: center;">
+          <img src="assets/kdp_income_proof_54k.jpg" alt="$54,216 From KDP Passive Income Proof" style="width: 100%; max-width: 1200px; height: auto; border-radius: 20px; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3); border: 2px solid #22c55e; display: block; margin: 0 auto 30px;">
+          <img src="assets/kdp_income_freedom_6k.jpg" alt="From KDP To Freedom Passive Income Proof" style="width: 100%; max-width: 1200px; height: auto; border-radius: 20px; box-shadow: 0 20px 45px rgba(0, 0, 0, 0.3); border: 2px solid #a855f7; display: block; margin: 0 auto;">
+        </div>
       </div>
 
       <!-- 3 ROYALTY PROOF CARDS GRID -->
@@ -202,47 +200,61 @@
   </section>
 
   <!-- SECTION 9: THE UNCOMFORTABLE TRUTH -->
-  <section class="sec-editorial bg-img-truth text-center">
-    <div class="overlay-layer overlay-crimson-alert"></div>
-    <div class="container" style="max-width: 950px;">
-      <div class="eyebrow-badge" style="background: var(--crimson-bg); color: var(--crimson-fail); border-color: #fca5a5;">THE UNCOMFORTABLE TRUTH</div>
-      <h2 class="sec-title">Let's start with what the other "AI book" tools won't tell you.</h2>
-      <div style="font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;">
-        <p style="margin-bottom: 20px;">
-          Right now, dozens of tools promise to spit out a complete book in "6 minutes" or "60 seconds." Sounds amazing. Here's the problem: that speed comes from one-shot AI text that reads like exactly what it is — filler. And Amazon has noticed.
-        </p>
-        <p style="margin-bottom: 20px; font-weight: 800; color: var(--crimson-fail); background: #fff5f5; padding: 18px 24px; border-left: 5px solid var(--crimson-fail); border-radius: 8px;">
-          AI-detection studies, major press (Seattle Times, Wired), and Amazon's own tightening rules are all pointing the same direction: <strong>low-quality AI books are getting flagged, rejected, refunded, and removed.</strong> The "6-minute book" isn't a shortcut anymore. It's a liability.
-        </p>
+  <section class="sec-editorial text-left" id="uncomfortable-truth" style="background: url('assets/bg_uncomfortable_truth.jpg') center center / cover no-repeat; position: relative;">
+    <div class="overlay-layer" style="background: rgba(255, 255, 255, 0.15);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
+        <div>
+          <div class="eyebrow-badge" style="background: var(--crimson-bg); color: var(--crimson-fail); border-color: #fca5a5;">THE UNCOMFORTABLE TRUTH</div>
+          <h2 class="sec-title" style="text-align: left;">Let's start with what the other "AI book" tools won't tell you.</h2>
+          <div style="font-size: 1.15rem; color: var(--ink-body); line-height: 1.8;">
+            <p style="margin-bottom: 20px;">
+              Right now, dozens of tools promise to spit out a complete book in "6 minutes" or "60 seconds." Sounds amazing. Here's the problem: that speed comes from one-shot AI text that reads like exactly what it is — filler. And Amazon has noticed.
+            </p>
+            <p style="margin-bottom: 20px; font-weight: 800; color: var(--crimson-fail); background: rgba(255, 245, 245, 0.92); padding: 18px 24px; border-left: 5px solid var(--crimson-fail); border-radius: 8px; backdrop-filter: blur(4px);">
+              AI-detection studies, major press (Seattle Times, Wired), and Amazon's own tightening rules are all pointing the same direction: <strong>low-quality AI books are getting flagged, rejected, refunded, and removed.</strong> The "6-minute book" isn't a shortcut anymore. It's a liability.
+            </p>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <img src="assets/imag1shock.png?v=30" alt="The Uncomfortable Truth About AI Book Slop" style="width: 100%; max-width: 500px; display: block; margin: 0 auto; filter: drop-shadow(0 20px 30px rgba(0,0,0,0.15)); background: transparent; border: none; box-shadow: none;">
+        </div>
       </div>
     </div>
   </section>
 
   <!-- SECTION 10: THE REAL OPPORTUNITY -->
-  <section class="sec-editorial bg-img-hero text-center">
-    <div class="overlay-layer overlay-emerald-pass"></div>
-    <div class="container" style="max-width: 950px;">
-      <div class="eyebrow-badge" style="background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;">THE REAL OPPORTUNITY</div>
-      <h2 class="sec-title">Meanwhile, the <em>real</em> money on KDP was never in fragile AI novels anyway.</h2>
-      <div style="font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;">
-        <p style="margin-bottom: 20px;">
-          It's in <strong>low-content and puzzle books</strong> — word search, sudoku, mazes, coloring books, journals, planners, trackers, workbooks. Books that sell all year, need no "prose," and can't be flagged as AI slop… because they're not slop. They're <em>structure.</em>
-        </p>
-        <p style="font-weight: 700; color: var(--blue-cobalt);">
-          The catch? Making them well — with correct puzzles, verified answer keys, and files that actually pass KDP — is tedious, technical work. That's the wall 97% of people hit.
-        </p>
+  <section class="sec-editorial text-left" id="real-opportunity" style="background: url('assets/bg_real_opportunity.png') center center / cover no-repeat; position: relative;">
+    <div class="overlay-layer" style="background: rgba(255, 255, 255, 0.12);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
+        <div style="text-align: center;">
+          <img src="assets/real_opportunity.png?v=1" alt="The Real Opportunity in KDP Low-Content Publishing" style="width: 100%; max-width: 500px; display: block; margin: 0 auto; filter: drop-shadow(0 20px 30px rgba(0,0,0,0.15)); background: transparent; border: none; box-shadow: none;">
+        </div>
+        <div>
+          <div class="eyebrow-badge" style="background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;">THE REAL OPPORTUNITY</div>
+          <h2 class="sec-title" style="text-align: left;">Meanwhile, the <em>real</em> money on KDP was never in fragile AI novels anyway.</h2>
+          <div style="font-size: 1.15rem; color: var(--ink-body); line-height: 1.8;">
+            <p style="margin-bottom: 20px;">
+              It's in <strong>low-content and puzzle books</strong> — word search, sudoku, mazes, coloring books, journals, planners, trackers, workbooks. Books that sell all year, need no "prose," and can't be flagged as AI slop… because they're not slop. They're <em>structure.</em>
+            </p>
+            <p style="font-weight: 700; color: var(--blue-cobalt); background: rgba(240, 253, 244, 0.92); padding: 18px 24px; border-left: 5px solid var(--emerald-pass); border-radius: 8px; backdrop-filter: blur(4px);">
+              The catch? Making them well — with correct puzzles, verified answer keys, and files that actually pass KDP — is tedious, technical work. That's the wall 97% of people hit.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- SECTION 11: THE 5 WALLS -->
-  <section class="sec-editorial bg-img-features">
-    <div class="overlay-layer overlay-slate-cool"></div>
-    <div class="container">
+  <section class="sec-editorial text-center" id="sec-11-5walls" style="background: url('assets/bg_5walls.jpg') center center / cover fixed no-repeat; position: relative;">
+    <div class="overlay-layer" style="background: rgba(255, 255, 255, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
       <div class="eyebrow-badge text-center" style="display: flex; width: max-content; margin: 0 auto 20px;">THE 5 WALLS</div>
       <h2 class="sec-title text-center">Here's what really stops people from making money on Amazon:</h2>
 
-      <div class="grid-3" style="margin-top: 35px;">
+      <div class="grid-3" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 35px;">
         <div class="card-panel" style="border-top: 4px solid var(--crimson-fail);">
           <h3 style="font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);">1. "I don't know what to publish."</h3>
           <p>Niche research feels like blind guessing without real data.</p>
@@ -276,21 +288,26 @@
     </div>
   </section>
 
-  <!-- SECTION 12: THE OLD WAY (COST STACK) -->
-  <section class="sec-editorial bg-img-truth text-center">
-    <div class="overlay-layer overlay-crimson-alert"></div>
-    <div class="container" style="max-width: 850px;">
-      <div class="eyebrow-badge" style="background: var(--crimson-bg); color: var(--crimson-fail);">THE OLD COSTLY WAY</div>
-      <h2 class="sec-title">The "old way" of building a KDP catalog:</h2>
-
-      <div class="card-panel text-left" style="background: #fff5f5; border: 2px solid #fca5a5; font-size: 1.15rem;">
-        <p style="margin-bottom: 12px;">• <strong>$47 niche course</strong> → still confused.</p>
-        <p style="margin-bottom: 12px;">• <strong>$150 ghostwriter</strong>, 2 weeks per book → slow and expensive.</p>
-        <p style="margin-bottom: 12px;">• <strong>$50 cover designer</strong> → endless revisions.</p>
-        <p style="margin-bottom: 12px;">• <strong>Manual formatting</strong> → rejected by KDP anyway.</p>
-        <p style="margin-bottom: 16px;">• <strong>Cheap AI tool</strong> → broken files and refunds.</p>
-        <div style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; border-top: 2px dashed #fca5a5; padding-top: 12px;">
-          Hundreds of dollars and weeks of work — for one book that might get pulled.
+  <!-- SECTION 12: THE OLD COSTLY WAY -->
+  <section class="sec-editorial text-left" id="old-costly-way">
+    <div class="container">
+      <div class="feature-split-grid" style="align-items: center;">
+        <div style="text-align: center;">
+          <img src="assets/old_way_costly.png?v=1" alt="The Old Costly Way of KDP Publishing" style="width: 100%; max-width: 480px; display: block; margin: 0 auto; filter: drop-shadow(0 20px 35px rgba(0,0,0,0.15)); background: transparent; border: none; box-shadow: none;">
+        </div>
+        <div>
+          <div class="eyebrow-badge" style="background: var(--crimson-bg); color: var(--crimson-fail); border-color: #fca5a5;">THE OLD COSTLY WAY</div>
+          <h2 class="sec-title" style="text-align: left;">The "old way" of building a KDP catalog:</h2>
+          <div class="card-panel text-left" style="background: #fff5f5; border: 2px solid #fca5a5; font-size: 1.15rem; box-shadow: var(--shadow-editorial);">
+            <p style="margin-bottom: 12px;">• <strong>$47 niche course</strong> → still confused.</p>
+            <p style="margin-bottom: 12px;">• <strong>$150 ghostwriter</strong>, 2 weeks per book → slow and expensive.</p>
+            <p style="margin-bottom: 12px;">• <strong>$50 cover designer</strong> → endless revisions.</p>
+            <p style="margin-bottom: 12px;">• <strong>Manual formatting</strong> → rejected by KDP anyway.</p>
+            <p style="margin-bottom: 16px;">• <strong>Cheap AI tool</strong> → broken files and refunds.</p>
+            <div style="font-weight: 900; color: var(--crimson-fail); font-size: 1.2rem; border-top: 2px dashed #fca5a5; padding-top: 12px;">
+              Hundreds of dollars and weeks of work — for one book that might get pulled.
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -317,28 +334,83 @@
   </section>
 
   <!-- SECTION 14: INTRODUCING KDP MAFIA -->
-  <section class="sec-editorial bg-img-hero text-center" id="solution">
-    <div class="overlay-layer overlay-light-gold"></div>
-    <div class="container">
-      <div class="eyebrow-badge">THE SYSTEM IS HERE</div>
-      <h1 class="sec-title" style="font-size: 3.2rem;">Introducing <span class="highlight-amber">KDP MAFIA</span></h1>
-      <p class="sec-desc" style="font-size: 1.3rem;">
-        The all-in-one AI publishing platform that turns a keyword into REAL, Amazon-compliant books — across 20+ formats — while everyone else is still selling 6-minute slop.
-      </p>
-      <div style="font-size: 1.3rem; font-weight: 800; color: var(--blue-cobalt); margin-bottom: 30px;">
-        Research → Create → Package → Publish. One dashboard. One workflow.
+  <section class="sec-editorial text-left" id="solution" style="background: url('assets/bg_solution.jpg?v=100') center center / cover no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(11, 15, 25, 0.45);"></div>
+    <div class="container" style="max-width: 1250px; position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
+        <div>
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">THE SYSTEM IS HERE</div>
+          <h1 class="sec-title" style="font-size: clamp(2.2rem, 4vw, 3.2rem); text-align: left; color: #ffffff;">Introducing <span class="highlight-amber">KDP MAFIA</span></h1>
+          <p class="sec-desc" style="font-size: 1.2rem; margin-left: 0; line-height: 1.8; color: #e2e8f0;">
+            The all-in-one AI publishing platform that turns a keyword into REAL, Amazon-compliant books — across 20+ formats — while everyone else is still selling 6-minute slop.
+          </p>
+          <div style="font-size: 1.15rem; font-weight: 800; color: #38bdf8; margin-top: 20px; background: rgba(15, 23, 42, 0.85); padding: 14px 20px; border-radius: 12px; border: 1px solid rgba(56, 189, 248, 0.3); backdrop-filter: blur(8px);" class="mono-spec">
+            Research → Create → Package → Publish.<br>One dashboard. One workflow.
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <div class="kdp-mafia-bundle-frame" style="max-width: 100%;">
+            <img src="assets/bundle.png?v=4" alt="KDP Mafia product bundle" loading="lazy">
+          </div>
+        </div>
       </div>
-      <img src="assets/bundle.png" alt="KDP Mafia Platform" style="max-width: 750px; width: 100%; border-radius: 20px; box-shadow: var(--shadow-amber); position: relative; z-index: 2;">
+    </div>
+  </section>
+
+  <!-- 3 SIMPLE STEPS SECTION -->
+  <section class="sec-editorial simple-steps-section" id="simple-steps">
+    <div class="container">
+      <div class="simple-steps-header">
+        <div class="eyebrow-badge">FROM ONE KEYWORD TO KDP-READY</div>
+        <h2 class="sec-title">Create Your Next Amazon Book In <span class="simple-steps-highlight">3 Simple Steps!</span></h2>
+        <p class="sec-desc">Research, build, and launch from one powerful dashboard — without writing, formatting, or technical skills.</p>
+        <div class="simple-steps-pill mono-spec">NO WRITING &nbsp;•&nbsp; NO FORMATTING &nbsp;•&nbsp; NO TECH SKILLS REQUIRED</div>
+      </div>
+
+      <div class="simple-step-card simple-step-card--blue">
+        <div class="simple-step-copy">
+          <span class="simple-step-label">STEP 1</span>
+          <h3>Enter A Keyword Or Prompt</h3>
+          <p>Tell KDP Mafia what you want to create — a niche, audience, topic, or book idea. The built-in research engine scores the opportunity and recommends the best format.</p>
+          <p class="simple-step-note">You provide the direction. KDP Mafia maps out the opportunity.</p>
+        </div>
+        <div class="simple-step-visual">
+          <img src="assets/feature_market.png" alt="KDP Mafia market research dashboard">
+        </div>
+      </div>
+
+      <div class="simple-step-card simple-step-card--blue simple-step-card--reverse">
+        <div class="simple-step-copy">
+          <span class="simple-step-label">STEP 2</span>
+          <h3>Let KDP Mafia Do The Work</h3>
+          <p>Choose your format and let the system build the real book package: interior, cover, metadata, keywords, and launch-ready assets.</p>
+          <p class="simple-step-note">Every stage stays organised in one workflow while automated checks help keep your files KDP-ready.</p>
+        </div>
+        <div class="simple-step-visual">
+          <img src="assets/feature_puzzle.png" alt="KDP Mafia book creation workspace">
+        </div>
+      </div>
+
+      <div class="simple-step-card simple-step-card--dark">
+        <div class="simple-step-copy">
+          <span class="simple-step-label">STEP 3</span>
+          <h3>Go Live &amp; Grow Your Catalog</h3>
+          <p>Download your completed KDP package, upload it to Amazon, and repeat the process whenever you are ready to build the next title.</p>
+          <p class="simple-step-note">One focused workflow from idea to publication — with no scattered tools or manual busywork.</p>
+        </div>
+        <div class="simple-step-visual">
+          <img src="assets/feature_launch.png" alt="KDP Mafia launch and publishing dashboard">
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- SECTION 14 STANDALONE TEAM ROLES (IN ONE BREATH - 6 STANDALONE SECTIONS) -->
 
   <!-- ROLE 1: MARKET RESEARCHER -->
-  <section class="sec-editorial bg-img-hero">
-    <div class="overlay-layer overlay-light-gold"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <div class="eyebrow-badge">TEAM ROLE 01</div>
           <h2 class="sec-title">A Market Researcher</h2>
@@ -357,10 +429,9 @@
   </section>
 
   <!-- ROLE 2: PUZZLE & ACTIVITY ENGINE -->
-  <section class="sec-editorial bg-img-features">
-    <div class="overlay-layer overlay-emerald-pass"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <img src="assets/feature_puzzle.png" alt="Puzzle & Activity Engine Interface" class="feature-img-frame">
         </div>
@@ -379,10 +450,9 @@
   </section>
 
   <!-- ROLE 3: GHOSTWRITER -->
-  <section class="sec-editorial bg-img-pricing">
-    <div class="overlay-layer overlay-warm-amber"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <div class="eyebrow-badge">TEAM ROLE 03</div>
           <h2 class="sec-title">A Ghostwriter</h2>
@@ -401,10 +471,9 @@
   </section>
 
   <!-- ROLE 4: COVER DESIGNER -->
-  <section class="sec-editorial bg-img-hero">
-    <div class="overlay-layer overlay-light-gold"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <img src="assets/feature_cover.png" alt="Cover Designer Interface" class="feature-img-frame">
         </div>
@@ -423,10 +492,9 @@
   </section>
 
   <!-- ROLE 5: KDP FORMATTING EXPERT -->
-  <section class="sec-editorial bg-img-features">
-    <div class="overlay-layer overlay-slate-cool"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <div class="eyebrow-badge">TEAM ROLE 05</div>
           <h2 class="sec-title">A KDP Formatting Expert</h2>
@@ -460,10 +528,9 @@
   </section>
 
   <!-- ROLE 6: LAUNCH STRATEGIST -->
-  <section class="sec-editorial bg-img-pricing">
-    <div class="overlay-layer overlay-warm-amber"></div>
+  <section class="sec-editorial text-left">
     <div class="container">
-      <div class="feature-split-grid">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
           <img src="assets/feature_launch.png" alt="Launch Strategist Package" class="feature-img-frame">
         </div>
@@ -916,8 +983,8 @@
   </section>
 
   <!-- SECTION 33: FEATURES TO BENEFITS TABLE -->
-  <section class="sec-editorial bg-img-pricing text-center">
-    <div class="overlay-layer overlay-warm-amber"></div>
+  <section class="sec-editorial text-center" id="sec-33-matrix" style="background: url('assets/bg_sec33.jpg') center center / cover no-repeat; position: relative;">
+    <div class="overlay-layer" style="background: rgba(255, 255, 255, 0.45);"></div>
     <div class="container">
       <div class="eyebrow-badge">SECTION 33</div>
       <h2 class="sec-title">Features → Benefits Matrix</h2>
@@ -971,45 +1038,45 @@
   <!-- SECTION 34 (INDIVIDUALIZED): 5 STANDALONE PROFIT ANGLE SECTIONS WITH DEDICATED IMAGES -->
 
   <!-- PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE -->
-  <section class="sec-editorial bg-img-hero" id="profit-angle-1">
-    <div class="overlay-layer overlay-light-gold"></div>
-    <div class="container">
-      <div class="feature-split-grid">
+  <section class="sec-editorial text-left" id="profit-angle-1" style="background: url('assets/bg_profit_angle.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(8, 12, 24, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
-          <div class="eyebrow-badge">PROFIT ANGLE 01: ROYALTY CATALOG</div>
-          <h2 class="sec-title">Build A Passive Amazon Royalty Empire</h2>
-          <p style="font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;">
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">PROFIT ANGLE 01: ROYALTY CATALOG</div>
+          <h2 class="sec-title" style="color: #ffffff;">Build A Passive Amazon Royalty Empire</h2>
+          <p style="font-size: 1.25rem; color: #e2e8f0; margin-bottom: 22px; line-height: 1.8;">
             Publish a catalog of evergreen low-content & puzzle books that generate passive monthly royalties year after year — without spending a single dollar on inventory or shipping.
           </p>
-          <div class="card-panel text-left" style="background: #ffffff; border-left: 4px solid var(--amber-dark);">
-            <div style="font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);" class="mono-spec">⚡ ROYALTY ADVANTAGE:</div>
-            <p style="font-size: 1.05rem; margin-top: 6px;">Work once to create the book file. Amazon prints and fulfills orders on demand, depositing royalties straight into your bank account.</p>
+          <div class="card-panel text-left" style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #f59e0b; border-top: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);">
+            <div style="font-weight: 800; font-size: 1.1rem; color: #fbbf24;" class="mono-spec">⚡ ROYALTY ADVANTAGE:</div>
+            <p style="font-size: 1.05rem; margin-top: 6px; color: #cbd5e1;">Work once to create the book file. Amazon prints and fulfills orders on demand, depositing royalties straight into your bank account.</p>
           </div>
         </div>
         <div>
-          <img src="assets/bundle.png" alt="Passive Royalty Catalog Engine" class="feature-img-frame" style="border-color: var(--amber-dark);">
+          <img src="assets/bundle.png" alt="Passive Royalty Catalog Engine" class="feature-img-frame" style="border-color: #f59e0b;">
         </div>
       </div>
     </div>
   </section>
 
   <!-- PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY -->
-  <section class="sec-editorial bg-img-features" id="profit-angle-2">
-    <div class="overlay-layer overlay-slate-cool"></div>
-    <div class="container">
-      <div class="feature-split-grid">
+  <section class="sec-editorial text-left" id="profit-angle-2" style="background: url('assets/bg_profit_angle.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(8, 12, 24, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
-          <img src="assets/feature_market.png" alt="Done-For-You Client Book Agency" class="feature-img-frame" style="border-color: var(--blue-cobalt);">
+          <img src="assets/feature_market.png" alt="Done-For-You Client Book Agency" class="feature-img-frame" style="border-color: #38bdf8;">
         </div>
         <div>
-          <div class="eyebrow-badge">PROFIT ANGLE 02: CLIENT AGENCY</div>
-          <h2 class="sec-title">Charge Clients $500–$2,000 Per Custom Book</h2>
-          <p style="font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;">
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4);">PROFIT ANGLE 02: CLIENT AGENCY</div>
+          <h2 class="sec-title" style="color: #ffffff;">Charge Clients $500–$2,000 Per Custom Book</h2>
+          <p style="font-size: 1.25rem; color: #e2e8f0; margin-bottom: 22px; line-height: 1.8;">
             Commercial License included — offer done-for-you publishing packages to coaches, local business owners, and influencers while KDP Mafia handles 95% of the labor.
           </p>
-          <div class="card-panel text-left" style="background: #ffffff; border-left: 4px solid var(--blue-cobalt);">
-            <div style="font-weight: 800; font-size: 1.1rem; color: var(--blue-cobalt);" class="mono-spec">⚡ COMMERCIAL AGENCY ADVANTAGE:</div>
-            <p style="font-size: 1.05rem; margin-top: 6px;">Deliver complete paperback layout files, wraparound covers, and Amazon listings in under 24 hours while keeping 100% client profit.</p>
+          <div class="card-panel text-left" style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #38bdf8; border-top: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);">
+            <div style="font-weight: 800; font-size: 1.1rem; color: #38bdf8;" class="mono-spec">⚡ COMMERCIAL AGENCY ADVANTAGE:</div>
+            <p style="font-size: 1.05rem; margin-top: 6px; color: #cbd5e1;">Deliver complete paperback layout files, wraparound covers, and Amazon listings in under 24 hours while keeping 100% client profit.</p>
           </div>
         </div>
       </div>
@@ -1017,45 +1084,45 @@
   </section>
 
   <!-- PROFIT ANGLE 3 (STANDALONE SECTION): SEASONAL LINES & SURGES -->
-  <section class="sec-editorial bg-img-pricing" id="profit-angle-3">
-    <div class="overlay-layer overlay-warm-amber"></div>
-    <div class="container">
-      <div class="feature-split-grid">
+  <section class="sec-editorial text-left" id="profit-angle-3" style="background: url('assets/bg_profit_angle.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(8, 12, 24, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
-          <div class="eyebrow-badge">PROFIT ANGLE 03: SEASONAL SURGES</div>
-          <h2 class="sec-title">Capitalize On Q4 Holiday & Back-To-School Surges</h2>
-          <p style="font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;">
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">PROFIT ANGLE 03: SEASONAL SURGES</div>
+          <h2 class="sec-title" style="color: #ffffff;">Capitalize On Q4 Holiday & Back-To-School Surges</h2>
+          <p style="font-size: 1.25rem; color: #e2e8f0; margin-bottom: 22px; line-height: 1.8;">
             Publish seasonal Christmas activity books, Halloween coloring sets, back-to-school workbooks, and summer puzzle editions right before peak purchasing waves hit.
           </p>
-          <div class="card-panel text-left" style="background: #ffffff; border-left: 4px solid var(--amber-dark);">
-            <div style="font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);" class="mono-spec">⚡ SURGE ADVANTAGE:</div>
-            <p style="font-size: 1.05rem; margin-top: 6px;">Q4 holiday shoppers buy multiple copies as stocking stuffers and gifts, creating massive 3x-5x royalty spikes every November and December.</p>
+          <div class="card-panel text-left" style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #f59e0b; border-top: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);">
+            <div style="font-weight: 800; font-size: 1.1rem; color: #fbbf24;" class="mono-spec">⚡ SURGE ADVANTAGE:</div>
+            <p style="font-size: 1.05rem; margin-top: 6px; color: #cbd5e1;">Q4 holiday shoppers buy multiple copies as stocking stuffers and gifts, creating massive 3x-5x royalty spikes every November and December.</p>
           </div>
         </div>
         <div>
-          <img src="assets/feature_puzzle.png" alt="Seasonal Surges Puzzle Interior" class="feature-img-frame" style="border-color: var(--amber-dark);">
+          <img src="assets/feature_puzzle.png" alt="Seasonal Surges Puzzle Interior" class="feature-img-frame" style="border-color: #f59e0b;">
         </div>
       </div>
     </div>
   </section>
 
   <!-- PROFIT ANGLE 4 (STANDALONE SECTION): FREELANCE SERVICE AUTOMATION -->
-  <section class="sec-editorial bg-img-hero" id="profit-angle-4">
-    <div class="overlay-layer overlay-emerald-pass"></div>
-    <div class="container">
-      <div class="feature-split-grid">
+  <section class="sec-editorial text-left" id="profit-angle-4" style="background: url('assets/bg_profit_angle.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(8, 12, 24, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
-          <img src="assets/feature_cover.png" alt="Freelance Service Automation" class="feature-img-frame" style="border-color: var(--emerald-pass);">
+          <img src="assets/feature_cover.png" alt="Freelance Service Automation" class="feature-img-frame" style="border-color: #22c55e;">
         </div>
         <div>
-          <div class="eyebrow-badge" style="background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;">PROFIT ANGLE 04: FREELANCE GIGS</div>
-          <h2 class="sec-title">Automate Fiverr & Upwork Book Layout Services</h2>
-          <p style="font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;">
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #4ade80; border-color: rgba(74, 222, 128, 0.4);">PROFIT ANGLE 04: FREELANCE GIGS</div>
+          <h2 class="sec-title" style="color: #ffffff;">Automate Fiverr & Upwork Book Layout Services</h2>
+          <p style="font-size: 1.25rem; color: #e2e8f0; margin-bottom: 22px; line-height: 1.8;">
             List book cover design, PDF interior formatting, or puzzle creation gigs on Fiverr and Upwork. Fulfill incoming orders in minutes using KDP Mafia's background engines.
           </p>
-          <div class="card-panel text-left" style="background: #ffffff; border-left: 4px solid var(--emerald-pass);">
-            <div style="font-weight: 800; font-size: 1.1rem; color: var(--emerald-pass);" class="mono-spec">⚡ FREELANCE AUTOMATION:</div>
-            <p style="font-size: 1.05rem; margin-top: 6px;">Zero manual formatting or design software needed. Simply input the client's specs and download print-ready PDF files instantly.</p>
+          <div class="card-panel text-left" style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #22c55e; border-top: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);">
+            <div style="font-weight: 800; font-size: 1.1rem; color: #4ade80;" class="mono-spec">⚡ FREELANCE AUTOMATION:</div>
+            <p style="font-size: 1.05rem; margin-top: 6px; color: #cbd5e1;">Zero manual formatting or design software needed. Simply input the client's specs and download print-ready PDF files instantly.</p>
           </div>
         </div>
       </div>
@@ -1063,34 +1130,34 @@
   </section>
 
   <!-- PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES -->
-  <section class="sec-editorial bg-img-pricing" id="profit-angle-5">
-    <div class="overlay-layer overlay-warm-amber"></div>
-    <div class="container">
-      <div class="feature-split-grid">
+  <section class="sec-editorial text-left" id="profit-angle-5" style="background: url('assets/bg_profit_angle.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(8, 12, 24, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="feature-split-grid" style="align-items: center;">
         <div>
-          <div class="eyebrow-badge">PROFIT ANGLE 05: BOXED BUNDLES</div>
-          <h2 class="sec-title">Package Multi-Book Boxed Sets At Higher Margins</h2>
-          <p style="font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;">
+          <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">PROFIT ANGLE 05: BOXED BUNDLES</div>
+          <h2 class="sec-title" style="color: #ffffff;">Package Multi-Book Boxed Sets At Higher Margins</h2>
+          <p style="font-size: 1.25rem; color: #e2e8f0; margin-bottom: 22px; line-height: 1.8;">
             Bundle 3 to 5 related puzzle or activity volumes into high-value 300+ page compilation editions priced at $29 to $49 for premium royalty margins per sale.
           </p>
-          <div class="card-panel text-left" style="background: #ffffff; border-left: 4px solid var(--amber-dark);">
-            <div style="font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);" class="mono-spec">⚡ BOXED SET ADVANTAGE:</div>
-            <p style="font-size: 1.05rem; margin-top: 6px;">Higher price points deliver larger per-unit profit margins while giving Amazon buyers unbeatable bulk value.</p>
+          <div class="card-panel text-left" style="background: rgba(15, 23, 42, 0.85); border-left: 4px solid #f59e0b; border-top: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(8px);">
+            <div style="font-weight: 800; font-size: 1.1rem; color: #fbbf24;" class="mono-spec">⚡ BOXED SET ADVANTAGE:</div>
+            <p style="font-size: 1.05rem; margin-top: 6px; color: #cbd5e1;">Higher price points deliver larger per-unit profit margins while giving Amazon buyers unbeatable bulk value.</p>
           </div>
         </div>
         <div>
-          <img src="assets/feature_launch.png" alt="Multi-Book Boxed Sets Bundle" class="feature-img-frame" style="border-color: var(--amber-dark);">
+          <img src="assets/feature_launch.png" alt="Multi-Book Boxed Sets Bundle" class="feature-img-frame" style="border-color: #f59e0b;">
         </div>
       </div>
     </div>
   </section>
 
   <!-- SECTION 35: MASTER COMPARISON TABLE -->
-  <section class="sec-editorial bg-img-hero text-center">
-    <div class="overlay-layer overlay-light-gold"></div>
-    <div class="container">
-      <div class="eyebrow-badge">SECTION 35</div>
-      <h2 class="sec-title">Full Comparison Matrix</h2>
+  <section class="sec-editorial text-center" id="sec-35-matrix" style="background: url('assets/bg_sec35.jpg') center center / cover no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(11, 15, 25, 0.45);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">SECTION 35</div>
+      <h2 class="sec-title" style="color: #ffffff;">Full Comparison Matrix</h2>
 
       <div class="table-scroll-wrap">
       <table class="editorial-table">
@@ -1202,7 +1269,7 @@
           </div>
         </div>
         <div>
-          <img src="assets/bundle.png" alt="Intuitive Dashboard Interface" class="feature-img-frame" style="border-color: var(--blue-cobalt);">
+          <img src="assets/not_technical.jpg" alt="What If I'm Not Technical At All?" class="feature-img-frame" style="border-color: var(--blue-cobalt); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); width: 100%; max-width: 540px;">
         </div>
       </div>
     </div>
@@ -1214,7 +1281,7 @@
     <div class="container">
       <div class="feature-split-grid">
         <div>
-          <img src="assets/feature_cover.png" alt="AI Writing & Design Engine" class="feature-img-frame" style="border-color: var(--amber-dark);">
+          <img src="assets/cant_write_or_draw.jpg" alt="What If I Can't Write Or Draw?" class="feature-img-frame" style="border-color: var(--amber-dark); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); width: 100%; max-width: 540px;">
         </div>
         <div>
           <div class="eyebrow-badge">SECTION 39: OBJECTION KILLER #2</div>
@@ -1248,7 +1315,7 @@
           </div>
         </div>
         <div>
-          <img src="assets/feature_puzzle.png" alt="Verified Deterministic Structure" class="feature-img-frame" style="border-color: var(--emerald-pass);">
+          <img src="assets/amazon_flag_ai.jpg" alt="Won't Amazon Flag Or Remove AI Books?" class="feature-img-frame" style="border-color: var(--emerald-pass); border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.3); width: 100%; max-width: 540px;">
         </div>
       </div>
     </div>
@@ -1301,60 +1368,60 @@
   </section>
 
   <!-- SECTION 44 (INDIVIDUALIZED): 5 FAST ACTION BONUSES WITH 3D BOX MOCKUP DISPLAYS -->
-  <section class="sec-editorial bg-img-features text-center" id="bonuses">
-    <div class="overlay-layer overlay-slate-cool"></div>
-    <div class="container">
-      <div class="eyebrow-badge">SECTION 44: FAST-ACTION BONUSES</div>
-      <h2 class="sec-title">5 Fast-Action PDF Bonuses Included Free Today</h2>
-      <p class="sec-desc">Total Bonus Value: <strong>$1,330</strong> — yours 100% FREE when you claim your KDP Mafia account during this launch.</p>
+  <section class="sec-editorial text-center" id="bonuses" style="background: url('assets/bg_bonuses.jpg') center center / cover fixed no-repeat; position: relative; color: #ffffff;">
+    <div class="overlay-layer" style="background: rgba(11, 15, 25, 0.55);"></div>
+    <div class="container" style="position: relative; z-index: 2;">
+      <div class="eyebrow-badge" style="background: rgba(255, 255, 255, 0.1); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4);">SECTION 44: FAST-ACTION BONUSES</div>
+      <h2 class="sec-title" style="color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8);">5 Fast-Action PDF Bonuses Included Free Today</h2>
+      <p class="sec-desc" style="color: #e2e8f0; font-size: 1.25rem;">Total Bonus Value: <strong style="color: #fbbf24;">$195</strong> — yours 100% FREE when you claim your KDP Mafia account during this launch.</p>
 
       <!-- BONUS 1 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->
-      <div class="card-panel text-left" style="margin-top: 35px; margin-bottom: 30px; border: 2px solid var(--amber-border); background: #ffffff;">
+      <div class="card-panel text-left" style="margin-top: 35px; margin-bottom: 40px; border: 2px solid var(--amber-border); background: #ffffff;">
         <div class="feature-split-grid">
           <div style="text-align: center;">
-            <div style="background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;">
-              <img src="assets/bundle.png" alt="Bonus #1 3D Box Mockup" style="max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-              <div class="mono-spec" style="background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;">
-                3D QUICKSTART SUITE
+            <div class="bonus-visual-shell" style="background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%); border: 2px solid #ffffff; box-shadow: var(--shadow-amber);">
+              <img src="assets/bonus1_24hours.jpg" alt="Bonus #1 - First Book in 24 Hours Quickstart Playbook 3D Box Mockup">
+              <div class="mono-spec bonus-badge-tag" style="background: #0b0f19; color: #ffffff; font-weight: 800;">
+                3D QUICKSTART PLAYBOOK
               </div>
             </div>
           </div>
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-              <span class="mono-spec" style="background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid var(--amber-border);">BONUS #1</span>
-              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;">VALUE: $47</span>
+          <div class="bonus-copy-shell">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <span class="mono-spec" style="background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 6px 18px; border-radius: 50px; border: 1px solid var(--amber-border); font-size: 0.95rem;">BONUS #1</span>
+              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; text-decoration: line-through;">VALUE: $47</span>
             </div>
-            <h3 style="font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;">"First $100 on KDP" Quickstart Guide</h3>
-            <p style="font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;">
-              The exact step-by-step launch path to go from zero to your very first royalty paycheck on Amazon KDP in under 7 days.
+            <h3 style="color: var(--ink-deep);">"First Book in 24 Hours" Quickstart Playbook</h3>
+            <p style="color: var(--ink-body);">
+              The exact step-by-step launch playbook to go from zero to creating and publishing your first Amazon book in under 24 hours.
             </p>
-            <div style="font-weight: 700; color: var(--blue-cobalt);" class="mono-spec">
-              ✅ Step-by-Step Royalty Roadmap &nbsp;•&nbsp; ✅ First-Sale Checklist
+            <div style="font-weight: 700; color: var(--blue-cobalt); font-size: 1.05rem;" class="mono-spec">
+              ✅ 24-Hour Launch Roadmap &nbsp;•&nbsp; ✅ First-Book Fast Track
             </div>
           </div>
         </div>
       </div>
 
       <!-- BONUS 2 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->
-      <div class="card-panel text-left" style="margin-bottom: 30px; border: 2px solid #a5f3fc; background: #ffffff;">
+      <div class="card-panel text-left" style="margin-bottom: 40px; border: 2px solid #a5f3fc; background: #ffffff;">
         <div class="feature-split-grid">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-              <span class="mono-spec" style="background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #a5f3fc;">BONUS #2</span>
-              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;">VALUE: $37</span>
+          <div class="bonus-copy-shell">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <span class="mono-spec" style="background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 6px 18px; border-radius: 50px; border: 1px solid #a5f3fc; font-size: 0.95rem;">BONUS #2</span>
+              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; text-decoration: line-through;">VALUE: $37</span>
             </div>
-            <h3 style="font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;">50 Proven Evergreen Niches Cheat-Sheet</h3>
-            <p style="font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;">
-              Pre-researched, high-demand sub-niches with low competition scores ready for instant book generation today.
+            <h3 style="color: var(--ink-deep);">50 Evergreen Low-Content Niches Cheat-Sheet</h3>
+            <p style="color: var(--ink-body);">
+              Pre-researched, high-demand low-content sub-niches with low competition scores ready for instant book generation today.
             </p>
-            <div style="font-weight: 700; color: var(--amber-dark);" class="mono-spec">
-              ✅ Pre-Scored Niches &nbsp;•&nbsp; ✅ Year-Round Sales Categories
+            <div style="font-weight: 700; color: var(--amber-dark); font-size: 1.05rem;" class="mono-spec">
+              ✅ 50 Pre-Scored Niches &nbsp;•&nbsp; ✅ Evergreen Sales Categories
             </div>
           </div>
           <div style="text-align: center;">
-            <div style="background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;">
-              <img src="assets/feature_market.png" alt="Bonus #2 3D Box Mockup" style="max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-              <div class="mono-spec" style="background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;">
+            <div class="bonus-visual-shell" style="background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border: 2px solid #ffffff; box-shadow: var(--shadow-amber);">
+              <img src="assets/bonus2_niches.jpg" alt="Bonus #2 - 50 Evergreen Low-Content Niches Cheat-Sheet 3D Box Mockup">
+              <div class="mono-spec bonus-badge-tag" style="background: #0b0f19; color: #ffffff; font-weight: 800;">
                 3D NICHE CHEAT-SHEET
               </div>
             </div>
@@ -1363,52 +1430,52 @@
       </div>
 
       <!-- BONUS 3 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->
-      <div class="card-panel text-left" style="margin-bottom: 30px; border: 2px solid #6ee7b7; background: #ffffff;">
+      <div class="card-panel text-left" style="margin-bottom: 40px; border: 2px solid #6ee7b7; background: #ffffff;">
         <div class="feature-split-grid">
           <div style="text-align: center;">
-            <div style="background: linear-gradient(135deg, #d1fae5 0%, #059669 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: 0 14px 36px rgba(5,150,105,0.25); border: 2px solid #ffffff; display: inline-block;">
-              <img src="assets/feature_puzzle.png" alt="Bonus #3 3D Box Mockup" style="max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); background: #ffffff;">
-              <div class="mono-spec" style="background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;">
+            <div class="bonus-visual-shell" style="background: linear-gradient(135deg, #d1fae5 0%, #059669 100%); border: 2px solid #ffffff; box-shadow: 0 14px 36px rgba(5,150,105,0.25);">
+              <img src="assets/bonus3_calendar.jpg" alt="Bonus #3 - 12-Month Seasonal Publishing Calendar 3D Box Mockup">
+              <div class="mono-spec bonus-badge-tag" style="background: #0b0f19; color: #ffffff; font-weight: 800;">
                 3D PUBLISHING CALENDAR
               </div>
             </div>
           </div>
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-              <span class="mono-spec" style="background: var(--emerald-bg); color: var(--emerald-pass); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #6ee7b7;">BONUS #3</span>
-              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;">VALUE: $27</span>
+          <div class="bonus-copy-shell">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <span class="mono-spec" style="background: var(--emerald-bg); color: var(--emerald-pass); font-weight: 900; padding: 6px 18px; border-radius: 50px; border: 1px solid #6ee7b7; font-size: 0.95rem;">BONUS #3</span>
+              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; text-decoration: line-through;">VALUE: $27</span>
             </div>
-            <h3 style="font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;">Seasonal Publishing Calendar</h3>
-            <p style="font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;">
-              Map out Q4 holiday sales surges, back-to-school rushes, and summer activity book launches with exact publishing dates.
+            <h3 style="color: var(--ink-deep);">12-Month Seasonal Publishing Calendar</h3>
+            <p style="color: var(--ink-body);">
+              Map out Q1-Q4 holiday sales surges, back-to-school rushes, and seasonal activity book launches with exact publishing dates.
             </p>
-            <div style="font-weight: 700; color: var(--emerald-pass);" class="mono-spec">
-              ✅ Q1-Q4 Surge Map &nbsp;•&nbsp; ✅ Holiday Timing Blueprint
+            <div style="font-weight: 700; color: var(--emerald-pass); font-size: 1.05rem;" class="mono-spec">
+              ✅ 12-Month Surge Map &nbsp;•&nbsp; ✅ Holiday Timing Blueprint
             </div>
           </div>
         </div>
       </div>
 
       <!-- BONUS 4 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->
-      <div class="card-panel text-left" style="margin-bottom: 30px; border: 2px solid var(--amber-border); background: #ffffff;">
+      <div class="card-panel text-left" style="margin-bottom: 40px; border: 2px solid var(--amber-border); background: #ffffff;">
         <div class="feature-split-grid">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-              <span class="mono-spec" style="background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid var(--amber-border);">BONUS #4</span>
-              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;">VALUE: $37</span>
+          <div class="bonus-copy-shell">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <span class="mono-spec" style="background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 6px 18px; border-radius: 50px; border: 1px solid var(--amber-border); font-size: 0.95rem;">BONUS #4</span>
+              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; text-decoration: line-through;">VALUE: $37</span>
             </div>
-            <h3 style="font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;">KDP Keyword & Category Swipe File</h3>
-            <p style="font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;">
+            <h3 style="color: var(--ink-deep);">KDP Keyword + Category Swipe File</h3>
+            <p style="color: var(--ink-body);">
               Copy-paste 7 primary + 20 long-tail backend keywords and hidden category combinations to rank your books fast.
             </p>
-            <div style="font-weight: 700; color: var(--blue-cobalt);" class="mono-spec">
+            <div style="font-weight: 700; color: var(--blue-cobalt); font-size: 1.05rem;" class="mono-spec">
               ✅ Copy-Paste Keyword Combos &nbsp;•&nbsp; ✅ Secret Category Paths
             </div>
           </div>
           <div style="text-align: center;">
-            <div style="background: linear-gradient(135deg, #fef08a 0%, #d97706 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;">
-              <img src="assets/feature_launch.png" alt="Bonus #4 3D Box Mockup" style="max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-              <div class="mono-spec" style="background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;">
+            <div class="bonus-visual-shell" style="background: linear-gradient(135deg, #fef08a 0%, #d97706 100%); border: 2px solid #ffffff; box-shadow: var(--shadow-amber);">
+              <img src="assets/bonus4_swipefile.jpg" alt="Bonus #4 - KDP Keyword + Category Swipe File 3D Box Mockup">
+              <div class="mono-spec bonus-badge-tag" style="background: #0b0f19; color: #ffffff; font-weight: 800;">
                 3D KEYWORD SWIPE FILE
               </div>
             </div>
@@ -1417,27 +1484,27 @@
       </div>
 
       <!-- BONUS 5 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->
-      <div class="card-panel text-left" style="margin-bottom: 30px; border: 2px solid #a5f3fc; background: #ffffff;">
+      <div class="card-panel text-left" style="margin-bottom: 40px; border: 2px solid #a5f3fc; background: #ffffff;">
         <div class="feature-split-grid">
           <div style="text-align: center;">
-            <div style="background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;">
-              <img src="assets/bundle.png" alt="Bonus #5 3D Box Mockup" style="max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);">
-              <div class="mono-spec" style="background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;">
-                3D PUBLISHERS COMMUNITY
+            <div class="bonus-visual-shell" style="background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border: 2px solid #ffffff; box-shadow: var(--shadow-amber);">
+              <img src="assets/bonus5_checklist.jpg" alt="Bonus #5 - Pass KDP First Time Upload Checklist + Rejection Fix Guide 3D Box Mockup">
+              <div class="mono-spec bonus-badge-tag" style="background: #0b0f19; color: #ffffff; font-weight: 800;">
+                3D UPLOAD CHECKLIST
               </div>
             </div>
           </div>
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
-              <span class="mono-spec" style="background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #a5f3fc;">BONUS #5</span>
-              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;">VALUE: $97</span>
+          <div class="bonus-copy-shell">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+              <span class="mono-spec" style="background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 6px 18px; border-radius: 50px; border: 1px solid #a5f3fc; font-size: 0.95rem;">BONUS #5</span>
+              <span class="mono-spec" style="font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; text-decoration: line-through;">VALUE: $47</span>
             </div>
-            <h3 style="font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;">Private "Publishers" Community Access</h3>
-            <p style="font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;">
-              Connect with active top-earning KDP publishers, share strategies, and get direct technical support in our private publisher network.
+            <h3 style="color: var(--ink-deep);">"Pass KDP First Time" Upload Checklist + Rejection Fix Guide</h3>
+            <p style="color: var(--ink-body);">
+              Step-by-step pre-upload checklist and instant rejection fix guide to guarantee your book passes Amazon's KDP Print Previewer on your very first upload.
             </p>
-            <div style="font-weight: 700; color: var(--amber-dark);" class="mono-spec">
-              ✅ VIP Support &nbsp;•&nbsp; ✅ Publisher Networking & Case Studies
+            <div style="font-weight: 700; color: var(--amber-dark); font-size: 1.05rem;" class="mono-spec">
+              ✅ Zero-Rejection Checklist &nbsp;•&nbsp; ✅ Instant Trim & Margin Fixes
             </div>
           </div>
         </div>
@@ -1471,7 +1538,7 @@
           <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>Zero Monthly Fees, Zero Credit Limits, Zero Restrictions Forever = Priceless</span></div>
           <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>24/7 Real Human Support Team — Not Bots, Real People = Priceless</span></div>
           <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>30 Day Full Money Back Guarantee = Priceless</span></div>
-          <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>Top 5 Exclusive Bonus Package = $1,330 Value</span></div>
+          <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>Top 5 Exclusive Bonus Package = $195 Value</span></div>
         </div>
 
         <!-- PRICING ANCHOR — all page CTAs scroll here -->
@@ -1669,39 +1736,49 @@
         <div class="cta-break-inner">
           <div class="cta-break-grid">
             <div class="cta-break-copy">
-              <h2 class="cta-break-title">One Click Away From Unlimited Book Publishing</h2>
-              <p class="cta-break-sub">For A Tiny 1-Time Price, No Monthly Fees, EVER!</p>
-              <a href="#checkout" class="cta-break-btn">
-                <span class="cta-break-btn-icon"><span>→</span></span>
-                <span class="cta-break-btn-text">
-                  <strong>Click here now to get started</strong>
-                  <small>Hurry Before The Price Increase</small>
+              <div class="cta-break-badge">
+                <span class="pulse-dot"></span>
+                <span>LIMITED TIME SPECIAL OFFER</span>
+              </div>
+              <h2 class="cta-break-title">One Click Away From <span class="highlight-gold-gradient">Unlimited Book Publishing</span></h2>
+              <p class="cta-break-sub">For A Tiny 1-Time Price — No Monthly Fees, EVER!</p>
+
+              <a href="#checkout" class="cta-break-btn-modern">
+                <span class="btn-icon-circle"><span>→</span></span>
+                <span class="btn-text-block">
+                  <strong>CLICK HERE NOW TO GET STARTED</strong>
+                  <small>⚡ Hurry Before The Price Increase</small>
                 </span>
               </a>
-              <div class="cta-break-trust">
-                <div class="cta-break-payments">
-                  <span class="pay-badge pay-visa">VISA</span>
-                  <span class="pay-badge pay-amex">AMEX</span>
-                  <span class="pay-badge pay-discover">DISCOVER</span>
-                  <span class="pay-badge pay-mc">MC</span>
+
+              <div class="cta-break-trust-bar">
+                <div class="trust-badge-guarantee">
+                  <span class="shield-check-icon">✓</span>
+                  <div class="shield-text-col">
+                    <strong>30-DAY MONEY BACK</strong>
+                    <span>100% Risk-Free Guarantee</span>
+                  </div>
                 </div>
-                <div class="cta-break-guarantee">
-                  <span>30 Days</span>
-                  <strong>Money Back</strong>
-                  <span>Guarantee</span>
-                </div>
-                <div class="cta-break-devices">
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-5 18a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7 5h10v11H7V5z"/></svg>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
-                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v10H4V4zm0 12h7v4H4v-4zm9 0h7v4h-7v-4zM2 2v20h20V2H2z"/></svg>
-                  <span class="cta-break-web-badge">Web Based Software</span>
+                <div class="trust-badge-payments">
+                  <span class="pay-chip pay-visa">VISA</span>
+                  <span class="pay-chip pay-mc">MC</span>
+                  <span class="pay-chip pay-amex">AMEX</span>
+                  <span class="pay-chip pay-discover">DISC</span>
                 </div>
               </div>
+
+              <div class="cta-break-tech-footer">
+                <span class="tech-dot"></span>
+                <span>Web-Based Software &bull; Instant Access &bull; Works On All Devices</span>
+              </div>
             </div>
+
             <div class="cta-break-visual">
-              <img src="assets/bundle.png" alt="KDP Mafia dashboard on desktop and mobile" class="cta-break-mockup" loading="lazy">
-              <div class="cta-break-urgency">
-                <div class="cta-break-urgency-bar">HURRY: PRICE RISES AGAIN IN...</div>
+              <img src="assets/kdp_mafia_3d_box.png?v=1" alt="KDP Mafia 3D Software Box" class="cta-break-mockup" loading="lazy">
+              <div class="cta-break-urgency-card">
+                <div class="cta-break-urgency-header">
+                  <span class="fire-icon">⚡</span> HURRY: PRICE RISES AGAIN IN...
+                </div>
                 <div class="cta-countdown">
                   <div class="cta-countdown-unit">
                     <span class="cta-countdown-num" data-days>00</span>
@@ -1713,11 +1790,11 @@
                   </div>
                   <div class="cta-countdown-unit">
                     <span class="cta-countdown-num" data-mins>00</span>
-                    <span class="cta-countdown-label">MIN</span>
+                    <span class="cta-countdown-label">MINS</span>
                   </div>
                   <div class="cta-countdown-unit">
                     <span class="cta-countdown-num" data-secs>00</span>
-                    <span class="cta-countdown-label">SEC</span>
+                    <span class="cta-countdown-label">SECS</span>
                   </div>
                 </div>
               </div>
