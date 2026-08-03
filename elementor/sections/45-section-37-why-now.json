@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 37: WHY NOW",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "9898292c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "45. SECTION 37: WHY NOW",
+        "css_classes": "kdp-section kdp-section-37-why-now"
+      },
+      "elements": [
+        {
+          "id": "5f2972a4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "52ba1fcc",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"eyebrow-badge\">SECTION 37</div>\n      <h2 class=\"sec-title\">The window is open — and the slop is clearing it for you.</h2>\n      <p style=\"font-size: 1.2rem; color: var(--ink-body); line-height: 1.8;\">\n        As Amazon flags low-quality AI books, sellers pushing junk are getting squeezed out — leaving more room for people publishing <em>real</em>, compliant books. Early movers who build clean catalogs now earn royalties for years. Waiting means competing with everyone who read this first.\n      </p>\n    </div>\n  </section>",
+                "_element_id": "section-37-why-now"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

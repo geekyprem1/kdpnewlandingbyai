@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 13: THE TURNING POINT",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "4ea30140",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "10. SECTION 13: THE TURNING POINT",
+        "css_classes": "kdp-section kdp-section-13-the-turning-point"
+      },
+      "elements": [
+        {
+          "id": "3d7f9f64",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4581ba3d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">THE TURNING POINT</div>\n      <h2 class=\"sec-title\">So we asked a different question.</h2>\n      <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 25px;\">\n        Not <em>\"how fast can AI spit out a book?\"</em> — everyone's racing to the bottom on that. We asked:\n      </p>\n      <div class=\"card-panel text-left\" style=\"background: #ffffff; border: 2px solid var(--amber-bright); font-size: 1.2rem; line-height: 1.8;\">\n        <p style=\"font-style: italic; font-weight: 700; color: var(--blue-cobalt); margin-bottom: 15px;\">\n          \"What if one tool could research the niche, build a REAL book across any format, design the cover, AND format it to Amazon's exact spec — verified, correct, and compliant every single time?\"\n        </p>\n        <p style=\"font-size: 1.08rem; color: var(--ink-body);\">\n          We encoded KDP's actual spec math into the engine. We built deterministic puzzle generators with mathematically-verified solutions. We tested files against Amazon's real Print Previewer until they passed with zero errors. The result is the tool we wish we'd had on day one.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-13-the-turning-point"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

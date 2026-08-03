@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "79b15e38",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "39. PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY",
+        "css_classes": "kdp-section kdp-profit-angle-2-standalone-section-done-for-you-client-book-a"
+      },
+      "elements": [
+        {
+          "id": "23cf2f7a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b8ec64c9",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\" id=\"profit-angle-2\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Done-For-You Client Book Agency\" class=\"feature-img-frame\" style=\"border-color: var(--blue-cobalt);\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 02: CLIENT AGENCY</div>\n          <h2 class=\"sec-title\">Charge Clients $500–$2,000 Per Custom Book</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Commercial License included — offer done-for-you publishing packages to coaches, local business owners, and influencers while KDP Mafia handles 95% of the labor.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--blue-cobalt);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--blue-cobalt);\" class=\"mono-spec\">⚡ COMMERCIAL AGENCY ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Deliver complete paperback layout files, wraparound covers, and Amazon listings in under 24 hours while keeping 100% client profit.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-2-standalone-section-done-for-you-client-book-a"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

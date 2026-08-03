@@ -1,0 +1,415 @@
+[
+  {
+    "order": 1,
+    "title": "TOP TICKER BAR (DIME-SALE TICKER)",
+    "elementor_section_title": "01. TOP TICKER BAR (DIME-SALE TICKER)",
+    "slug": "top-ticker-bar-dime-sale-ticker",
+    "file": "sections/01-top-ticker-bar-dime-sale-ticker.json"
+  },
+  {
+    "order": 2,
+    "title": "HEADER",
+    "elementor_section_title": "02. HEADER",
+    "slug": "header",
+    "file": "sections/02-header.json"
+  },
+  {
+    "order": 3,
+    "title": "HERO SECTION (GRID PAPER BACKGROUND & SIDE 3D GRAPHIC ELEMENTS - MATCHING REFERENCE SCREENSHOT)",
+    "elementor_section_title": "03. HERO SECTION (GRID PAPER BACKGROUND & SIDE 3D GRAPHIC ELEMENTS - MATCHING REFERENCE SCREENSHOT)",
+    "slug": "hero-section-grid-paper-background-side-3d-graphic-elements-",
+    "file": "sections/03-hero-section-grid-paper-background-side-3d-graphic-elements-.json"
+  },
+  {
+    "order": 4,
+    "title": "SECTION 8: TRUST BAR",
+    "elementor_section_title": "04. SECTION 8: TRUST BAR",
+    "slug": "section-8-trust-bar",
+    "file": "sections/04-section-8-trust-bar.json"
+  },
+  {
+    "order": 5,
+    "title": "NEW STANDALONE SECTION (BEFORE UNCOMFORTABLE TRUTH): REAL KDP ROYALTY PROOF & INCOME BENEFITS WITH DEDICATED IMAGE",
+    "elementor_section_title": "05. NEW STANDALONE SECTION (BEFORE UNCOMFORTABLE TRUTH): REAL KDP ROYALTY PROOF & INCOME BENEFITS WITH DEDICATED IMAGE",
+    "slug": "new-standalone-section-before-uncomfortable-truth-real-kdp-r",
+    "file": "sections/05-new-standalone-section-before-uncomfortable-truth-real-kdp-r.json"
+  },
+  {
+    "order": 6,
+    "title": "SECTION 9: THE UNCOMFORTABLE TRUTH",
+    "elementor_section_title": "06. SECTION 9: THE UNCOMFORTABLE TRUTH",
+    "slug": "section-9-the-uncomfortable-truth",
+    "file": "sections/06-section-9-the-uncomfortable-truth.json"
+  },
+  {
+    "order": 7,
+    "title": "SECTION 10: THE REAL OPPORTUNITY",
+    "elementor_section_title": "07. SECTION 10: THE REAL OPPORTUNITY",
+    "slug": "section-10-the-real-opportunity",
+    "file": "sections/07-section-10-the-real-opportunity.json"
+  },
+  {
+    "order": 8,
+    "title": "SECTION 11: THE 5 WALLS",
+    "elementor_section_title": "08. SECTION 11: THE 5 WALLS",
+    "slug": "section-11-the-5-walls",
+    "file": "sections/08-section-11-the-5-walls.json"
+  },
+  {
+    "order": 9,
+    "title": "SECTION 12: THE OLD WAY (COST STACK)",
+    "elementor_section_title": "09. SECTION 12: THE OLD WAY (COST STACK)",
+    "slug": "section-12-the-old-way-cost-stack",
+    "file": "sections/09-section-12-the-old-way-cost-stack.json"
+  },
+  {
+    "order": 10,
+    "title": "SECTION 13: THE TURNING POINT",
+    "elementor_section_title": "10. SECTION 13: THE TURNING POINT",
+    "slug": "section-13-the-turning-point",
+    "file": "sections/10-section-13-the-turning-point.json"
+  },
+  {
+    "order": 11,
+    "title": "SECTION 14: INTRODUCING KDP MAFIA",
+    "elementor_section_title": "11. SECTION 14: INTRODUCING KDP MAFIA",
+    "slug": "section-14-introducing-kdp-mafia",
+    "file": "sections/11-section-14-introducing-kdp-mafia.json"
+  },
+  {
+    "order": 12,
+    "title": "ROLE 1: MARKET RESEARCHER",
+    "elementor_section_title": "12. ROLE 1: MARKET RESEARCHER",
+    "slug": "role-1-market-researcher",
+    "file": "sections/12-role-1-market-researcher.json"
+  },
+  {
+    "order": 13,
+    "title": "ROLE 2: PUZZLE & ACTIVITY ENGINE",
+    "elementor_section_title": "13. ROLE 2: PUZZLE & ACTIVITY ENGINE",
+    "slug": "role-2-puzzle-activity-engine",
+    "file": "sections/13-role-2-puzzle-activity-engine.json"
+  },
+  {
+    "order": 14,
+    "title": "ROLE 3: GHOSTWRITER",
+    "elementor_section_title": "14. ROLE 3: GHOSTWRITER",
+    "slug": "role-3-ghostwriter",
+    "file": "sections/14-role-3-ghostwriter.json"
+  },
+  {
+    "order": 15,
+    "title": "ROLE 4: COVER DESIGNER",
+    "elementor_section_title": "15. ROLE 4: COVER DESIGNER",
+    "slug": "role-4-cover-designer",
+    "file": "sections/15-role-4-cover-designer.json"
+  },
+  {
+    "order": 16,
+    "title": "ROLE 5: KDP FORMATTING EXPERT",
+    "elementor_section_title": "16. ROLE 5: KDP FORMATTING EXPERT",
+    "slug": "role-5-kdp-formatting-expert",
+    "file": "sections/16-role-5-kdp-formatting-expert.json"
+  },
+  {
+    "order": 17,
+    "title": "ROLE 6: LAUNCH STRATEGIST",
+    "elementor_section_title": "17. ROLE 6: LAUNCH STRATEGIST",
+    "slug": "role-6-launch-strategist",
+    "file": "sections/17-role-6-launch-strategist.json"
+  },
+  {
+    "order": 18,
+    "title": "SECTION 15: THE 4-STEP WORKFLOW",
+    "elementor_section_title": "18. SECTION 15: THE 4-STEP WORKFLOW",
+    "slug": "section-15-the-4-step-workflow",
+    "file": "sections/18-section-15-the-4-step-workflow.json"
+  },
+  {
+    "order": 19,
+    "title": "CTA Break #1",
+    "elementor_section_title": "19. CTA Break #1",
+    "slug": "cta-break-1",
+    "file": "sections/19-cta-break-1.json"
+  },
+  {
+    "order": 20,
+    "title": "SECTION 17: CORE USP MATRIX TABLE",
+    "elementor_section_title": "20. SECTION 17: CORE USP MATRIX TABLE",
+    "slug": "section-17-core-usp-matrix-table",
+    "file": "sections/20-section-17-core-usp-matrix-table.json"
+  },
+  {
+    "order": 21,
+    "title": "SECTION 18 & SIGNATURE COMPONENT: COMPLIANT BY CONSTRUCTION",
+    "elementor_section_title": "21. SECTION 18 & SIGNATURE COMPONENT: COMPLIANT BY CONSTRUCTION",
+    "slug": "section-18-signature-component-compliant-by-construction",
+    "file": "sections/21-section-18-signature-component-compliant-by-construction.json"
+  },
+  {
+    "order": 22,
+    "title": "SECTION 18b: USP #2 - REAL CONTENT, NOT SLOP",
+    "elementor_section_title": "22. SECTION 18b: USP #2 - REAL CONTENT, NOT SLOP",
+    "slug": "section-18b-usp-2-real-content-not-slop",
+    "file": "sections/22-section-18b-usp-2-real-content-not-slop.json"
+  },
+  {
+    "order": 23,
+    "title": "SECTION 19: USP #3 - 20+ BOOK TYPES",
+    "elementor_section_title": "23. SECTION 19: USP #3 - 20+ BOOK TYPES",
+    "slug": "section-19-usp-3-20-book-types",
+    "file": "sections/23-section-19-usp-3-20-book-types.json"
+  },
+  {
+    "order": 24,
+    "title": "CTA Break #2",
+    "elementor_section_title": "24. CTA Break #2",
+    "slug": "cta-break-2",
+    "file": "sections/24-cta-break-2.json"
+  },
+  {
+    "order": 25,
+    "title": "SECTION 20: MARKET INTELLIGENCE",
+    "elementor_section_title": "25. SECTION 20: MARKET INTELLIGENCE",
+    "slug": "section-20-market-intelligence",
+    "file": "sections/25-section-20-market-intelligence.json"
+  },
+  {
+    "order": 26,
+    "title": "SECTION 21: TITLE OPTIMIZER",
+    "elementor_section_title": "26. SECTION 21: TITLE OPTIMIZER",
+    "slug": "section-21-title-optimizer",
+    "file": "sections/26-section-21-title-optimizer.json"
+  },
+  {
+    "order": 27,
+    "title": "SECTION 22: THE PUZZLE SUITE",
+    "elementor_section_title": "27. SECTION 22: THE PUZZLE SUITE",
+    "slug": "section-22-the-puzzle-suite",
+    "file": "sections/27-section-22-the-puzzle-suite.json"
+  },
+  {
+    "order": 28,
+    "title": "SECTION 23: KIDS & LEARNING",
+    "elementor_section_title": "28. SECTION 23: KIDS & LEARNING",
+    "slug": "section-23-kids-learning",
+    "file": "sections/28-section-23-kids-learning.json"
+  },
+  {
+    "order": 29,
+    "title": "SECTION 24: JOURNALS, PLANNERS & LOGS",
+    "elementor_section_title": "29. SECTION 24: JOURNALS, PLANNERS & LOGS",
+    "slug": "section-24-journals-planners-logs",
+    "file": "sections/29-section-24-journals-planners-logs.json"
+  },
+  {
+    "order": 30,
+    "title": "SECTION 25: EBOOK CREATOR",
+    "elementor_section_title": "30. SECTION 25: EBOOK CREATOR",
+    "slug": "section-25-ebook-creator",
+    "file": "sections/30-section-25-ebook-creator.json"
+  },
+  {
+    "order": 31,
+    "title": "SECTION 26: COVER STUDIO",
+    "elementor_section_title": "31. SECTION 26: COVER STUDIO",
+    "slug": "section-26-cover-studio",
+    "file": "sections/31-section-26-cover-studio.json"
+  },
+  {
+    "order": 32,
+    "title": "SECTION 27: LAUNCH KIT",
+    "elementor_section_title": "32. SECTION 27: LAUNCH KIT",
+    "slug": "section-27-launch-kit",
+    "file": "sections/32-section-27-launch-kit.json"
+  },
+  {
+    "order": 33,
+    "title": "SECTION 28: BACKGROUND PRODUCTION",
+    "elementor_section_title": "33. SECTION 28: BACKGROUND PRODUCTION",
+    "slug": "section-28-background-production",
+    "file": "sections/33-section-28-background-production.json"
+  },
+  {
+    "order": 34,
+    "title": "SECTION 29: THE VAULTS",
+    "elementor_section_title": "34. SECTION 29: THE VAULTS",
+    "slug": "section-29-the-vaults",
+    "file": "sections/34-section-29-the-vaults.json"
+  },
+  {
+    "order": 35,
+    "title": "SECTION 30: LIVE DEMO WALKTHROUGH",
+    "elementor_section_title": "35. SECTION 30: LIVE DEMO WALKTHROUGH",
+    "slug": "section-30-live-demo-walkthrough",
+    "file": "sections/35-section-30-live-demo-walkthrough.json"
+  },
+  {
+    "order": 36,
+    "title": "SECTION 31 & 32: WHO THIS IS FOR / NOT FOR",
+    "elementor_section_title": "36. SECTION 31 & 32: WHO THIS IS FOR / NOT FOR",
+    "slug": "section-31-32-who-this-is-for-not-for",
+    "file": "sections/36-section-31-32-who-this-is-for-not-for.json"
+  },
+  {
+    "order": 37,
+    "title": "SECTION 33: FEATURES TO BENEFITS TABLE",
+    "elementor_section_title": "37. SECTION 33: FEATURES TO BENEFITS TABLE",
+    "slug": "section-33-features-to-benefits-table",
+    "file": "sections/37-section-33-features-to-benefits-table.json"
+  },
+  {
+    "order": 38,
+    "title": "PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE",
+    "elementor_section_title": "38. PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE",
+    "slug": "profit-angle-1-standalone-section-passive-royalty-catalog-en",
+    "file": "sections/38-profit-angle-1-standalone-section-passive-royalty-catalog-en.json"
+  },
+  {
+    "order": 39,
+    "title": "PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY",
+    "elementor_section_title": "39. PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY",
+    "slug": "profit-angle-2-standalone-section-done-for-you-client-book-a",
+    "file": "sections/39-profit-angle-2-standalone-section-done-for-you-client-book-a.json"
+  },
+  {
+    "order": 40,
+    "title": "PROFIT ANGLE 3 (STANDALONE SECTION): SEASONAL LINES & SURGES",
+    "elementor_section_title": "40. PROFIT ANGLE 3 (STANDALONE SECTION): SEASONAL LINES & SURGES",
+    "slug": "profit-angle-3-standalone-section-seasonal-lines-surges",
+    "file": "sections/40-profit-angle-3-standalone-section-seasonal-lines-surges.json"
+  },
+  {
+    "order": 41,
+    "title": "PROFIT ANGLE 4 (STANDALONE SECTION): FREELANCE SERVICE AUTOMATION",
+    "elementor_section_title": "41. PROFIT ANGLE 4 (STANDALONE SECTION): FREELANCE SERVICE AUTOMATION",
+    "slug": "profit-angle-4-standalone-section-freelance-service-automati",
+    "file": "sections/41-profit-angle-4-standalone-section-freelance-service-automati.json"
+  },
+  {
+    "order": 42,
+    "title": "PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES",
+    "elementor_section_title": "42. PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES",
+    "slug": "profit-angle-5-standalone-section-multi-book-boxed-sets-bund",
+    "file": "sections/42-profit-angle-5-standalone-section-multi-book-boxed-sets-bund.json"
+  },
+  {
+    "order": 43,
+    "title": "SECTION 35: MASTER COMPARISON TABLE",
+    "elementor_section_title": "43. SECTION 35: MASTER COMPARISON TABLE",
+    "slug": "section-35-master-comparison-table",
+    "file": "sections/43-section-35-master-comparison-table.json"
+  },
+  {
+    "order": 44,
+    "title": "SECTION 36: TESTIMONIALS & PROOF",
+    "elementor_section_title": "44. SECTION 36: TESTIMONIALS & PROOF",
+    "slug": "section-36-testimonials-proof",
+    "file": "sections/44-section-36-testimonials-proof.json"
+  },
+  {
+    "order": 45,
+    "title": "SECTION 37: WHY NOW",
+    "elementor_section_title": "45. SECTION 37: WHY NOW",
+    "slug": "section-37-why-now",
+    "file": "sections/45-section-37-why-now.json"
+  },
+  {
+    "order": 46,
+    "title": "OBJECTION KILLER 1 (SECTION 38 STANDALONE): I'M NOT TECHNICAL",
+    "elementor_section_title": "46. OBJECTION KILLER 1 (SECTION 38 STANDALONE): I'M NOT TECHNICAL",
+    "slug": "objection-killer-1-section-38-standalone-i-m-not-technical",
+    "file": "sections/46-objection-killer-1-section-38-standalone-i-m-not-technical.json"
+  },
+  {
+    "order": 47,
+    "title": "OBJECTION KILLER 2 (SECTION 39 STANDALONE): I CAN'T WRITE OR DRAW",
+    "elementor_section_title": "47. OBJECTION KILLER 2 (SECTION 39 STANDALONE): I CAN'T WRITE OR DRAW",
+    "slug": "objection-killer-2-section-39-standalone-i-can-t-write-or-dr",
+    "file": "sections/47-objection-killer-2-section-39-standalone-i-can-t-write-or-dr.json"
+  },
+  {
+    "order": 48,
+    "title": "OBJECTION KILLER 3 (SECTION 40 STANDALONE): WON'T AMAZON FLAG AI BOOKS?",
+    "elementor_section_title": "48. OBJECTION KILLER 3 (SECTION 40 STANDALONE): WON'T AMAZON FLAG AI BOOKS?",
+    "slug": "objection-killer-3-section-40-standalone-won-t-amazon-flag-a",
+    "file": "sections/48-objection-killer-3-section-40-standalone-won-t-amazon-flag-a.json"
+  },
+  {
+    "order": 49,
+    "title": "OBJECTION KILLER 4 (SECTION 41 STANDALONE): WILL MY FILES BE ACCEPTED?",
+    "elementor_section_title": "49. OBJECTION KILLER 4 (SECTION 41 STANDALONE): WILL MY FILES BE ACCEPTED?",
+    "slug": "objection-killer-4-section-41-standalone-will-my-files-be-ac",
+    "file": "sections/49-objection-killer-4-section-41-standalone-will-my-files-be-ac.json"
+  },
+  {
+    "order": 50,
+    "title": "OBJECTION KILLER 5 (SECTION 42 STANDALONE): ISN'T KDP SATURATED?",
+    "elementor_section_title": "50. OBJECTION KILLER 5 (SECTION 42 STANDALONE): ISN'T KDP SATURATED?",
+    "slug": "objection-killer-5-section-42-standalone-isn-t-kdp-saturated",
+    "file": "sections/50-objection-killer-5-section-42-standalone-isn-t-kdp-saturated.json"
+  },
+  {
+    "order": 51,
+    "title": "SECTION 44 (INDIVIDUALIZED): 5 FAST ACTION BONUSES WITH 3D BOX MOCKUP DISPLAYS",
+    "elementor_section_title": "51. SECTION 44 (INDIVIDUALIZED): 5 FAST ACTION BONUSES WITH 3D BOX MOCKUP DISPLAYS",
+    "slug": "section-44-individualized-5-fast-action-bonuses-with-3d-box-",
+    "file": "sections/51-section-44-individualized-5-fast-action-bonuses-with-3d-box-.json"
+  },
+  {
+    "order": 52,
+    "title": "SCREENSHOT-MATCHED OFFER VALUE RECAP & CHECKOUT BLOCK (AFTER BONUSES)",
+    "elementor_section_title": "52. SCREENSHOT-MATCHED OFFER VALUE RECAP & CHECKOUT BLOCK (AFTER BONUSES)",
+    "slug": "screenshot-matched-offer-value-recap-checkout-block-after-bo",
+    "file": "sections/52-screenshot-matched-offer-value-recap-checkout-block-after-bo.json"
+  },
+  {
+    "order": 53,
+    "title": "CTA Break #3",
+    "elementor_section_title": "53. CTA Break #3",
+    "slug": "cta-break-3",
+    "file": "sections/53-cta-break-3.json"
+  },
+  {
+    "order": 54,
+    "title": "SECTION 50: FAQ",
+    "elementor_section_title": "54. SECTION 50: FAQ",
+    "slug": "section-50-faq",
+    "file": "sections/54-section-50-faq.json"
+  },
+  {
+    "order": 55,
+    "title": "SECTION 51: SECOND-GUESS CLOSE",
+    "elementor_section_title": "55. SECTION 51: SECOND-GUESS CLOSE",
+    "slug": "section-51-second-guess-close",
+    "file": "sections/55-section-51-second-guess-close.json"
+  },
+  {
+    "order": 56,
+    "title": "SECTION 52: FINAL CTA",
+    "elementor_section_title": "56. SECTION 52: FINAL CTA",
+    "slug": "section-52-final-cta",
+    "file": "sections/56-section-52-final-cta.json"
+  },
+  {
+    "order": 57,
+    "title": "SECTION 53: P.S. & P.P.S.",
+    "elementor_section_title": "57. SECTION 53: P.S. & P.P.S.",
+    "slug": "section-53-p-s-p-p-s",
+    "file": "sections/57-section-53-p-s-p-p-s.json"
+  },
+  {
+    "order": 58,
+    "title": "SECTION 54: FOOTER / LEGAL",
+    "elementor_section_title": "58. SECTION 54: FOOTER / LEGAL",
+    "slug": "section-54-footer-legal",
+    "file": "sections/58-section-54-footer-legal.json"
+  },
+  {
+    "order": 59,
+    "title": "FLOATING STICKY FOOTER CTA BAR",
+    "elementor_section_title": "59. FLOATING STICKY FOOTER CTA BAR",
+    "slug": "floating-sticky-footer-cta-bar",
+    "file": "sections/59-floating-sticky-footer-cta-bar.json"
+  }
+]

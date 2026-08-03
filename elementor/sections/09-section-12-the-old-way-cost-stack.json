@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 12: THE OLD WAY (COST STACK)",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "4e2e876a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "09. SECTION 12: THE OLD WAY (COST STACK)",
+        "css_classes": "kdp-section kdp-section-12-the-old-way-cost-stack"
+      },
+      "elements": [
+        {
+          "id": "b4c283ca",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "12caee62",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-truth text-center\">\n    <div class=\"overlay-layer overlay-crimson-alert\"></div>\n    <div class=\"container\" style=\"max-width: 850px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--crimson-bg); color: var(--crimson-fail);\">THE OLD COSTLY WAY</div>\n      <h2 class=\"sec-title\">The \"old way\" of building a KDP catalog:</h2>\n\n      <div class=\"card-panel text-left\" style=\"background: #fff5f5; border: 2px solid #fca5a5; font-size: 1.15rem;\">\n        <p style=\"margin-bottom: 12px;\">• <strong>$47 niche course</strong> → still confused.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>$150 ghostwriter</strong>, 2 weeks per book → slow and expensive.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>$50 cover designer</strong> → endless revisions.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>Manual formatting</strong> → rejected by KDP anyway.</p>\n        <p style=\"margin-bottom: 16px;\">• <strong>Cheap AI tool</strong> → broken files and refunds.</p>\n        <div style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; border-top: 2px dashed #fca5a5; padding-top: 12px;\">\n          Hundreds of dollars and weeks of work — for one book that might get pulled.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-12-the-old-way-cost-stack"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

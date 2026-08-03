@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "fda9e16c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "42. PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES",
+        "css_classes": "kdp-section kdp-profit-angle-5-standalone-section-multi-book-boxed-sets-bund"
+      },
+      "elements": [
+        {
+          "id": "93198691",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f4e8454d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\" id=\"profit-angle-5\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 05: BOXED BUNDLES</div>\n          <h2 class=\"sec-title\">Package Multi-Book Boxed Sets At Higher Margins</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Bundle 3 to 5 related puzzle or activity volumes into high-value 300+ page compilation editions priced at $29 to $49 for premium royalty margins per sale.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ BOXED SET ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Higher price points deliver larger per-unit profit margins while giving Amazon buyers unbeatable bulk value.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Multi-Book Boxed Sets Bundle\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-5-standalone-section-multi-book-boxed-sets-bund"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

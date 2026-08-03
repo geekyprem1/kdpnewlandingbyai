@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 20: MARKET INTELLIGENCE",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "df4d6723",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "25. SECTION 20: MARKET INTELLIGENCE",
+        "css_classes": "kdp-section kdp-section-20-market-intelligence"
+      },
+      "elements": [
+        {
+          "id": "dc492723",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3195a9b4",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 20: MARKET INTELLIGENCE™</div>\n          <h2 class=\"sec-title\">Publish What Sells — Backed by Real Amazon Data</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Type any topic → get <strong>20 scored niche ideas</strong>, each rated on demand, competition, evergreen potential, and monetization with a single <strong>Opportunity Score (0–100)</strong>, seasonality notes, and recommended book types.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--amber-dark); font-weight: 800;\">\n            ✓ Save niche reports · Export to PDF · 1-Click Generate from any scored topic\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Market Intelligence Software Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-20-market-intelligence"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

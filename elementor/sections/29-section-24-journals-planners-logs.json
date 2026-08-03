@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 24: JOURNALS, PLANNERS & LOGS",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "b8428cc5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "29. SECTION 24: JOURNALS, PLANNERS & LOGS",
+        "css_classes": "kdp-section kdp-section-24-journals-planners-logs"
+      },
+      "elements": [
+        {
+          "id": "96fbde83",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5c9a6789",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 24: JOURNALS, PLANNERS & LOGS</div>\n          <h2 class=\"sec-title\">The Highest-Margin Category — 14 Ready Layouts</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Lined Notebook · Dot-Grid Journal · Graph Notebook · Sketchbook · Daily/Weekly/Monthly Planners · Habit Tracker · Gratitude Journal · Budget Planner · Password Log · Workout Log · Health Log · Blank Recipe Book. Pick, generate, sell.\n          </p>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Planners & Journals Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-24-journals-planners-logs"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

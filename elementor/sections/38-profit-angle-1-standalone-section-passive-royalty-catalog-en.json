@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "6cbcfedf",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "38. PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE",
+        "css_classes": "kdp-section kdp-profit-angle-1-standalone-section-passive-royalty-catalog-en"
+      },
+      "elements": [
+        {
+          "id": "45aaf15a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "72aee0aa",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"profit-angle-1\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 01: ROYALTY CATALOG</div>\n          <h2 class=\"sec-title\">Build A Passive Amazon Royalty Empire</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Publish a catalog of evergreen low-content & puzzle books that generate passive monthly royalties year after year — without spending a single dollar on inventory or shipping.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ ROYALTY ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Work once to create the book file. Amazon prints and fulfills orders on demand, depositing royalties straight into your bank account.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Passive Royalty Catalog Engine\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-1-standalone-section-passive-royalty-catalog-en"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

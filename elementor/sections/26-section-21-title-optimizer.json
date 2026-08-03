@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 21: TITLE OPTIMIZER",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "f3b7be52",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "26. SECTION 21: TITLE OPTIMIZER",
+        "css_classes": "kdp-section kdp-section-21-title-optimizer"
+      },
+      "elements": [
+        {
+          "id": "d2ecd121",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "816cb40e",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Title Optimizer Preview\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 21: TITLE OPTIMIZER</div>\n          <h2 class=\"sec-title\">The Right Title Can Triple Your Clicks</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Enter a working title → <strong>12 conversion-optimized variations</strong>, each scored on clarity, keyword strength, emotion, and click-appeal, ranked best-first. On Amazon, your title is your primary ad.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--blue-cobalt); font-weight: 800;\">\n            ✓ Ranked best-first · High CTR algorithm · Keyword injection\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-21-title-optimizer"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

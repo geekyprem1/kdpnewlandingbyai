@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 25: EBOOK CREATOR",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "9d871b56",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "30. SECTION 25: EBOOK CREATOR",
+        "css_classes": "kdp-section kdp-section-25-ebook-creator"
+      },
+      "elements": [
+        {
+          "id": "4d0514f5",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "0fc20dce",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Ebook Creator Manuscript Editor\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 25: EBOOK CREATOR</div>\n          <h2 class=\"sec-title\">A Complete, Chaptered Book — Voice-Locked</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Give it a topic → outline → full manuscript written chapter-by-chapter with a consistent voice (3–30 chapters, up to 50,000 words) → typographic cover → metadata. Export as <strong>EPUB, DOCX, and print-ready PDF.</strong>\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-25-ebook-creator"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

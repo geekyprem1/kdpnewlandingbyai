@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 28: BACKGROUND PRODUCTION",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "3ecd93e9",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "33. SECTION 28: BACKGROUND PRODUCTION",
+        "css_classes": "kdp-section kdp-section-28-background-production"
+      },
+      "elements": [
+        {
+          "id": "73e71846",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "aacb9d86",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 28: BACKGROUND PRODUCTION</div>\n          <h2 class=\"sec-title\">Start a Book. Close Your Laptop. Come Back to a Finished File.</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Generation runs as a background job — leave, refresh, even log out, and it keeps building. The Production Queue shows live progress and one-click retry. Publishing that fits your life.\n          </p>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Background Job Queue Tracker\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-28-background-production"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

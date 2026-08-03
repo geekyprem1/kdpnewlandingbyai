@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 30: LIVE DEMO WALKTHROUGH",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "29fc961b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "35. SECTION 30: LIVE DEMO WALKTHROUGH",
+        "css_classes": "kdp-section kdp-section-30-live-demo-walkthrough"
+      },
+      "elements": [
+        {
+          "id": "d878be0b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ff0e5267",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-stack text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"eyebrow-badge\">SECTION 30</div>\n      <h2 class=\"sec-title\">Live Demo Walkthrough Example</h2>\n      \n      <div class=\"card-panel text-left\" style=\"background: #ffffff; font-size: 1.15rem; line-height: 1.8;\">\n        <p style=\"padding: 6px 0;\">1. <strong>\"Dinosaurs for kids\"</strong> → Market Intelligence™ → 20 scored niches.</p>\n        <p style=\"padding: 6px 0;\">2. Pick <strong>Word Search</strong>, 40 puzzles, medium difficulty → Generate (runs in background).</p>\n        <p style=\"padding: 6px 0;\">3. <strong>Cover Studio</strong> → 3 concepts → pick your favorite.</p>\n        <p style=\"padding: 6px 0;\">4. <strong>Launch Kit</strong> → keywords, categories, description, checklist → zipped.</p>\n        <p style=\"padding: 6px 0;\">5. Download → upload to KDP → <strong>it passes the Print Previewer.</strong></p>\n        <div style=\"margin-top: 15px; font-weight: 800; color: var(--amber-dark);\" class=\"mono-spec\">\n          Hands-on time: Under 5 minutes.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-30-live-demo-walkthrough"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

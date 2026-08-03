@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — ROLE 5: KDP FORMATTING EXPERT",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "6c5eafb0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "16. ROLE 5: KDP FORMATTING EXPERT",
+        "css_classes": "kdp-section kdp-role-5-kdp-formatting-expert"
+      },
+      "elements": [
+        {
+          "id": "3f6a67e4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "932bfe40",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 05</div>\n          <h2 class=\"sec-title\">A KDP Formatting Expert</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Makes every interior and cover file pass Amazon's Print Previewer check on the very first upload with zero trim or margin errors.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ Compliant-by-construction · Gutter margin scaling · 0 Rejection guarantee\n          </div>\n        </div>\n        <div>\n          <!-- MINI SIMULATOR EMBED -->\n          <div class=\"kdp-previewer-sim\" style=\"margin:0;\">\n            <div class=\"sim-header\">\n              <span class=\"sim-badge-pass\">STATUS: ACCEPTED (0 ERRORS)</span>\n            </div>\n            <div class=\"sim-grid\">\n              <div class=\"sim-item\">\n                <div style=\"color: #94a3b8; font-size: 0.75rem;\">Trim Size</div>\n                <div style=\"color: #34d399; font-weight: 800;\">6.00\" x 9.00\" VERIFIED</div>\n              </div>\n              <div class=\"sim-item\">\n                <div style=\"color: #94a3b8; font-size: 0.75rem;\">Bleed Spec</div>\n                <div style=\"color: #34d399; font-weight: 800;\">0.125\" PASS</div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-5-kdp-formatting-expert"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

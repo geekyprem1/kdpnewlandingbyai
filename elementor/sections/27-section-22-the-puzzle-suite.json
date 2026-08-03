@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 22: THE PUZZLE SUITE",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "46652d82",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "27. SECTION 22: THE PUZZLE SUITE",
+        "css_classes": "kdp-section kdp-section-22-the-puzzle-suite"
+      },
+      "elements": [
+        {
+          "id": "06cd12fd",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ecc52a59",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 22: THE PUZZLE SUITE</div>\n          <h2 class=\"sec-title\">The #1 Low-Content Category — Done Right</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Word Search, Sudoku, Maze, Crossword, Scramble, Cryptogram, and Connect-the-Dots — every puzzle deterministic, every solution verified, <strong>answer keys included</strong>, large-print editions available, difficulty scaling built in.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ No broken grids · No missing answers · Print-ready PDF output\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Printable Puzzle Interior Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-22-the-puzzle-suite"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

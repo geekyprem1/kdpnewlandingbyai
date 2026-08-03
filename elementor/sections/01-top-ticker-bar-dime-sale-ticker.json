@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — TOP TICKER BAR (DIME-SALE TICKER)",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "5051434c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "01. TOP TICKER BAR (DIME-SALE TICKER)",
+        "css_classes": "kdp-section kdp-top-ticker-bar-dime-sale-ticker"
+      },
+      "elements": [
+        {
+          "id": "f9d57b50",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "1dac9483",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<div class=\"top-ticker\">\n    🔥 LAUNCH DIME-SALE IS LIVE: CURRENT PRICE IS <span class=\"dime-price\">$17.00</span> — PRICE INCREASES WITH EVERY COPY SOLD!\n  </div>",
+                "_element_id": "top-ticker-bar-dime-sale-ticker"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

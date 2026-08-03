@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 18 & SIGNATURE COMPONENT: COMPLIANT BY CONSTRUCTION",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "35b57dc6",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "21. SECTION 18 & SIGNATURE COMPONENT: COMPLIANT BY CONSTRUCTION",
+        "css_classes": "kdp-section kdp-section-18-signature-component-compliant-by-construction"
+      },
+      "elements": [
+        {
+          "id": "8230cc1c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ee8bfb0b",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">USP #1</div>\n      <h2 class=\"sec-title\">Every File Passes Amazon's Check — By Design, Not By Luck.</h2>\n      <p class=\"sec-desc\">Rejected uploads are the #1 reason beginners quit. So we encoded Amazon KDP's <strong>exact</strong> spec math into the engine:</p>\n\n      <div class=\"card-panel text-left\" style=\"background: #ffffff; font-size: 1.12rem;\">\n        <p style=\"padding: 6px 0;\">• Correct <strong>trim sizes</strong> (5×8 up to 8.5×11)</p>\n        <p style=\"padding: 6px 0;\">• Correct <strong>bleed</strong> (0.125\") for edge-to-edge art</p>\n        <p style=\"padding: 6px 0;\">• <strong>Gutter margins</strong> that scale with page count</p>\n        <p style=\"padding: 6px 0;\">• <strong>Spine width</strong> computed from your page count + paper stock</p>\n        <p style=\"padding: 6px 0;\">• Auto-padded to KDP's <strong>24-page minimum</strong></p>\n      </div>\n\n      <!-- KDP PRINT PREVIEWER SIMULATOR -->\n      <div class=\"kdp-previewer-sim\">\n        <div class=\"sim-header\">\n          <div style=\"display: flex; align-items: center; gap: 10px;\">\n            <span style=\"width: 12px; height: 12px; background: #ef4444; border-radius: 50%;\"></span>\n            <span style=\"width: 12px; height: 12px; background: #f59e0b; border-radius: 50%;\"></span>\n            <span style=\"width: 12px; height: 12px; background: #10b981; border-radius: 50%;\"></span>\n            <span style=\"font-weight: 800; color: #f8fafc; font-size: 0.92rem; margin-left: 10px;\">AMAZON KDP PRINT PREVIEWER — SPEC ENGINE STATUS</span>\n          </div>\n          <div class=\"sim-badge-pass\">STATUS: ACCEPTED (0 ERRORS)</div>\n        </div>\n\n        <div class=\"sim-grid\">\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Trim Dimensions</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">6.00\" x 9.00\" VERIFIED</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Bleed Calculation</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">0.125\" PASS</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Gutter Margin</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">SCALED TO PAGE COUNT</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Spine Width Spec</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">PAPER STOCK MATCHED</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-18-signature-component-compliant-by-construction"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

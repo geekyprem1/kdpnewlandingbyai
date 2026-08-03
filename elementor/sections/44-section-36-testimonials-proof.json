@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 36: TESTIMONIALS & PROOF",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "1b048bae",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "44. SECTION 36: TESTIMONIALS & PROOF",
+        "css_classes": "kdp-section kdp-section-36-testimonials-proof"
+      },
+      "elements": [
+        {
+          "id": "9bbb0a70",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a88cfdee",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 36</div>\n      <h2 class=\"sec-title\">Proof & Publisher Feedback</h2>\n\n      <div class=\"grid-3 text-left\" style=\"margin-top: 35px;\">\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"Passed KDP on the first try — I'd failed 4 times with another tool.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Publisher</div>\n        </div>\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"The cover generator alone doubled my click-through rate on mobile.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Publisher</div>\n        </div>\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"I create books for 3 clients a month now with the commercial license.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Agency</div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-36-testimonials-proof"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

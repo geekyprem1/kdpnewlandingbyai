@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 19: USP #3 - 20+ BOOK TYPES",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "a7f48329",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "23. SECTION 19: USP #3 - 20+ BOOK TYPES",
+        "css_classes": "kdp-section kdp-section-19-usp-3-20-book-types"
+      },
+      "elements": [
+        {
+          "id": "af3c737f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "22c4535d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">USP #3</div>\n      <h2 class=\"sec-title\">20+ Book Types in One Single Tool</h2>\n      <p class=\"sec-desc\">Stop buying a new $17 app every time you want a different book type. It's all here:</p>\n\n      <div class=\"grid-3 text-left\">\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">🧩 Puzzle Books</h3>\n          <p>Word Search · Sudoku · Maze · Crossword · Word Scramble · Cryptogram · Connect the Dots</p>\n        </div>\n\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">🎨 Kids & Learning</h3>\n          <p>Coloring · Activity · Tracing · Math Workbooks · Illustrated Story Books</p>\n        </div>\n\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">📖 Low-Content & Ebooks</h3>\n          <p>Journals · Planners · Trackers · Log Books · Full Non-Fiction & Fiction Ebooks</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-19-usp-3-20-book-types"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

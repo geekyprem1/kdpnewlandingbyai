@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — ROLE 2: PUZZLE & ACTIVITY ENGINE",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "4f7850d2",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "13. ROLE 2: PUZZLE & ACTIVITY ENGINE",
+        "css_classes": "kdp-section kdp-role-2-puzzle-activity-engine"
+      },
+      "elements": [
+        {
+          "id": "ec09abd1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "d141da75",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Puzzle & Activity Engine Interface\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 02</div>\n          <h2 class=\"sec-title\">A Puzzle & Activity Engine</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Generates verified, print-perfect output with guaranteed correct answer keys. Sudoku, Word Search, Mazes, Crosswords, and Coloring Interiors.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ 100% Deterministic puzzles · Verified solutions · Zero error grids\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-2-puzzle-activity-engine"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

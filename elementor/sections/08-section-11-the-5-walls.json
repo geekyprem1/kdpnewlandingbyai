@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 11: THE 5 WALLS",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "06d86344",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "08. SECTION 11: THE 5 WALLS",
+        "css_classes": "kdp-section kdp-section-11-the-5-walls"
+      },
+      "elements": [
+        {
+          "id": "a01baa9b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "99984ac6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge text-center\" style=\"display: flex; width: max-content; margin: 0 auto 20px;\">THE 5 WALLS</div>\n      <h2 class=\"sec-title text-center\">Here's what really stops people from making money on Amazon:</h2>\n\n      <div class=\"grid-3\" style=\"margin-top: 35px;\">\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">1. \"I don't know what to publish.\"</h3>\n          <p>Niche research feels like blind guessing without real data.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">2. \"I can't write or design.\"</h3>\n          <p>Writing a book and designing a pro cover feels impossible.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">3. \"KDP keeps rejecting my files.\"</h3>\n          <p>Wrong trim, margins, bleed, spine width — rejection after rejection.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">4. \"AI tools give me junk.\"</h3>\n          <p>Broken puzzles, wrong answer keys, generic slop that gets refunded.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">5. \"I don't have time.\"</h3>\n          <p>Doing it right by hand takes weeks per book.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"background: var(--emerald-bg); border-top: 4px solid var(--emerald-pass);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--emerald-pass);\">The Truth:</h3>\n          <p style=\"font-weight: 700;\">None of this is your fault. You were handed the wrong tools.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-11-the-5-walls"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

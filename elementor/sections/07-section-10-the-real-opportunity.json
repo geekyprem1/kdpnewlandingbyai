@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 10: THE REAL OPPORTUNITY",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "c4c7004e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "07. SECTION 10: THE REAL OPPORTUNITY",
+        "css_classes": "kdp-section kdp-section-10-the-real-opportunity"
+      },
+      "elements": [
+        {
+          "id": "703f0214",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "55aba15f",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;\">THE REAL OPPORTUNITY</div>\n      <h2 class=\"sec-title\">Meanwhile, the <em>real</em> money on KDP was never in fragile AI novels anyway.</h2>\n      <div style=\"font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;\">\n        <p style=\"margin-bottom: 20px;\">\n          It's in <strong>low-content and puzzle books</strong> — word search, sudoku, mazes, coloring books, journals, planners, trackers, workbooks. Books that sell all year, need no \"prose,\" and can't be flagged as AI slop… because they're not slop. They're <em>structure.</em>\n        </p>\n        <p style=\"font-weight: 700; color: var(--blue-cobalt);\">\n          The catch? Making them well — with correct puzzles, verified answer keys, and files that actually pass KDP — is tedious, technical work. That's the wall 97% of people hit.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-10-the-real-opportunity"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

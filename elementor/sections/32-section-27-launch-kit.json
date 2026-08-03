@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 27: LAUNCH KIT",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "0f3e906c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "32. SECTION 27: LAUNCH KIT",
+        "css_classes": "kdp-section kdp-section-27-launch-kit"
+      },
+      "elements": [
+        {
+          "id": "01451899",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "59382ce6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Launch Kit ZIP Package\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 27: LAUNCH KIT™</div>\n          <h2 class=\"sec-title\">Everything Amazon Asks For — Generated and Zipped</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Per book: <strong>7 primary + 20 long-tail keywords</strong>, category recommendations, an AI-written description, alternative titles, a <code>metadata.json</code>, and a publish checklist — bundled with your interior + cover.\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-27-launch-kit"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — ROLE 1: MARKET RESEARCHER",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "f703b93b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "12. ROLE 1: MARKET RESEARCHER",
+        "css_classes": "kdp-section kdp-role-1-market-researcher"
+      },
+      "elements": [
+        {
+          "id": "76032a9a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c7ed113d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 01</div>\n          <h2 class=\"sec-title\">A Market Researcher</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Your dedicated research assistant that automatically scores profitable Amazon niches 0–100 with real-time customer demand and competition indicators.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--amber-dark); font-weight: 800;\">\n            ✓ Finds low-competition sub-niches · Avoids overcrowded categories\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Market Researcher Interface\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-1-market-researcher"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

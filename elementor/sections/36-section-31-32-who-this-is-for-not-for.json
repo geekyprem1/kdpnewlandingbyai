@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 31 & 32: WHO THIS IS FOR / NOT FOR",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "5b799779",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "36. SECTION 31 & 32: WHO THIS IS FOR / NOT FOR",
+        "css_classes": "kdp-section kdp-section-31-32-who-this-is-for-not-for"
+      },
+      "elements": [
+        {
+          "id": "10fe33cb",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f293fdab",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"grid-2 text-left\">\n        <div class=\"card-panel\" style=\"background: var(--emerald-bg); border: 2px solid #86efac;\">\n          <h3 style=\"color: #166534; font-size: 1.4rem; margin-bottom: 15px;\">SECTION 31: ✅ Who This Is FOR</h3>\n          <p style=\"padding: 6px 0;\">• Complete beginners who've never published.</p>\n          <p style=\"padding: 6px 0;\">• Publishers stuck at a handful of books.</p>\n          <p style=\"padding: 6px 0;\">• Busy people who want passive income without a 2nd job.</p>\n          <p style=\"padding: 6px 0;\">• Freelancers & agencies selling books as a service.</p>\n          <p style=\"padding: 6px 0;\">• Anyone burned by cheap AI tools that produced junk.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"background: var(--crimson-bg); border: 2px solid #fca5a5;\">\n          <h3 style=\"color: var(--crimson-fail); font-size: 1.4rem; margin-bottom: 15px;\">SECTION 32: ❌ Who This Is NOT FOR</h3>\n          <p style=\"padding: 6px 0;\">• People chasing a \"get rich by Friday\" fantasy.</p>\n          <p style=\"padding: 6px 0;\">• Anyone unwilling to click \"publish\" on Amazon (we automate creation; you upload).</p>\n          <p style=\"padding: 6px 0;\">• People who want to flood Amazon with low-quality slop — this tool builds real books.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-31-32-who-this-is-for-not-for"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

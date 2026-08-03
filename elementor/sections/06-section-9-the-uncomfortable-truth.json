@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 9: THE UNCOMFORTABLE TRUTH",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "9d6f0f2e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "06. SECTION 9: THE UNCOMFORTABLE TRUTH",
+        "css_classes": "kdp-section kdp-section-9-the-uncomfortable-truth"
+      },
+      "elements": [
+        {
+          "id": "b72acf29",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "e642ad2a",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-truth text-center\">\n    <div class=\"overlay-layer overlay-crimson-alert\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--crimson-bg); color: var(--crimson-fail); border-color: #fca5a5;\">THE UNCOMFORTABLE TRUTH</div>\n      <h2 class=\"sec-title\">Let's start with what the other \"AI book\" tools won't tell you.</h2>\n      <div style=\"font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;\">\n        <p style=\"margin-bottom: 20px;\">\n          Right now, dozens of tools promise to spit out a complete book in \"6 minutes\" or \"60 seconds.\" Sounds amazing. Here's the problem: that speed comes from one-shot AI text that reads like exactly what it is — filler. And Amazon has noticed.\n        </p>\n        <p style=\"margin-bottom: 20px; font-weight: 800; color: var(--crimson-fail); background: #fff5f5; padding: 18px 24px; border-left: 5px solid var(--crimson-fail); border-radius: 8px;\">\n          AI-detection studies, major press (Seattle Times, Wired), and Amazon's own tightening rules are all pointing the same direction: <strong>low-quality AI books are getting flagged, rejected, refunded, and removed.</strong> The \"6-minute book\" isn't a shortcut anymore. It's a liability.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-9-the-uncomfortable-truth"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2843 @@
+{
+  "title": "KDP Mafia — Full Landing Page",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "5051434c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "01. TOP TICKER BAR (DIME-SALE TICKER)",
+        "css_classes": "kdp-section kdp-top-ticker-bar-dime-sale-ticker"
+      },
+      "elements": [
+        {
+          "id": "f9d57b50",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "1dac9483",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<div class=\"top-ticker\">\n    🔥 LAUNCH DIME-SALE IS LIVE: CURRENT PRICE IS <span class=\"dime-price\">$17.00</span> — PRICE INCREASES WITH EVERY COPY SOLD!\n  </div>",
+                "_element_id": "top-ticker-bar-dime-sale-ticker"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7d165f08",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "02. HEADER",
+        "css_classes": "kdp-section kdp-header"
+      },
+      "elements": [
+        {
+          "id": "0aaad55c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "d0b85bf7",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<header style=\"padding: 18px 0; background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px); border-bottom: 1px solid var(--surface-border); position: relative; z-index: 10;\">\n    <div class=\"container\" style=\"display: flex; justify-content: space-between; align-items: center;\">\n      <a href=\"#hero\">\n        <img src=\"/wp-content/uploads/kdp-mafia/assets/logo.png\" alt=\"KDP Mafia Logo\" style=\"height: 55px; width: auto;\">\n      </a>\n      <div class=\"mono-spec\" style=\"display: flex; align-items: center; gap: 8px; background: var(--emerald-bg); border: 1px solid #6ee7b7; padding: 6px 16px; border-radius: 50px; color: var(--emerald-pass); font-weight: 800;\">\n        <span style=\"width: 8px; height: 8px; background: var(--emerald-pass); border-radius: 50%;\"></span>\n        COMMERCIAL LICENSE INCLUDED\n      </div>\n      <a href=\"#checkout\" class=\"btn-editorial-gold\" style=\"padding: 10px 22px; font-size: 0.9rem; border-width: 2px;\">\n        GET KDP MAFIA NOW ($17)\n      </a>\n    </div>\n  </header>",
+                "_element_id": "header"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0afe27b3",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "03. HERO SECTION (GRID PAPER BACKGROUND & SIDE 3D GRAPHIC ELEMENTS - MATCHING REFERENCE SCREENSHOT)",
+        "css_classes": "kdp-section kdp-hero-section-grid-paper-background-side-3d-graphic-elements-"
+      },
+      "elements": [
+        {
+          "id": "30cd1e03",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "64bf6065",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-grid-paper text-center\" id=\"hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n\n    <!-- TOP-LEFT AMBIENT GLOW AURA (MATCHING REFERENCE SCREENSHOT) -->\n    <div class=\"hero-glow-aura-left\"></div>\n\n    <!-- FLOATING 3D GRAPHIC ELEMENTS ON BOTH SIDES (MATCHING REFERENCE SCREENSHOT) -->\n    <img src=\"/wp-content/uploads/kdp-mafia/assets/analytics_3d.png\" alt=\"3D Analytics Search Graphic\" class=\"hero-side-graphic-right\">\n    <div class=\"hero-side-graphic-left\" style=\"background: #ffffff; border: 2px solid #a5f3fc; padding: 14px; border-radius: 20px; box-shadow: 0 15px 35px rgba(2,132,199,0.2);\">\n      <div style=\"font-size: 2.2rem; margin-bottom: 4px;\">📖💡</div>\n      <div style=\"font-size: 0.78rem; font-weight: 900; color: var(--blue-cobalt);\" class=\"mono-spec\">KDP SPEC PASSED</div>\n    </div>\n\n    <div class=\"container\">\n      \n      <!-- SECTION 1: EYEBROW / PRE-HEADLINE (ROUNDED PILL BADGE MATCHING SCREENSHOT) -->\n      <div class=\"eyebrow-badge\">\n        Turn Any Single Keyword Into Real Amazon-Compliant Books Across 20+ Formats In Minutes!\n      </div>\n      \n      <!-- SECTION 2: MAIN HEADLINE WITH ORANGE HIGHLIGHT BOX (MATCHING REFINED COPYWRITING USP ANGLE) -->\n      <h1 class=\"sec-title\" style=\"font-size: 3.2rem; max-width: 1080px; margin: 0 auto 20px; line-height: 1.25;\">\n        World's First <span class=\"highlight-orange-box\">Autonomous KDP Publishing Engine</span> <br>\n        Turns Single Keywords Into <span style=\"color: var(--amber-dark);\">Real Amazon-Compliant Books Across 20+ Formats</span> <span style=\"color: #c026d3;\">Without Ever Worrying About Trim Rejections Or AI Slop Flags Again!</span>\n      </h1>\n\n      <!-- SECTION 3: DARK FORMAT PILL BAR (MATCHING REFERENCE SCREENSHOT) -->\n      <div class=\"dark-pill-bar\">\n        Create Unlimited <span style=\"color: #f97316;\">Books</span> &nbsp;•&nbsp; <span style=\"color: #f59e0b;\">Journals</span> &nbsp;•&nbsp; <span style=\"color: #ea580c;\">Planners</span>\n      </div>\n\n      <!-- SECTION 4: BRUSH STROKE BANNER (MATCHING REFERENCE SCREENSHOT) -->\n      <div style=\"margin-bottom: 35px;\">\n        <div class=\"brush-stroke-banner\">\n          & More From One Powerful Autonomous AI Dashboard\n        </div>\n      </div>\n\n      <!-- SECTION 5: SUB-HEADLINE & DECK -->\n      <p class=\"sec-desc\" style=\"font-size: 1.3rem; max-width: 950px; margin-bottom: 30px;\">\n        Research a profitable niche… generate verified puzzle interiors, coloring pages, journals, planners, workbooks AND voice-locked ebooks… design a scroll-stopping 3D cover… and get a complete KDP \"Launch Kit\" — all from ONE dashboard. Every file built to Amazon's exact specs, so it passes on the first upload.\n      </p>\n\n      <!-- SECTION 6: HERO VIDEO / VSL BLOCK -->\n      <div style=\"max-width: 880px; margin: 0 auto 35px; padding: 8px; background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%); border-radius: var(--radius-lg); box-shadow: var(--shadow-amber); position: relative; z-index: 2;\">\n        <div style=\"position: relative; width: 100%; padding-top: 56.25%; background: #0b0f19; border-radius: 20px; overflow: hidden;\" id=\"vslInner\">\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"4-Minute Demo Video\" style=\"position: absolute; top:0; left:0; width:100%; height:100%; object-fit: cover; opacity: 0.85;\">\n          <div id=\"playBtn\" style=\"position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 95px; height: 95px; background: linear-gradient(180deg, #fbbf24 0%, #d97706 100%); border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 0 0 40px rgba(245, 158, 11, 0.8); border: 4px solid #ffffff;\">\n            <div style=\"width:0; height:0; border-top: 16px solid transparent; border-bottom: 16px solid transparent; border-left: 28px solid #ffffff; margin-left: 6px;\"></div>\n          </div>\n          <div style=\"position: absolute; bottom: 18px; width: 100%; text-align: center; color: #ffffff; font-weight: 800; font-size: 1.15rem; text-shadow: 0 2px 10px rgba(0,0,0,0.9);\">\n            ▶ WATCH THE 4-MINUTE DEMO (Watch a finished book pass Amazon's KDP Print Previewer with zero errors)\n          </div>\n        </div>\n      </div>\n\n      <!-- SECTION 7: TOP CTA (ABOVE THE FOLD) -->\n      <div style=\"display: flex; flex-direction: column; align-items: center; gap: 14px;\">\n        <a href=\"#checkout\" class=\"btn-editorial-gold\">\n          👉 GET INSTANT ACCESS TO KDP MAFIA — JUST $17 TODAY\n          <span class=\"btn-caption\">YES! CLAIM MY DIME-SALE DISCOUNT • Commercial License Included</span>\n        </a>\n        <div style=\"display: flex; gap: 18px; font-size: 0.95rem; color: var(--ink-muted); font-weight: 700;\">\n          <span>✅ Commercial License</span>\n          <span>•</span>\n          <span>✅ 30-Day Money-Back Guarantee</span>\n          <span>•</span>\n          <span>✅ Instant Access</span>\n        </div>\n        <div class=\"mono-spec\" style=\"color: var(--crimson-fail); font-weight: 800; margin-top: 4px;\">\n          ⚡ Dime-sale active: the price rises with every single copy sold. This is the lowest it will ever be.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "hero-section-grid-paper-background-side-3d-graphic-elements-"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "607f8a86",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "04. SECTION 8: TRUST BAR",
+        "css_classes": "kdp-section kdp-section-8-trust-bar"
+      },
+      "elements": [
+        {
+          "id": "4d38ba59",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3eb6eb33",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"trust-bar mono-spec\" aria-label=\"Trust highlights\">\n    <div class=\"trust-bar-marquee\">\n      <div class=\"trust-bar-track\">\n        <div class=\"trust-bar-content\">\n          <span>✔️ Passes Amazon's KDP Previewer</span>\n          <span>✔️ 20+ Book Types</span>\n          <span>✔️ Verified Puzzles & Answer Keys</span>\n          <span>✔️ Full Commercial Rights</span>\n          <span>✔️ Works Worldwide</span>\n        </div>\n        <div class=\"trust-bar-content\" aria-hidden=\"true\">\n          <span>✔️ Passes Amazon's KDP Previewer</span>\n          <span>✔️ 20+ Book Types</span>\n          <span>✔️ Verified Puzzles & Answer Keys</span>\n          <span>✔️ Full Commercial Rights</span>\n          <span>✔️ Works Worldwide</span>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-8-trust-bar"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a12e4d0f",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "05. NEW STANDALONE SECTION (BEFORE UNCOMFORTABLE TRUTH): REAL KDP ROYALTY PROOF & INCOME BENEFITS WITH DEDICATED IMAGE",
+        "css_classes": "kdp-section kdp-new-standalone-section-before-uncomfortable-truth-real-kdp-r"
+      },
+      "elements": [
+        {
+          "id": "eb89cf44",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "887a49ce",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-grid-paper\" id=\"royalty-proof\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"text-center\" style=\"max-width: 960px; margin: 0 auto 40px;\">\n        <div class=\"eyebrow-badge\" style=\"background: var(--amber-bg); color: var(--amber-dark); border-color: var(--amber-border);\">\n          REAL KDP ROYALTY PROOF & PROVEN RESULTS\n        </div>\n        <h2 class=\"sec-title\">See How KDP Authors & Publishers Are Generating <span class=\"highlight-orange-box\">$4,200 to $48,000/Month</span> In Passive Amazon Royalties</h2>\n        <p class=\"sec-desc\">Zero inventory, zero shipping labor — build a catalog of compliant low-content, puzzle, and activity books that pay you every single month.</p>\n      </div>\n\n      <!-- 3 ROYALTY PROOF CARDS GRID -->\n      <div class=\"grid-3\" style=\"margin-bottom: 45px;\">\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--emerald-pass); background: #ffffff;\">\n          <div class=\"mono-spec\" style=\"font-size: 0.85rem; color: var(--ink-muted); text-transform: uppercase;\">ROYALTY REPORT #1</div>\n          <div style=\"font-family: var(--font-mono); font-size: 2.2rem; font-weight: 900; color: var(--emerald-pass); margin: 8px 0;\">$48,290.50</div>\n          <div class=\"mono-spec\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); padding: 4px 10px; border-radius: 4px; display: inline-block; font-weight: 800; font-size: 0.82rem; margin-bottom: 12px;\">\n            ▲ +310% PASSIVE GROWTH\n          </div>\n          <p style=\"font-size: 0.98rem; color: var(--ink-body);\">\"Built a catalog of 25 puzzle and activity books using KDP Mafia. Monthly royalty checks directly deposited by Amazon.\"</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--amber-dark); background: #ffffff;\">\n          <div class=\"mono-spec\" style=\"font-size: 0.85rem; color: var(--ink-muted); text-transform: uppercase;\">ROYALTY REPORT #2</div>\n          <div style=\"font-family: var(--font-mono); font-size: 2.2rem; font-weight: 900; color: var(--amber-dark); margin: 8px 0;\">$24,800.12</div>\n          <div class=\"mono-spec\" style=\"background: var(--amber-bg); color: var(--amber-dark); padding: 4px 10px; border-radius: 4px; display: inline-block; font-weight: 800; font-size: 0.82rem; margin-bottom: 12px;\">\n            ▲ +240% EVERGREEN PUZZLE SALES\n          </div>\n          <p style=\"font-size: 0.98rem; color: var(--ink-body);\">\"Published 10 Large Print Word Search & Sudoku books. Every file passed Amazon's Print Previewer check on the 1st try.\"</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--blue-cobalt); background: #ffffff;\">\n          <div class=\"mono-spec\" style=\"font-size: 0.85rem; color: var(--ink-muted); text-transform: uppercase;\">ROYALTY REPORT #3</div>\n          <div style=\"font-family: var(--font-mono); font-size: 2.2rem; font-weight: 900; color: var(--blue-cobalt); margin: 8px 0;\">$12,450.80</div>\n          <div class=\"mono-spec\" style=\"background: #ecfeff; color: var(--blue-cobalt); padding: 4px 10px; border-radius: 4px; display: inline-block; font-weight: 800; font-size: 0.82rem; margin-bottom: 12px;\">\n            ▲ +195% AGENCY CLIENT PROFITS\n          </div>\n          <p style=\"font-size: 0.98rem; color: var(--ink-body);\">\"Offered done-for-you KDP publishing services to local authors & business owners. Delivered complete book packages in hours.\"</p>\n        </div>\n      </div>\n\n      <!-- DEDICATED VISUAL & ROYALTY BENEFIT SUMMARY -->\n      <div class=\"feature-split-grid\" style=\"background: #ffffff; border: 2px solid var(--amber-border); border-radius: var(--radius-md); padding: 30px; box-shadow: var(--shadow-editorial);\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/analytics_3d.png\" alt=\"3D Real KDP Royalty Proof Dashboard\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n        <div>\n          <h3 style=\"font-size: 1.8rem; margin-bottom: 14px; color: var(--ink-deep);\">The Amazon Royalty Automation Engine</h3>\n          <p style=\"font-size: 1.1rem; line-height: 1.8; margin-bottom: 16px;\">\n            With KDP Mafia, you own a <strong>complete hands-free publishing system</strong> that transforms single keywords into real, complaint-free Amazon books.\n          </p>\n          <div style=\"display: flex; flex-direction: column; gap: 10px;\" class=\"mono-spec\">\n            <div style=\"color: var(--emerald-pass); font-weight: 800;\">🚀 ZERO INVENTORY &nbsp;|&nbsp; ⏱ BUILD ONCE &nbsp;|&nbsp; 💰 EARN PASSIVE ROYALTIES</div>\n            <div style=\"color: var(--blue-cobalt); font-weight: 800;\">🔒 Commercial License Included with $17 Purchase</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "new-standalone-section-before-uncomfortable-truth-real-kdp-r"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9d6f0f2e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "06. SECTION 9: THE UNCOMFORTABLE TRUTH",
+        "css_classes": "kdp-section kdp-section-9-the-uncomfortable-truth"
+      },
+      "elements": [
+        {
+          "id": "b72acf29",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "e642ad2a",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-truth text-center\">\n    <div class=\"overlay-layer overlay-crimson-alert\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--crimson-bg); color: var(--crimson-fail); border-color: #fca5a5;\">THE UNCOMFORTABLE TRUTH</div>\n      <h2 class=\"sec-title\">Let's start with what the other \"AI book\" tools won't tell you.</h2>\n      <div style=\"font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;\">\n        <p style=\"margin-bottom: 20px;\">\n          Right now, dozens of tools promise to spit out a complete book in \"6 minutes\" or \"60 seconds.\" Sounds amazing. Here's the problem: that speed comes from one-shot AI text that reads like exactly what it is — filler. And Amazon has noticed.\n        </p>\n        <p style=\"margin-bottom: 20px; font-weight: 800; color: var(--crimson-fail); background: #fff5f5; padding: 18px 24px; border-left: 5px solid var(--crimson-fail); border-radius: 8px;\">\n          AI-detection studies, major press (Seattle Times, Wired), and Amazon's own tightening rules are all pointing the same direction: <strong>low-quality AI books are getting flagged, rejected, refunded, and removed.</strong> The \"6-minute book\" isn't a shortcut anymore. It's a liability.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-9-the-uncomfortable-truth"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4c7004e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "07. SECTION 10: THE REAL OPPORTUNITY",
+        "css_classes": "kdp-section kdp-section-10-the-real-opportunity"
+      },
+      "elements": [
+        {
+          "id": "703f0214",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "55aba15f",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;\">THE REAL OPPORTUNITY</div>\n      <h2 class=\"sec-title\">Meanwhile, the <em>real</em> money on KDP was never in fragile AI novels anyway.</h2>\n      <div style=\"font-size: 1.2rem; color: var(--ink-body); text-align: left; line-height: 1.8;\">\n        <p style=\"margin-bottom: 20px;\">\n          It's in <strong>low-content and puzzle books</strong> — word search, sudoku, mazes, coloring books, journals, planners, trackers, workbooks. Books that sell all year, need no \"prose,\" and can't be flagged as AI slop… because they're not slop. They're <em>structure.</em>\n        </p>\n        <p style=\"font-weight: 700; color: var(--blue-cobalt);\">\n          The catch? Making them well — with correct puzzles, verified answer keys, and files that actually pass KDP — is tedious, technical work. That's the wall 97% of people hit.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-10-the-real-opportunity"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06d86344",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "08. SECTION 11: THE 5 WALLS",
+        "css_classes": "kdp-section kdp-section-11-the-5-walls"
+      },
+      "elements": [
+        {
+          "id": "a01baa9b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "99984ac6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge text-center\" style=\"display: flex; width: max-content; margin: 0 auto 20px;\">THE 5 WALLS</div>\n      <h2 class=\"sec-title text-center\">Here's what really stops people from making money on Amazon:</h2>\n\n      <div class=\"grid-3\" style=\"margin-top: 35px;\">\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">1. \"I don't know what to publish.\"</h3>\n          <p>Niche research feels like blind guessing without real data.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">2. \"I can't write or design.\"</h3>\n          <p>Writing a book and designing a pro cover feels impossible.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">3. \"KDP keeps rejecting my files.\"</h3>\n          <p>Wrong trim, margins, bleed, spine width — rejection after rejection.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">4. \"AI tools give me junk.\"</h3>\n          <p>Broken puzzles, wrong answer keys, generic slop that gets refunded.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 4px solid var(--crimson-fail);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--crimson-fail);\">5. \"I don't have time.\"</h3>\n          <p>Doing it right by hand takes weeks per book.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"background: var(--emerald-bg); border-top: 4px solid var(--emerald-pass);\">\n          <h3 style=\"font-size: 1.25rem; margin-bottom: 10px; color: var(--emerald-pass);\">The Truth:</h3>\n          <p style=\"font-weight: 700;\">None of this is your fault. You were handed the wrong tools.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-11-the-5-walls"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4e2e876a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "09. SECTION 12: THE OLD WAY (COST STACK)",
+        "css_classes": "kdp-section kdp-section-12-the-old-way-cost-stack"
+      },
+      "elements": [
+        {
+          "id": "b4c283ca",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "12caee62",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-truth text-center\">\n    <div class=\"overlay-layer overlay-crimson-alert\"></div>\n    <div class=\"container\" style=\"max-width: 850px;\">\n      <div class=\"eyebrow-badge\" style=\"background: var(--crimson-bg); color: var(--crimson-fail);\">THE OLD COSTLY WAY</div>\n      <h2 class=\"sec-title\">The \"old way\" of building a KDP catalog:</h2>\n\n      <div class=\"card-panel text-left\" style=\"background: #fff5f5; border: 2px solid #fca5a5; font-size: 1.15rem;\">\n        <p style=\"margin-bottom: 12px;\">• <strong>$47 niche course</strong> → still confused.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>$150 ghostwriter</strong>, 2 weeks per book → slow and expensive.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>$50 cover designer</strong> → endless revisions.</p>\n        <p style=\"margin-bottom: 12px;\">• <strong>Manual formatting</strong> → rejected by KDP anyway.</p>\n        <p style=\"margin-bottom: 16px;\">• <strong>Cheap AI tool</strong> → broken files and refunds.</p>\n        <div style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.25rem; border-top: 2px dashed #fca5a5; padding-top: 12px;\">\n          Hundreds of dollars and weeks of work — for one book that might get pulled.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-12-the-old-way-cost-stack"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4ea30140",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "10. SECTION 13: THE TURNING POINT",
+        "css_classes": "kdp-section kdp-section-13-the-turning-point"
+      },
+      "elements": [
+        {
+          "id": "3d7f9f64",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "4581ba3d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">THE TURNING POINT</div>\n      <h2 class=\"sec-title\">So we asked a different question.</h2>\n      <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 25px;\">\n        Not <em>\"how fast can AI spit out a book?\"</em> — everyone's racing to the bottom on that. We asked:\n      </p>\n      <div class=\"card-panel text-left\" style=\"background: #ffffff; border: 2px solid var(--amber-bright); font-size: 1.2rem; line-height: 1.8;\">\n        <p style=\"font-style: italic; font-weight: 700; color: var(--blue-cobalt); margin-bottom: 15px;\">\n          \"What if one tool could research the niche, build a REAL book across any format, design the cover, AND format it to Amazon's exact spec — verified, correct, and compliant every single time?\"\n        </p>\n        <p style=\"font-size: 1.08rem; color: var(--ink-body);\">\n          We encoded KDP's actual spec math into the engine. We built deterministic puzzle generators with mathematically-verified solutions. We tested files against Amazon's real Print Previewer until they passed with zero errors. The result is the tool we wish we'd had on day one.\n        </p>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-13-the-turning-point"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2566a69b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "11. SECTION 14: INTRODUCING KDP MAFIA",
+        "css_classes": "kdp-section kdp-section-14-introducing-kdp-mafia"
+      },
+      "elements": [
+        {
+          "id": "826627b7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "8d3358ee",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\" id=\"solution\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">THE SYSTEM IS HERE</div>\n      <h1 class=\"sec-title\" style=\"font-size: 3.2rem;\">Introducing <span class=\"highlight-amber\">KDP MAFIA</span></h1>\n      <p class=\"sec-desc\" style=\"font-size: 1.3rem;\">\n        The all-in-one AI publishing platform that turns a keyword into REAL, Amazon-compliant books — across 20+ formats — while everyone else is still selling 6-minute slop.\n      </p>\n      <div style=\"font-size: 1.3rem; font-weight: 800; color: var(--blue-cobalt); margin-bottom: 30px;\">\n        Research → Create → Package → Publish. One dashboard. One workflow.\n      </div>\n      <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"KDP Mafia Platform\" style=\"max-width: 750px; width: 100%; border-radius: 20px; box-shadow: var(--shadow-amber); position: relative; z-index: 2;\">\n    </div>\n  </section>",
+                "_element_id": "section-14-introducing-kdp-mafia"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f703b93b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "12. ROLE 1: MARKET RESEARCHER",
+        "css_classes": "kdp-section kdp-role-1-market-researcher"
+      },
+      "elements": [
+        {
+          "id": "76032a9a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c7ed113d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 01</div>\n          <h2 class=\"sec-title\">A Market Researcher</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Your dedicated research assistant that automatically scores profitable Amazon niches 0–100 with real-time customer demand and competition indicators.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--amber-dark); font-weight: 800;\">\n            ✓ Finds low-competition sub-niches · Avoids overcrowded categories\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Market Researcher Interface\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-1-market-researcher"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4f7850d2",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "13. ROLE 2: PUZZLE & ACTIVITY ENGINE",
+        "css_classes": "kdp-section kdp-role-2-puzzle-activity-engine"
+      },
+      "elements": [
+        {
+          "id": "ec09abd1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "d141da75",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Puzzle & Activity Engine Interface\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 02</div>\n          <h2 class=\"sec-title\">A Puzzle & Activity Engine</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Generates verified, print-perfect output with guaranteed correct answer keys. Sudoku, Word Search, Mazes, Crosswords, and Coloring Interiors.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ 100% Deterministic puzzles · Verified solutions · Zero error grids\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-2-puzzle-activity-engine"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0ac24b02",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "14. ROLE 3: GHOSTWRITER",
+        "css_classes": "kdp-section kdp-role-3-ghostwriter"
+      },
+      "elements": [
+        {
+          "id": "e7267de6",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "0ed65f13",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 03</div>\n          <h2 class=\"sec-title\">A Ghostwriter</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Writes structured, chaptered, voice-locked ebooks up to 50,000 words. Real prose that reads like a human expert authored it.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--blue-cobalt); font-weight: 800;\">\n            ✓ Voice-locked chapters · Structured outlines · Export EPUB, DOCX & PDF\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Ghostwriter Engine\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-3-ghostwriter"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "59e13c42",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "15. ROLE 4: COVER DESIGNER",
+        "css_classes": "kdp-section kdp-role-4-cover-designer"
+      },
+      "elements": [
+        {
+          "id": "42ae8443",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "522fbe0c",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_cover.png\" alt=\"Cover Designer Interface\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 04</div>\n          <h2 class=\"sec-title\">A Cover Designer</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Outputs commercial-grade wraparound paperback covers with exact spine width calculations and 0.125\" bleed margins.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--amber-dark); font-weight: 800;\">\n            ✓ 3D Wraparound PDFs · Genre-aware typography · Zero Photoshop required\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-4-cover-designer"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6c5eafb0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "16. ROLE 5: KDP FORMATTING EXPERT",
+        "css_classes": "kdp-section kdp-role-5-kdp-formatting-expert"
+      },
+      "elements": [
+        {
+          "id": "3f6a67e4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "932bfe40",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 05</div>\n          <h2 class=\"sec-title\">A KDP Formatting Expert</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Makes every interior and cover file pass Amazon's Print Previewer check on the very first upload with zero trim or margin errors.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ Compliant-by-construction · Gutter margin scaling · 0 Rejection guarantee\n          </div>\n        </div>\n        <div>\n          <!-- MINI SIMULATOR EMBED -->\n          <div class=\"kdp-previewer-sim\" style=\"margin:0;\">\n            <div class=\"sim-header\">\n              <span class=\"sim-badge-pass\">STATUS: ACCEPTED (0 ERRORS)</span>\n            </div>\n            <div class=\"sim-grid\">\n              <div class=\"sim-item\">\n                <div style=\"color: #94a3b8; font-size: 0.75rem;\">Trim Size</div>\n                <div style=\"color: #34d399; font-weight: 800;\">6.00\" x 9.00\" VERIFIED</div>\n              </div>\n              <div class=\"sim-item\">\n                <div style=\"color: #94a3b8; font-size: 0.75rem;\">Bleed Spec</div>\n                <div style=\"color: #34d399; font-weight: 800;\">0.125\" PASS</div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-5-kdp-formatting-expert"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e3655f1e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "17. ROLE 6: LAUNCH STRATEGIST",
+        "css_classes": "kdp-section kdp-role-6-launch-strategist"
+      },
+      "elements": [
+        {
+          "id": "acefddbb",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6ab92f5f",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Launch Strategist Package\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 06</div>\n          <h2 class=\"sec-title\">A Launch Strategist</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Hands you 7 primary + 20 long-tail keywords, secret backend categories, AI book descriptions, and metadata.json bundled in a single ZIP file.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--blue-cobalt); font-weight: 800;\">\n            ✓ Complete listing package · 1-Click ZIP download · Category domination\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-6-launch-strategist"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "635e195d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "18. SECTION 15: THE 4-STEP WORKFLOW",
+        "css_classes": "kdp-section kdp-section-15-the-4-step-workflow"
+      },
+      "elements": [
+        {
+          "id": "4cb83caa",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "22ae52bf",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-stack text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SIMPLE WORKFLOW</div>\n      <h2 class=\"sec-title\">The 4-Step KDP Mafia Workflow</h2>\n\n      <div class=\"grid-4 text-left\" style=\"margin-top: 40px;\">\n        <div class=\"card-panel\" style=\"border-top: 5px solid var(--amber-bright);\">\n          <div class=\"mono-spec\" style=\"font-size: 1.4rem; font-weight: 900; color: var(--amber-dark);\">1. RESEARCH</div>\n          <p style=\"margin-top: 10px;\">Type a topic → 20 niches scored 0–100 with recommended book types.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 5px solid var(--amber-bright);\">\n          <div class=\"mono-spec\" style=\"font-size: 1.4rem; font-weight: 900; color: var(--amber-dark);\">2. CREATE</div>\n          <p style=\"margin-top: 10px;\">Pick a format, click generate → AI builds the full interior + cover.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 5px solid var(--amber-bright);\">\n          <div class=\"mono-spec\" style=\"font-size: 1.4rem; font-weight: 900; color: var(--amber-dark);\">3. PACKAGE</div>\n          <p style=\"margin-top: 10px;\">One click → your Launch Kit (keywords, categories, description, checklist).</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"border-top: 5px solid var(--amber-bright);\">\n          <div class=\"mono-spec\" style=\"font-size: 1.4rem; font-weight: 900; color: var(--amber-dark);\">4. PUBLISH</div>\n          <p style=\"margin-top: 10px;\">Download compliant files → upload to Amazon KDP with zero errors.</p>\n        </div>\n      </div>\n      <div style=\"margin-top: 30px; font-size: 1.2rem; font-weight: 800; color: var(--emerald-pass); position: relative; z-index: 2;\">\n        No writing. No designing. No rejections.\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-15-the-4-step-workflow"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2007f99",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "19. CTA Break #1",
+        "css_classes": "kdp-section kdp-cta-break-1"
+      },
+      "elements": [
+        {
+          "id": "7ab85a38",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "10f48de1",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"cta-break\" aria-label=\"Get instant access to KDP Mafia\">\n      <div class=\"cta-break-blob cta-break-blob--left\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-blob cta-break-blob--right\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-shell\">\n        <div class=\"cta-break-inner\">\n          <div class=\"cta-break-grid\">\n            <div class=\"cta-break-copy\">\n              <h2 class=\"cta-break-title\">One Click Away From Unlimited Book Publishing</h2>\n              <p class=\"cta-break-sub\">For A Tiny 1-Time Price, No Monthly Fees, EVER!</p>\n              <a href=\"#checkout\" class=\"cta-break-btn\">\n                <span class=\"cta-break-btn-icon\"><span>→</span></span>\n                <span class=\"cta-break-btn-text\">\n                  <strong>Click here now to get started</strong>\n                  <small>Hurry Before The Price Increase</small>\n                </span>\n              </a>\n              <div class=\"cta-break-trust\">\n                <div class=\"cta-break-payments\">\n                  <span class=\"pay-badge pay-visa\">VISA</span>\n                  <span class=\"pay-badge pay-amex\">AMEX</span>\n                  <span class=\"pay-badge pay-discover\">DISCOVER</span>\n                  <span class=\"pay-badge pay-mc\">MC</span>\n                </div>\n                <div class=\"cta-break-guarantee\">\n                  <span>30 Days</span>\n                  <strong>Money Back</strong>\n                  <span>Guarantee</span>\n                </div>\n                <div class=\"cta-break-devices\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-5 18a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7 5h10v11H7V5z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 4h16v10H4V4zm0 12h7v4H4v-4zm9 0h7v4h-7v-4zM2 2v20h20V2H2z\"/></svg>\n                  <span class=\"cta-break-web-badge\">Web Based Software</span>\n                </div>\n              </div>\n            </div>\n            <div class=\"cta-break-visual\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"KDP Mafia dashboard on desktop and mobile\" class=\"cta-break-mockup\" loading=\"lazy\">\n              <div class=\"cta-break-urgency\">\n                <div class=\"cta-break-urgency-bar\">HURRY: PRICE RISES AGAIN IN...</div>\n                <div class=\"cta-countdown\">\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-days>00</span>\n                    <span class=\"cta-countdown-label\">DAYS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-hours>00</span>\n                    <span class=\"cta-countdown-label\">HOURS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-mins>00</span>\n                    <span class=\"cta-countdown-label\">MIN</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-secs>00</span>\n                    <span class=\"cta-countdown-label\">SEC</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>",
+                "_element_id": "cta-break-1"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "94f71695",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "20. SECTION 17: CORE USP MATRIX TABLE",
+        "css_classes": "kdp-section kdp-section-17-core-usp-matrix-table"
+      },
+      "elements": [
+        {
+          "id": "2fb44030",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "74137264",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">CORE COMPARISON</div>\n      <h2 class=\"sec-title\">⭐ Why This Is NOT Another \"AI Book\" Tool</h2>\n      <p class=\"sec-desc\">Read this before you buy anything else in this space.</p>\n\n      <table class=\"editorial-table\">\n        <thead>\n          <tr>\n            <th>Feature / Capability</th>\n            <th>Other \"AI Book\" Tools</th>\n            <th>KDP Mafia</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Content Quality</strong></td>\n            <td>One-shot AI text → \"slop\" Amazon flags</td>\n            <td><strong>Verified puzzles + voice-locked, chaptered ebooks</strong></td>\n          </tr>\n          <tr>\n            <td><strong>KDP Compliance</strong></td>\n            <td><em>Say</em> \"KDP-ready,\" hope it uploads</td>\n            <td><strong>Built to KDP's exact spec — passes Previewer by design</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Puzzle Validity</strong></td>\n            <td>Broken puzzles, wrong answer keys</td>\n            <td><strong>Deterministic engine, mathematically-verified solutions</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Book Variety</strong></td>\n            <td>One narrow book type</td>\n            <td><strong>20+ formats in one dashboard</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Output Delivered</strong></td>\n            <td>Just a raw text book file</td>\n            <td><strong>A book + a complete Launch Kit listing package</strong></td>\n          </tr>\n        </tbody>\n      </table>\n      <div style=\"font-size: 1.25rem; font-weight: 800; color: var(--blue-cobalt); margin-top: 20px; position: relative; z-index: 2;\">\n        This is the difference between \"made fast\" and \"made right.\" On Amazon, only one of those pays you for years.\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-17-core-usp-matrix-table"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "35b57dc6",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "21. SECTION 18 & SIGNATURE COMPONENT: COMPLIANT BY CONSTRUCTION",
+        "css_classes": "kdp-section kdp-section-18-signature-component-compliant-by-construction"
+      },
+      "elements": [
+        {
+          "id": "8230cc1c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ee8bfb0b",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">USP #1</div>\n      <h2 class=\"sec-title\">Every File Passes Amazon's Check — By Design, Not By Luck.</h2>\n      <p class=\"sec-desc\">Rejected uploads are the #1 reason beginners quit. So we encoded Amazon KDP's <strong>exact</strong> spec math into the engine:</p>\n\n      <div class=\"card-panel text-left\" style=\"background: #ffffff; font-size: 1.12rem;\">\n        <p style=\"padding: 6px 0;\">• Correct <strong>trim sizes</strong> (5×8 up to 8.5×11)</p>\n        <p style=\"padding: 6px 0;\">• Correct <strong>bleed</strong> (0.125\") for edge-to-edge art</p>\n        <p style=\"padding: 6px 0;\">• <strong>Gutter margins</strong> that scale with page count</p>\n        <p style=\"padding: 6px 0;\">• <strong>Spine width</strong> computed from your page count + paper stock</p>\n        <p style=\"padding: 6px 0;\">• Auto-padded to KDP's <strong>24-page minimum</strong></p>\n      </div>\n\n      <!-- KDP PRINT PREVIEWER SIMULATOR -->\n      <div class=\"kdp-previewer-sim\">\n        <div class=\"sim-header\">\n          <div style=\"display: flex; align-items: center; gap: 10px;\">\n            <span style=\"width: 12px; height: 12px; background: #ef4444; border-radius: 50%;\"></span>\n            <span style=\"width: 12px; height: 12px; background: #f59e0b; border-radius: 50%;\"></span>\n            <span style=\"width: 12px; height: 12px; background: #10b981; border-radius: 50%;\"></span>\n            <span style=\"font-weight: 800; color: #f8fafc; font-size: 0.92rem; margin-left: 10px;\">AMAZON KDP PRINT PREVIEWER — SPEC ENGINE STATUS</span>\n          </div>\n          <div class=\"sim-badge-pass\">STATUS: ACCEPTED (0 ERRORS)</div>\n        </div>\n\n        <div class=\"sim-grid\">\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Trim Dimensions</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">6.00\" x 9.00\" VERIFIED</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Bleed Calculation</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">0.125\" PASS</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Gutter Margin</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">SCALED TO PAGE COUNT</div>\n          </div>\n          <div class=\"sim-item\">\n            <div style=\"color: #94a3b8; font-size: 0.78rem; text-transform: uppercase;\">Spine Width Spec</div>\n            <div style=\"color: #34d399; font-weight: 800; font-size: 0.95rem;\">PAPER STOCK MATCHED</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-18-signature-component-compliant-by-construction"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "98b6c8a0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "22. SECTION 18b: USP #2 - REAL CONTENT, NOT SLOP",
+        "css_classes": "kdp-section kdp-section-18b-usp-2-real-content-not-slop"
+      },
+      "elements": [
+        {
+          "id": "34fc08ed",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a56b791c",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">USP #2</div>\n      <h2 class=\"sec-title\">Verified, Deterministic, Refund-Proof Quality.</h2>\n      <div class=\"card-panel text-left\" style=\"font-size: 1.15rem; line-height: 1.8;\">\n        <p style=\"margin-bottom: 14px;\">• <strong>Puzzle books</strong> are built by deterministic algorithms — Sudoku with a single guaranteed solution, mazes with a verified solved path, and <strong>correct answer keys</strong> every time.</p>\n        <p style=\"margin-bottom: 14px;\">• <strong>Ebooks</strong> are written chapter-by-chapter with a locked voice — structured, coherent, not one-shot filler.</p>\n        <p style=\"margin-bottom: 14px;\">• <strong>Story books</strong> hold a consistent character on every page (the hardest problem in AI illustration — solved).</p>\n        <div style=\"font-weight: 800; color: var(--blue-cobalt);\">\n          This is content built to survive Amazon's quality bar and keep your reviews clean.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-18b-usp-2-real-content-not-slop"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a7f48329",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "23. SECTION 19: USP #3 - 20+ BOOK TYPES",
+        "css_classes": "kdp-section kdp-section-19-usp-3-20-book-types"
+      },
+      "elements": [
+        {
+          "id": "af3c737f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "22c4535d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">USP #3</div>\n      <h2 class=\"sec-title\">20+ Book Types in One Single Tool</h2>\n      <p class=\"sec-desc\">Stop buying a new $17 app every time you want a different book type. It's all here:</p>\n\n      <div class=\"grid-3 text-left\">\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">🧩 Puzzle Books</h3>\n          <p>Word Search · Sudoku · Maze · Crossword · Word Scramble · Cryptogram · Connect the Dots</p>\n        </div>\n\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">🎨 Kids & Learning</h3>\n          <p>Coloring · Activity · Tracing · Math Workbooks · Illustrated Story Books</p>\n        </div>\n\n        <div class=\"card-panel\">\n          <h3 style=\"color: var(--amber-dark); font-size: 1.3rem; margin-bottom: 10px;\">📖 Low-Content & Ebooks</h3>\n          <p>Journals · Planners · Trackers · Log Books · Full Non-Fiction & Fiction Ebooks</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-19-usp-3-20-book-types"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eac8a4ca",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "24. CTA Break #2",
+        "css_classes": "kdp-section kdp-cta-break-2"
+      },
+      "elements": [
+        {
+          "id": "f064a5a4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "250b49b7",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"cta-break\" aria-label=\"Get instant access to KDP Mafia\">\n      <div class=\"cta-break-blob cta-break-blob--left\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-blob cta-break-blob--right\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-shell\">\n        <div class=\"cta-break-inner\">\n          <div class=\"cta-break-grid\">\n            <div class=\"cta-break-copy\">\n              <h2 class=\"cta-break-title\">One Click Away From Unlimited Book Publishing</h2>\n              <p class=\"cta-break-sub\">For A Tiny 1-Time Price, No Monthly Fees, EVER!</p>\n              <a href=\"#checkout\" class=\"cta-break-btn\">\n                <span class=\"cta-break-btn-icon\"><span>→</span></span>\n                <span class=\"cta-break-btn-text\">\n                  <strong>Click here now to get started</strong>\n                  <small>Hurry Before The Price Increase</small>\n                </span>\n              </a>\n              <div class=\"cta-break-trust\">\n                <div class=\"cta-break-payments\">\n                  <span class=\"pay-badge pay-visa\">VISA</span>\n                  <span class=\"pay-badge pay-amex\">AMEX</span>\n                  <span class=\"pay-badge pay-discover\">DISCOVER</span>\n                  <span class=\"pay-badge pay-mc\">MC</span>\n                </div>\n                <div class=\"cta-break-guarantee\">\n                  <span>30 Days</span>\n                  <strong>Money Back</strong>\n                  <span>Guarantee</span>\n                </div>\n                <div class=\"cta-break-devices\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-5 18a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7 5h10v11H7V5z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 4h16v10H4V4zm0 12h7v4H4v-4zm9 0h7v4h-7v-4zM2 2v20h20V2H2z\"/></svg>\n                  <span class=\"cta-break-web-badge\">Web Based Software</span>\n                </div>\n              </div>\n            </div>\n            <div class=\"cta-break-visual\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"KDP Mafia dashboard on desktop and mobile\" class=\"cta-break-mockup\" loading=\"lazy\">\n              <div class=\"cta-break-urgency\">\n                <div class=\"cta-break-urgency-bar\">HURRY: PRICE RISES AGAIN IN...</div>\n                <div class=\"cta-countdown\">\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-days>00</span>\n                    <span class=\"cta-countdown-label\">DAYS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-hours>00</span>\n                    <span class=\"cta-countdown-label\">HOURS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-mins>00</span>\n                    <span class=\"cta-countdown-label\">MIN</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-secs>00</span>\n                    <span class=\"cta-countdown-label\">SEC</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>",
+                "_element_id": "cta-break-2"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "df4d6723",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "25. SECTION 20: MARKET INTELLIGENCE",
+        "css_classes": "kdp-section kdp-section-20-market-intelligence"
+      },
+      "elements": [
+        {
+          "id": "dc492723",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3195a9b4",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 20: MARKET INTELLIGENCE™</div>\n          <h2 class=\"sec-title\">Publish What Sells — Backed by Real Amazon Data</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Type any topic → get <strong>20 scored niche ideas</strong>, each rated on demand, competition, evergreen potential, and monetization with a single <strong>Opportunity Score (0–100)</strong>, seasonality notes, and recommended book types.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--amber-dark); font-weight: 800;\">\n            ✓ Save niche reports · Export to PDF · 1-Click Generate from any scored topic\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Market Intelligence Software Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-20-market-intelligence"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f3b7be52",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "26. SECTION 21: TITLE OPTIMIZER",
+        "css_classes": "kdp-section kdp-section-21-title-optimizer"
+      },
+      "elements": [
+        {
+          "id": "d2ecd121",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "816cb40e",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Title Optimizer Preview\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 21: TITLE OPTIMIZER</div>\n          <h2 class=\"sec-title\">The Right Title Can Triple Your Clicks</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Enter a working title → <strong>12 conversion-optimized variations</strong>, each scored on clarity, keyword strength, emotion, and click-appeal, ranked best-first. On Amazon, your title is your primary ad.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--blue-cobalt); font-weight: 800;\">\n            ✓ Ranked best-first · High CTR algorithm · Keyword injection\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-21-title-optimizer"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "46652d82",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "27. SECTION 22: THE PUZZLE SUITE",
+        "css_classes": "kdp-section kdp-section-22-the-puzzle-suite"
+      },
+      "elements": [
+        {
+          "id": "06cd12fd",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ecc52a59",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 22: THE PUZZLE SUITE</div>\n          <h2 class=\"sec-title\">The #1 Low-Content Category — Done Right</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Word Search, Sudoku, Maze, Crossword, Scramble, Cryptogram, and Connect-the-Dots — every puzzle deterministic, every solution verified, <strong>answer keys included</strong>, large-print editions available, difficulty scaling built in.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--emerald-pass); font-weight: 800;\">\n            ✓ No broken grids · No missing answers · Print-ready PDF output\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Printable Puzzle Interior Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-22-the-puzzle-suite"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d1857ac0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "28. SECTION 23: KIDS & LEARNING",
+        "css_classes": "kdp-section kdp-section-23-kids-learning"
+      },
+      "elements": [
+        {
+          "id": "fdd6dcf1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f31f0b0d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Kids Coloring Book Interior\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 23: KIDS & LEARNING</div>\n          <h2 class=\"sec-title\">The Evergreen \"Parents Always Buy\" Market</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            • <strong>Coloring Books</strong> — clean AI line-art, full-bleed pages, age groups + styles.<br>\n            • <strong>Tracing Workbooks</strong> — letters, numbers, words on proper guide lines.<br>\n            • <strong>Math Workbooks</strong> — drills with answer keys.<br>\n            • <strong>Story Books</strong> — illustrated, character-consistent picture books (ages 3–12).\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-23-kids-learning"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8428cc5",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "29. SECTION 24: JOURNALS, PLANNERS & LOGS",
+        "css_classes": "kdp-section kdp-section-24-journals-planners-logs"
+      },
+      "elements": [
+        {
+          "id": "96fbde83",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5c9a6789",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 24: JOURNALS, PLANNERS & LOGS</div>\n          <h2 class=\"sec-title\">The Highest-Margin Category — 14 Ready Layouts</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Lined Notebook · Dot-Grid Journal · Graph Notebook · Sketchbook · Daily/Weekly/Monthly Planners · Habit Tracker · Gratitude Journal · Budget Planner · Password Log · Workout Log · Health Log · Blank Recipe Book. Pick, generate, sell.\n          </p>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Planners & Journals Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-24-journals-planners-logs"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9d871b56",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "30. SECTION 25: EBOOK CREATOR",
+        "css_classes": "kdp-section kdp-section-25-ebook-creator"
+      },
+      "elements": [
+        {
+          "id": "4d0514f5",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "0fc20dce",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Ebook Creator Manuscript Editor\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 25: EBOOK CREATOR</div>\n          <h2 class=\"sec-title\">A Complete, Chaptered Book — Voice-Locked</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Give it a topic → outline → full manuscript written chapter-by-chapter with a consistent voice (3–30 chapters, up to 50,000 words) → typographic cover → metadata. Export as <strong>EPUB, DOCX, and print-ready PDF.</strong>\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-25-ebook-creator"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "174e303b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "31. SECTION 26: COVER STUDIO",
+        "css_classes": "kdp-section kdp-section-26-cover-studio"
+      },
+      "elements": [
+        {
+          "id": "8b542d64",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "2bb779da",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 26: COVER STUDIO</div>\n          <h2 class=\"sec-title\">Covers That Look Like a $200 Designer Made Them</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            <strong>3 distinct, professionally-scored cover concepts</strong> per book — AI art + genre-aware typography — regenerate any concept, export a KDP-ready wraparound PDF (correct spine + bleed) or PNG. No Photoshop required.\n          </p>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_cover.png\" alt=\"3D Wraparound Cover Mockup\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-26-cover-studio"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0f3e906c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "32. SECTION 27: LAUNCH KIT",
+        "css_classes": "kdp-section kdp-section-27-launch-kit"
+      },
+      "elements": [
+        {
+          "id": "01451899",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "59382ce6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Launch Kit ZIP Package\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 27: LAUNCH KIT™</div>\n          <h2 class=\"sec-title\">Everything Amazon Asks For — Generated and Zipped</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Per book: <strong>7 primary + 20 long-tail keywords</strong>, category recommendations, an AI-written description, alternative titles, a <code>metadata.json</code>, and a publish checklist — bundled with your interior + cover.\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-27-launch-kit"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ecd93e9",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "33. SECTION 28: BACKGROUND PRODUCTION",
+        "css_classes": "kdp-section kdp-section-28-background-production"
+      },
+      "elements": [
+        {
+          "id": "73e71846",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "aacb9d86",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 28: BACKGROUND PRODUCTION</div>\n          <h2 class=\"sec-title\">Start a Book. Close Your Laptop. Come Back to a Finished File.</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            Generation runs as a background job — leave, refresh, even log out, and it keeps building. The Production Queue shows live progress and one-click retry. Publishing that fits your life.\n          </p>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Background Job Queue Tracker\" class=\"feature-img-frame\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-28-background-production"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b80d847e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "34. SECTION 29: THE VAULTS",
+        "css_classes": "kdp-section kdp-section-29-the-vaults"
+      },
+      "elements": [
+        {
+          "id": "07d33bb7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a61a43c6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Publishing & Asset Vaults\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 29: THE VAULTS™</div>\n          <h2 class=\"sec-title\">Your Whole Catalog, Organized and Always Available</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            <strong>Publishing Vault™</strong> holds every book you create; <strong>Asset Vault</strong> holds every generated file. Build a catalog, come back anytime, nothing lost.\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-29-the-vaults"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29fc961b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "35. SECTION 30: LIVE DEMO WALKTHROUGH",
+        "css_classes": "kdp-section kdp-section-30-live-demo-walkthrough"
+      },
+      "elements": [
+        {
+          "id": "d878be0b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ff0e5267",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-stack text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"eyebrow-badge\">SECTION 30</div>\n      <h2 class=\"sec-title\">Live Demo Walkthrough Example</h2>\n      \n      <div class=\"card-panel text-left\" style=\"background: #ffffff; font-size: 1.15rem; line-height: 1.8;\">\n        <p style=\"padding: 6px 0;\">1. <strong>\"Dinosaurs for kids\"</strong> → Market Intelligence™ → 20 scored niches.</p>\n        <p style=\"padding: 6px 0;\">2. Pick <strong>Word Search</strong>, 40 puzzles, medium difficulty → Generate (runs in background).</p>\n        <p style=\"padding: 6px 0;\">3. <strong>Cover Studio</strong> → 3 concepts → pick your favorite.</p>\n        <p style=\"padding: 6px 0;\">4. <strong>Launch Kit</strong> → keywords, categories, description, checklist → zipped.</p>\n        <p style=\"padding: 6px 0;\">5. Download → upload to KDP → <strong>it passes the Print Previewer.</strong></p>\n        <div style=\"margin-top: 15px; font-weight: 800; color: var(--amber-dark);\" class=\"mono-spec\">\n          Hands-on time: Under 5 minutes.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-30-live-demo-walkthrough"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5b799779",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "36. SECTION 31 & 32: WHO THIS IS FOR / NOT FOR",
+        "css_classes": "kdp-section kdp-section-31-32-who-this-is-for-not-for"
+      },
+      "elements": [
+        {
+          "id": "10fe33cb",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f293fdab",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"grid-2 text-left\">\n        <div class=\"card-panel\" style=\"background: var(--emerald-bg); border: 2px solid #86efac;\">\n          <h3 style=\"color: #166534; font-size: 1.4rem; margin-bottom: 15px;\">SECTION 31: ✅ Who This Is FOR</h3>\n          <p style=\"padding: 6px 0;\">• Complete beginners who've never published.</p>\n          <p style=\"padding: 6px 0;\">• Publishers stuck at a handful of books.</p>\n          <p style=\"padding: 6px 0;\">• Busy people who want passive income without a 2nd job.</p>\n          <p style=\"padding: 6px 0;\">• Freelancers & agencies selling books as a service.</p>\n          <p style=\"padding: 6px 0;\">• Anyone burned by cheap AI tools that produced junk.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"background: var(--crimson-bg); border: 2px solid #fca5a5;\">\n          <h3 style=\"color: var(--crimson-fail); font-size: 1.4rem; margin-bottom: 15px;\">SECTION 32: ❌ Who This Is NOT FOR</h3>\n          <p style=\"padding: 6px 0;\">• People chasing a \"get rich by Friday\" fantasy.</p>\n          <p style=\"padding: 6px 0;\">• Anyone unwilling to click \"publish\" on Amazon (we automate creation; you upload).</p>\n          <p style=\"padding: 6px 0;\">• People who want to flood Amazon with low-quality slop — this tool builds real books.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-31-32-who-this-is-for-not-for"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "571c43c1",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "37. SECTION 33: FEATURES TO BENEFITS TABLE",
+        "css_classes": "kdp-section kdp-section-33-features-to-benefits-table"
+      },
+      "elements": [
+        {
+          "id": "bb0f3e6d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b8e0312d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 33</div>\n      <h2 class=\"sec-title\">Features → Benefits Matrix</h2>\n\n      <table class=\"editorial-table\">\n        <thead>\n          <tr>\n            <th>What You Get</th>\n            <th>What It Means For You</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Compliant-by-construction engine</strong></td>\n            <td>No more rejected uploads or margin/trim errors</td>\n          </tr>\n          <tr>\n            <td><strong>Verified puzzles + voice-locked ebooks</strong></td>\n            <td>No refunds for \"AI junk\"</td>\n          </tr>\n          <tr>\n            <td><strong>20+ book types</strong></td>\n            <td>An entire product catalog from one single tool</td>\n          </tr>\n          <tr>\n            <td><strong>Market Intelligence™</strong></td>\n            <td>Publish what actually sells backed by data</td>\n          </tr>\n          <tr>\n            <td><strong>Cover Studio</strong></td>\n            <td>Pro covers with zero design skills needed</td>\n          </tr>\n          <tr>\n            <td><strong>Launch Kit™</strong></td>\n            <td>Perfect Amazon listings in a single click</td>\n          </tr>\n          <tr>\n            <td><strong>Background jobs & Autopilot</strong></td>\n            <td>Create books while you live your life</td>\n          </tr>\n          <tr>\n            <td><strong>Commercial license</strong></td>\n            <td>Keep 100% of what you earn</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>",
+                "_element_id": "section-33-features-to-benefits-table"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6cbcfedf",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "38. PROFIT ANGLE 1 (STANDALONE SECTION): PASSIVE ROYALTY CATALOG ENGINE",
+        "css_classes": "kdp-section kdp-profit-angle-1-standalone-section-passive-royalty-catalog-en"
+      },
+      "elements": [
+        {
+          "id": "45aaf15a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "72aee0aa",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"profit-angle-1\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 01: ROYALTY CATALOG</div>\n          <h2 class=\"sec-title\">Build A Passive Amazon Royalty Empire</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Publish a catalog of evergreen low-content & puzzle books that generate passive monthly royalties year after year — without spending a single dollar on inventory or shipping.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ ROYALTY ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Work once to create the book file. Amazon prints and fulfills orders on demand, depositing royalties straight into your bank account.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Passive Royalty Catalog Engine\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-1-standalone-section-passive-royalty-catalog-en"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "79b15e38",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "39. PROFIT ANGLE 2 (STANDALONE SECTION): DONE-FOR-YOU CLIENT BOOK AGENCY",
+        "css_classes": "kdp-section kdp-profit-angle-2-standalone-section-done-for-you-client-book-a"
+      },
+      "elements": [
+        {
+          "id": "23cf2f7a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b8ec64c9",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\" id=\"profit-angle-2\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Done-For-You Client Book Agency\" class=\"feature-img-frame\" style=\"border-color: var(--blue-cobalt);\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 02: CLIENT AGENCY</div>\n          <h2 class=\"sec-title\">Charge Clients $500–$2,000 Per Custom Book</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Commercial License included — offer done-for-you publishing packages to coaches, local business owners, and influencers while KDP Mafia handles 95% of the labor.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--blue-cobalt);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--blue-cobalt);\" class=\"mono-spec\">⚡ COMMERCIAL AGENCY ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Deliver complete paperback layout files, wraparound covers, and Amazon listings in under 24 hours while keeping 100% client profit.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-2-standalone-section-done-for-you-client-book-a"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c2f06da2",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "40. PROFIT ANGLE 3 (STANDALONE SECTION): SEASONAL LINES & SURGES",
+        "css_classes": "kdp-section kdp-profit-angle-3-standalone-section-seasonal-lines-surges"
+      },
+      "elements": [
+        {
+          "id": "eb114bc0",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "5f4d44fe",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\" id=\"profit-angle-3\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 03: SEASONAL SURGES</div>\n          <h2 class=\"sec-title\">Capitalize On Q4 Holiday & Back-To-School Surges</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Publish seasonal Christmas activity books, Halloween coloring sets, back-to-school workbooks, and summer puzzle editions right before peak purchasing waves hit.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ SURGE ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Q4 holiday shoppers buy multiple copies as stocking stuffers and gifts, creating massive 3x-5x royalty spikes every November and December.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Seasonal Surges Puzzle Interior\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-3-standalone-section-seasonal-lines-surges"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec033953",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "41. PROFIT ANGLE 4 (STANDALONE SECTION): FREELANCE SERVICE AUTOMATION",
+        "css_classes": "kdp-section kdp-profit-angle-4-standalone-section-freelance-service-automati"
+      },
+      "elements": [
+        {
+          "id": "7be0d847",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "7b804f83",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"profit-angle-4\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_cover.png\" alt=\"Freelance Service Automation\" class=\"feature-img-frame\" style=\"border-color: var(--emerald-pass);\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;\">PROFIT ANGLE 04: FREELANCE GIGS</div>\n          <h2 class=\"sec-title\">Automate Fiverr & Upwork Book Layout Services</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            List book cover design, PDF interior formatting, or puzzle creation gigs on Fiverr and Upwork. Fulfill incoming orders in minutes using KDP Mafia's background engines.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--emerald-pass);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--emerald-pass);\" class=\"mono-spec\">⚡ FREELANCE AUTOMATION:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Zero manual formatting or design software needed. Simply input the client's specs and download print-ready PDF files instantly.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-4-standalone-section-freelance-service-automati"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fda9e16c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "42. PROFIT ANGLE 5 (STANDALONE SECTION): MULTI-BOOK BOXED SETS & BUNDLES",
+        "css_classes": "kdp-section kdp-profit-angle-5-standalone-section-multi-book-boxed-sets-bund"
+      },
+      "elements": [
+        {
+          "id": "93198691",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f4e8454d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\" id=\"profit-angle-5\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">PROFIT ANGLE 05: BOXED BUNDLES</div>\n          <h2 class=\"sec-title\">Package Multi-Book Boxed Sets At Higher Margins</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Bundle 3 to 5 related puzzle or activity volumes into high-value 300+ page compilation editions priced at $29 to $49 for premium royalty margins per sale.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ BOXED SET ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Higher price points deliver larger per-unit profit margins while giving Amazon buyers unbeatable bulk value.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Multi-Book Boxed Sets Bundle\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "profit-angle-5-standalone-section-multi-book-boxed-sets-bund"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2921814a",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "43. SECTION 35: MASTER COMPARISON TABLE",
+        "css_classes": "kdp-section kdp-section-35-master-comparison-table"
+      },
+      "elements": [
+        {
+          "id": "dade7b9e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3fc530f6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 35</div>\n      <h2 class=\"sec-title\">Full Comparison Matrix</h2>\n\n      <table class=\"editorial-table\">\n        <thead>\n          <tr>\n            <th>Feature</th>\n            <th>Freelancers</th>\n            <th>Cheap \"6-Min AI\" Tools</th>\n            <th>KDP Mafia</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Niche Research</strong></td>\n            <td>❌ None</td>\n            <td>⚠️ Basic</td>\n            <td><strong>✅ Scored 0–100 with Opportunity Index</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Content Quality</strong></td>\n            <td>✅ Good but $$$</td>\n            <td>❌ Slop / High Refunds</td>\n            <td><strong>✅ Verified & Voice-Locked</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Book Types Supported</strong></td>\n            <td>Any (very slow)</td>\n            <td>⚠️ Usually just 1</td>\n            <td><strong>✅ 20+ Formats in 1 App</strong></td>\n          </tr>\n          <tr>\n            <td><strong>KDP Compliance</strong></td>\n            <td>❌ Frequent Rejections</td>\n            <td>❌ Hope & Pray</td>\n            <td><strong>✅ Compliant by Construction</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Listing Package</strong></td>\n            <td>❌ None</td>\n            <td>❌ None</td>\n            <td><strong>✅ Full Launch Kit™ Included</strong></td>\n          </tr>\n          <tr>\n            <td><strong>Total Cost</strong></td>\n            <td>💸💸💸 Hundreds</td>\n            <td>💸 Monthly Subscriptions</td>\n            <td><strong>✅ One-Time $17 Launch Price</strong></td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>",
+                "_element_id": "section-35-master-comparison-table"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1b048bae",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "44. SECTION 36: TESTIMONIALS & PROOF",
+        "css_classes": "kdp-section kdp-section-36-testimonials-proof"
+      },
+      "elements": [
+        {
+          "id": "9bbb0a70",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a88cfdee",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features text-center\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 36</div>\n      <h2 class=\"sec-title\">Proof & Publisher Feedback</h2>\n\n      <div class=\"grid-3 text-left\" style=\"margin-top: 35px;\">\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"Passed KDP on the first try — I'd failed 4 times with another tool.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Publisher</div>\n        </div>\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"The cover generator alone doubled my click-through rate on mobile.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Publisher</div>\n        </div>\n        <div class=\"card-panel\">\n          <div style=\"color: var(--amber-bright); font-size: 1.2rem; margin-bottom: 10px;\">★★★★★</div>\n          <p style=\"font-style: italic;\">\"I create books for 3 clients a month now with the commercial license.\"</p>\n          <div style=\"font-weight: 800; margin-top: 15px; color: var(--blue-cobalt);\">- Verified Agency</div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-36-testimonials-proof"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9898292c",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "45. SECTION 37: WHY NOW",
+        "css_classes": "kdp-section kdp-section-37-why-now"
+      },
+      "elements": [
+        {
+          "id": "5f2972a4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "52ba1fcc",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"eyebrow-badge\">SECTION 37</div>\n      <h2 class=\"sec-title\">The window is open — and the slop is clearing it for you.</h2>\n      <p style=\"font-size: 1.2rem; color: var(--ink-body); line-height: 1.8;\">\n        As Amazon flags low-quality AI books, sellers pushing junk are getting squeezed out — leaving more room for people publishing <em>real</em>, compliant books. Early movers who build clean catalogs now earn royalties for years. Waiting means competing with everyone who read this first.\n      </p>\n    </div>\n  </section>",
+                "_element_id": "section-37-why-now"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "db9befef",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "46. OBJECTION KILLER 1 (SECTION 38 STANDALONE): I'M NOT TECHNICAL",
+        "css_classes": "kdp-section kdp-objection-killer-1-section-38-standalone-i-m-not-technical"
+      },
+      "elements": [
+        {
+          "id": "de192b7d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "ac5a7ade",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"sec-38-technical\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 38: OBJECTION KILLER #1</div>\n          <h2 class=\"sec-title\">\"What If I'm Not Technical At All?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            If you can type a keyword into Google and click a button, you can run KDP Mafia. It's a 100% cloud-based web application with zero software to install.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--blue-cobalt);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--blue-cobalt);\" class=\"mono-spec\">⚡ ZERO TECHNICAL FRICTION:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Simply log in from any browser (Mac, PC, or mobile), type your idea, and click generate. The platform handles all code and math behind the scenes.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Intuitive Dashboard Interface\" class=\"feature-img-frame\" style=\"border-color: var(--blue-cobalt);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-1-section-38-standalone-i-m-not-technical"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fcfb86d4",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "47. OBJECTION KILLER 2 (SECTION 39 STANDALONE): I CAN'T WRITE OR DRAW",
+        "css_classes": "kdp-section kdp-objection-killer-2-section-39-standalone-i-can-t-write-or-dr"
+      },
+      "elements": [
+        {
+          "id": "0f3c9fef",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c1eee42f",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features\" id=\"sec-39-creative\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_cover.png\" alt=\"AI Writing & Design Engine\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 39: OBJECTION KILLER #2</div>\n          <h2 class=\"sec-title\">\"What If I Can't Write Or Draw?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            That is precisely why KDP Mafia was built. The AI engine writes the prose, draws the line-art interiors, calculates the spine, and designs 3D wraparound covers.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ CREATIVE AUTOPILOT:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">You act as the creative director making high-level topic decisions, while KDP Mafia handles 100% of the manual artistic labor.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-2-section-39-standalone-i-can-t-write-or-dr"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "36180f69",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "48. OBJECTION KILLER 3 (SECTION 40 STANDALONE): WON'T AMAZON FLAG AI BOOKS?",
+        "css_classes": "kdp-section kdp-objection-killer-3-section-40-standalone-won-t-amazon-flag-a"
+      },
+      "elements": [
+        {
+          "id": "b1c35d1e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f9a5da78",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"sec-40-ai-flag\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;\">SECTION 40: OBJECTION KILLER #3</div>\n          <h2 class=\"sec-title\">\"Won't Amazon Flag Or Remove AI Books?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Amazon flags low-quality, one-shot AI <em>slop</em>. Puzzle and low-content books are verified mathematical structures. Our ebooks are voice-locked and chaptered.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--emerald-pass);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--emerald-pass);\" class=\"mono-spec\">⚡ REFUND-PROOF QUALITY:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Our deterministic engines build real puzzle grids with guaranteed correct answer keys that survive Amazon's strict compliance standards.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Verified Deterministic Structure\" class=\"feature-img-frame\" style=\"border-color: var(--emerald-pass);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-3-section-40-standalone-won-t-amazon-flag-a"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8758397d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "49. OBJECTION KILLER 4 (SECTION 41 STANDALONE): WILL MY FILES BE ACCEPTED?",
+        "css_classes": "kdp-section kdp-objection-killer-4-section-41-standalone-will-my-files-be-ac"
+      },
+      "elements": [
+        {
+          "id": "9f79ea98",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "2fa4eadc",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\" id=\"sec-41-accepted\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Print Previewer Verified Status\" class=\"feature-img-frame\" style=\"border-color: var(--amber-dark);\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 41: OBJECTION KILLER #4</div>\n          <h2 class=\"sec-title\">\"Will My Files Actually Be Accepted By KDP?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Yes. Every interior and cover file is built to KDP's published specs using our compliant-by-construction math engine.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--amber-dark);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--amber-dark);\" class=\"mono-spec\">⚡ ZERO REJECTION GUARANTEE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Spine width, bleed math (0.125\"), and gutter scaling are hardcoded to match Amazon's real Print Previewer checks with 0 errors.</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-4-section-41-standalone-will-my-files-be-ac"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8ab8ff3f",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "50. OBJECTION KILLER 5 (SECTION 42 STANDALONE): ISN'T KDP SATURATED?",
+        "css_classes": "kdp-section kdp-objection-killer-5-section-42-standalone-isn-t-kdp-saturated"
+      },
+      "elements": [
+        {
+          "id": "9f6242e7",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "c41d23b4",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"sec-42-saturated\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 42: OBJECTION KILLER #5</div>\n          <h2 class=\"sec-title\">\"Isn't Amazon KDP Too Saturated Now?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Generic keywords get crowded — which is exactly why Market Intelligence™ scores competition and points you directly to low-competition sub-niches with high buyer demand.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--blue-cobalt);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--blue-cobalt);\" class=\"mono-spec\">⚡ MARKET INTELLIGENCE ADVANTAGE:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Saturation punishes blind guessers and rewards publishers armed with real-time Opportunity Scores (0–100).</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Market Intelligence 0-100 Scoring\" class=\"feature-img-frame\" style=\"border-color: var(--blue-cobalt);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-5-section-42-standalone-isn-t-kdp-saturated"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30109b37",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "51. SECTION 44 (INDIVIDUALIZED): 5 FAST ACTION BONUSES WITH 3D BOX MOCKUP DISPLAYS",
+        "css_classes": "kdp-section kdp-section-44-individualized-5-fast-action-bonuses-with-3d-box-"
+      },
+      "elements": [
+        {
+          "id": "657cbd24",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "9fc48f58",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-features text-center\" id=\"bonuses\">\n    <div class=\"overlay-layer overlay-slate-cool\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 44: FAST-ACTION BONUSES</div>\n      <h2 class=\"sec-title\">5 Fast-Action PDF Bonuses Included Free Today</h2>\n      <p class=\"sec-desc\">Total Bonus Value: <strong>$1,330</strong> — yours 100% FREE when you claim your KDP Mafia account during this launch.</p>\n\n      <!-- BONUS 1 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->\n      <div class=\"card-panel text-left\" style=\"margin-top: 35px; margin-bottom: 30px; border: 2px solid var(--amber-border); background: #ffffff;\">\n        <div class=\"feature-split-grid\">\n          <div style=\"text-align: center;\">\n            <div style=\"background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Bonus #1 3D Box Mockup\" style=\"max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);\">\n              <div class=\"mono-spec\" style=\"background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;\">\n                3D QUICKSTART SUITE\n              </div>\n            </div>\n          </div>\n          <div>\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">\n              <span class=\"mono-spec\" style=\"background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid var(--amber-border);\">BONUS #1</span>\n              <span class=\"mono-spec\" style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;\">VALUE: $47</span>\n            </div>\n            <h3 style=\"font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;\">\"First $100 on KDP\" Quickstart Guide</h3>\n            <p style=\"font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;\">\n              The exact step-by-step launch path to go from zero to your very first royalty paycheck on Amazon KDP in under 7 days.\n            </p>\n            <div style=\"font-weight: 700; color: var(--blue-cobalt);\" class=\"mono-spec\">\n              ✅ Step-by-Step Royalty Roadmap &nbsp;•&nbsp; ✅ First-Sale Checklist\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- BONUS 2 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->\n      <div class=\"card-panel text-left\" style=\"margin-bottom: 30px; border: 2px solid #a5f3fc; background: #ffffff;\">\n        <div class=\"feature-split-grid\">\n          <div>\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">\n              <span class=\"mono-spec\" style=\"background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #a5f3fc;\">BONUS #2</span>\n              <span class=\"mono-spec\" style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;\">VALUE: $37</span>\n            </div>\n            <h3 style=\"font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;\">50 Proven Evergreen Niches Cheat-Sheet</h3>\n            <p style=\"font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;\">\n              Pre-researched, high-demand sub-niches with low competition scores ready for instant book generation today.\n            </p>\n            <div style=\"font-weight: 700; color: var(--amber-dark);\" class=\"mono-spec\">\n              ✅ Pre-Scored Niches &nbsp;•&nbsp; ✅ Year-Round Sales Categories\n            </div>\n          </div>\n          <div style=\"text-align: center;\">\n            <div style=\"background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_market.png\" alt=\"Bonus #2 3D Box Mockup\" style=\"max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);\">\n              <div class=\"mono-spec\" style=\"background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;\">\n                3D NICHE CHEAT-SHEET\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- BONUS 3 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->\n      <div class=\"card-panel text-left\" style=\"margin-bottom: 30px; border: 2px solid #6ee7b7; background: #ffffff;\">\n        <div class=\"feature-split-grid\">\n          <div style=\"text-align: center;\">\n            <div style=\"background: linear-gradient(135deg, #d1fae5 0%, #059669 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: 0 14px 36px rgba(5,150,105,0.25); border: 2px solid #ffffff; display: inline-block;\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Bonus #3 3D Box Mockup\" style=\"max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); background: #ffffff;\">\n              <div class=\"mono-spec\" style=\"background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;\">\n                3D PUBLISHING CALENDAR\n              </div>\n            </div>\n          </div>\n          <div>\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">\n              <span class=\"mono-spec\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #6ee7b7;\">BONUS #3</span>\n              <span class=\"mono-spec\" style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;\">VALUE: $27</span>\n            </div>\n            <h3 style=\"font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;\">Seasonal Publishing Calendar</h3>\n            <p style=\"font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;\">\n              Map out Q4 holiday sales surges, back-to-school rushes, and summer activity book launches with exact publishing dates.\n            </p>\n            <div style=\"font-weight: 700; color: var(--emerald-pass);\" class=\"mono-spec\">\n              ✅ Q1-Q4 Surge Map &nbsp;•&nbsp; ✅ Holiday Timing Blueprint\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- BONUS 4 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->\n      <div class=\"card-panel text-left\" style=\"margin-bottom: 30px; border: 2px solid var(--amber-border); background: #ffffff;\">\n        <div class=\"feature-split-grid\">\n          <div>\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">\n              <span class=\"mono-spec\" style=\"background: var(--amber-bg); color: var(--amber-dark); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid var(--amber-border);\">BONUS #4</span>\n              <span class=\"mono-spec\" style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;\">VALUE: $37</span>\n            </div>\n            <h3 style=\"font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;\">KDP Keyword & Category Swipe File</h3>\n            <p style=\"font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;\">\n              Copy-paste 7 primary + 20 long-tail backend keywords and hidden category combinations to rank your books fast.\n            </p>\n            <div style=\"font-weight: 700; color: var(--blue-cobalt);\" class=\"mono-spec\">\n              ✅ Copy-Paste Keyword Combos &nbsp;•&nbsp; ✅ Secret Category Paths\n            </div>\n          </div>\n          <div style=\"text-align: center;\">\n            <div style=\"background: linear-gradient(135deg, #fef08a 0%, #d97706 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Bonus #4 3D Box Mockup\" style=\"max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);\">\n              <div class=\"mono-spec\" style=\"background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;\">\n                3D KEYWORD SWIPE FILE\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n\n      <!-- BONUS 5 (INDIVIDUAL 2-COLUMN SPLIT WITH 3D BOX MOCKUP) -->\n      <div class=\"card-panel text-left\" style=\"margin-bottom: 30px; border: 2px solid #a5f3fc; background: #ffffff;\">\n        <div class=\"feature-split-grid\">\n          <div style=\"text-align: center;\">\n            <div style=\"background: linear-gradient(135deg, #cff4fc 0%, #0284c7 100%); border-radius: var(--radius-md); padding: 20px; box-shadow: var(--shadow-amber); border: 2px solid #ffffff; display: inline-block;\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"Bonus #5 3D Box Mockup\" style=\"max-width: 220px; width: 100%; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.3);\">\n              <div class=\"mono-spec\" style=\"background: #0b0f19; color: #ffffff; font-weight: 800; padding: 4px 12px; border-radius: 4px; margin-top: 12px; font-size: 0.82rem;\">\n                3D PUBLISHERS COMMUNITY\n              </div>\n            </div>\n          </div>\n          <div>\n            <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;\">\n              <span class=\"mono-spec\" style=\"background: #ecfeff; color: var(--blue-cobalt); font-weight: 900; padding: 4px 14px; border-radius: 50px; border: 1px solid #a5f3fc;\">BONUS #5</span>\n              <span class=\"mono-spec\" style=\"font-weight: 900; color: var(--crimson-fail); font-size: 1.1rem; text-decoration: line-through;\">VALUE: $97</span>\n            </div>\n            <h3 style=\"font-size: 1.6rem; color: var(--ink-deep); margin-bottom: 12px;\">Private \"Publishers\" Community Access</h3>\n            <p style=\"font-size: 1.1rem; color: var(--ink-body); line-height: 1.7; margin-bottom: 14px;\">\n              Connect with active top-earning KDP publishers, share strategies, and get direct technical support in our private publisher network.\n            </p>\n            <div style=\"font-weight: 700; color: var(--amber-dark);\" class=\"mono-spec\">\n              ✅ VIP Support &nbsp;•&nbsp; ✅ Publisher Networking & Case Studies\n            </div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </section>",
+                "_element_id": "section-44-individualized-5-fast-action-bonuses-with-3d-box-"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c40d08b6",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "52. SCREENSHOT-MATCHED OFFER VALUE RECAP & CHECKOUT BLOCK (AFTER BONUSES)",
+        "css_classes": "kdp-section kdp-screenshot-matched-offer-value-recap-checkout-block-after-bo"
+      },
+      "elements": [
+        {
+          "id": "6c83b07a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "098368b1",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-grid-paper checkout-section\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\">\n      \n      <div class=\"screenshot-offer-box\">\n        <!-- TOP LAPTOP PRODUCT BUNDLE MOCKUP -->\n        <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"KDP Mafia Hardware Bundle Mockup\" style=\"max-width: 480px; width: 100%; margin-bottom: 20px; filter: drop-shadow(0 15px 30px rgba(0,0,0,0.25));\">\n\n        <!-- COMPREHENSIVE VALUE BULLET WALL (GREEN CHECKMARKS) -->\n        <div class=\"offer-bullet-list\">\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Full Access To KDP Mafia's Autonomous AI Publishing Engine = $9,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Unlimited Book Creation With Zero Usage Limits = $1,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>AI Illustration & Artwork Generator For Life = $4,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Professional AI Cover Designer With 3D Mockups = $2,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>One-Click Auto Book Formatting For KDP, EPUB & Print = $1,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Multi-Language Publishing System For Global Amazon Markets = $1,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>AI Metadata & Listing Optimizer For Maximum Rankings = $990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>One-Click Auto Publishing Directly To Amazon KDP = $1,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Bulk Book Creation & Publishing System = $990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Royalty Income Dashboard & Performance Tracker = $990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Commercial License Included — Publish & Keep 100% Of All Royalties = $1,990 Value</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Zero Monthly Fees, Zero Credit Limits, Zero Restrictions Forever = Priceless</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>24/7 Real Human Support Team — Not Bots, Real People = Priceless</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>30 Day Full Money Back Guarantee = Priceless</span></div>\n          <div class=\"offer-bullet-item\"><span class=\"bullet-check\">✅</span> <span>Top 5 Exclusive Bonus Package = $1,330 Value</span></div>\n        </div>\n\n        <!-- PRICING ANCHOR — all page CTAs scroll here -->\n        <div id=\"checkout\" class=\"checkout-pricing-block\">\n        <!-- TOTAL REAL WORLD VALUE HEADLINE -->\n        <div style=\"font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; color: var(--ink-deep); margin-top: 25px;\">\n          Total Real World Value You Are Getting Today:\n        </div>\n\n        <!-- MASSIVE SLANTED VALUE PRICE (SCREENSHOT MATCH) -->\n        <div class=\"value-slanted-price\">\n          $29,990\n        </div>\n\n        <!-- REGULAR PRICE STRIKETHROUGH -->\n        <div style=\"font-family: var(--font-display); font-size: 1.5rem; font-weight: 900; color: var(--ink-deep); margin-bottom: 10px;\">\n          Regular Price: <span style=\"text-decoration: line-through; color: var(--crimson-fail);\">$197</span>\n        </div>\n\n        <!-- SUBHEADLINE & FINAL GREEN PRICE -->\n        <div style=\"font-size: 1.3rem; font-weight: 700; color: var(--ink-muted); margin-bottom: 6px;\">\n          Grab Everything Right Now For\n        </div>\n        <div style=\"font-family: var(--font-display); font-size: 2.4rem; font-weight: 900; color: var(--emerald-pass); margin-bottom: 15px;\">\n          Just $17.00 — Today Only\n        </div>\n\n        <!-- SCREENSHOT MATCHED VIBRANT ORANGE/RED CTA BUTTON -->\n        <a href=\"https://checkout.example.com/kdp-mafia\" target=\"_blank\" class=\"btn-screenshot-orange\">\n          Grab KDP Mafia Now!\n        </a>\n        </div>\n      </div>\n\n    </div>\n  </section>",
+                "_element_id": "screenshot-matched-offer-value-recap-checkout-block-after-bo"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "389e7765",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "53. CTA Break #3",
+        "css_classes": "kdp-section kdp-cta-break-3"
+      },
+      "elements": [
+        {
+          "id": "c5851c51",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "1bbaba36",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"cta-break\" aria-label=\"Get instant access to KDP Mafia\">\n      <div class=\"cta-break-blob cta-break-blob--left\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-blob cta-break-blob--right\" aria-hidden=\"true\"></div>\n      <div class=\"cta-break-shell\">\n        <div class=\"cta-break-inner\">\n          <div class=\"cta-break-grid\">\n            <div class=\"cta-break-copy\">\n              <h2 class=\"cta-break-title\">One Click Away From Unlimited Book Publishing</h2>\n              <p class=\"cta-break-sub\">For A Tiny 1-Time Price, No Monthly Fees, EVER!</p>\n              <a href=\"#checkout\" class=\"cta-break-btn\">\n                <span class=\"cta-break-btn-icon\"><span>→</span></span>\n                <span class=\"cta-break-btn-text\">\n                  <strong>Click here now to get started</strong>\n                  <small>Hurry Before The Price Increase</small>\n                </span>\n              </a>\n              <div class=\"cta-break-trust\">\n                <div class=\"cta-break-payments\">\n                  <span class=\"pay-badge pay-visa\">VISA</span>\n                  <span class=\"pay-badge pay-amex\">AMEX</span>\n                  <span class=\"pay-badge pay-discover\">DISCOVER</span>\n                  <span class=\"pay-badge pay-mc\">MC</span>\n                </div>\n                <div class=\"cta-break-guarantee\">\n                  <span>30 Days</span>\n                  <strong>Money Back</strong>\n                  <span>Guarantee</span>\n                </div>\n                <div class=\"cta-break-devices\">\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-5 18a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7 5h10v11H7V5z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z\"/></svg>\n                  <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 4h16v10H4V4zm0 12h7v4H4v-4zm9 0h7v4h-7v-4zM2 2v20h20V2H2z\"/></svg>\n                  <span class=\"cta-break-web-badge\">Web Based Software</span>\n                </div>\n              </div>\n            </div>\n            <div class=\"cta-break-visual\">\n              <img src=\"/wp-content/uploads/kdp-mafia/assets/bundle.png\" alt=\"KDP Mafia dashboard on desktop and mobile\" class=\"cta-break-mockup\" loading=\"lazy\">\n              <div class=\"cta-break-urgency\">\n                <div class=\"cta-break-urgency-bar\">HURRY: PRICE RISES AGAIN IN...</div>\n                <div class=\"cta-countdown\">\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-days>00</span>\n                    <span class=\"cta-countdown-label\">DAYS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-hours>00</span>\n                    <span class=\"cta-countdown-label\">HOURS</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-mins>00</span>\n                    <span class=\"cta-countdown-label\">MIN</span>\n                  </div>\n                  <div class=\"cta-countdown-unit\">\n                    <span class=\"cta-countdown-num\" data-secs>00</span>\n                    <span class=\"cta-countdown-label\">SEC</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>",
+                "_element_id": "cta-break-3"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "961163c4",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "54. SECTION 50: FAQ",
+        "css_classes": "kdp-section kdp-section-50-faq"
+      },
+      "elements": [
+        {
+          "id": "3f101e0b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "78e0dce6",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"faq-section\" id=\"faq\">\n    <div class=\"faq-blob faq-blob--orange\" aria-hidden=\"true\"></div>\n    <div class=\"faq-blob faq-blob--blue\" aria-hidden=\"true\"></div>\n    <div class=\"container\">\n      <div class=\"faq-section-header\">\n        <h2 class=\"faq-brush-title\">Frequently Asked Questions</h2>\n      </div>\n\n      <div class=\"faq-grid\">\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Will I get support for KDP Mafia?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> Absolutely. Our dedicated 24/7 real human support team is always available to help you get the best possible results from KDP Mafia whenever you need us — day or night.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Are there any monthly fees?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> No. Right now we are offering KDP Mafia at a one-time price with zero recurring charges. However, this will be switching to a monthly subscription very soon — so grab this lifetime deal before that happens.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Do I need experience?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> No — KDP Mafia is built for total beginners with zero writing, design, or technical experience. If you can type a keyword and click a button, you can publish.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Will Amazon accept my files?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> Yes — every file is built to KDP's exact specs and passes Amazon's Print Previewer check with zero errors, by design — not by luck.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Will my books get flagged as \"AI slop\"?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> No — puzzle books use verified deterministic algorithms with correct answer keys. Ebooks are voice-locked and chaptered. Low-content books follow Amazon's quality standards.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Can I sell what I make?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> Yes — a full commercial license is included with your purchase. Publish on Amazon, sell services to clients, and keep 100% of your royalties.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> Does this work on Mac / PC / Mobile?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> Yes — it's 100% cloud-based web software. Log in from any modern browser on Mac, PC, Android, or iPhone. Nothing to install.</p>\n        </div>\n\n        <div class=\"faq-card\">\n          <p class=\"faq-card-q\"><span class=\"faq-label\">Q.</span> What do I need to get started?</p>\n          <p class=\"faq-card-a\"><span class=\"faq-label\">A.</span> Just a modern web browser and a free Amazon KDP author account. That's it — you can generate and upload your first book tonight.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-50-faq"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a7f818d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "55. SECTION 51: SECOND-GUESS CLOSE",
+        "css_classes": "kdp-section kdp-section-51-second-guess-close"
+      },
+      "elements": [
+        {
+          "id": "bfc3f654",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f72a5503",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"eyebrow-badge\">SECTION 51</div>\n      <h2 class=\"sec-title\">Two choices right now...</h2>\n\n      <div class=\"grid-2 text-left\" style=\"margin-top: 35px;\">\n        <div class=\"card-panel\" style=\"background: #ffffff;\">\n          <h3 style=\"color: var(--crimson-fail); font-size: 1.3rem; margin-bottom: 10px;\">Choice 1:</h3>\n          <p>Close this page. Keep guessing, keep paying freelancers, or keep gambling on slop that gets refunded and hurts your account.</p>\n        </div>\n\n        <div class=\"card-panel\" style=\"background: var(--emerald-bg); border: 2px solid #86efac;\">\n          <h3 style=\"color: var(--emerald-pass); font-size: 1.3rem; margin-bottom: 10px;\">Choice 2:</h3>\n          <p>Grab KDP Mafia for $17, generate a real, compliant, upload-ready book tonight, and start building a catalog that actually lasts.</p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-51-second-guess-close"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20d3b5be",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "56. SECTION 52: FINAL CTA",
+        "css_classes": "kdp-section kdp-section-52-final-cta"
+      },
+      "elements": [
+        {
+          "id": "3e1010c4",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "67119904",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 52</div>\n      <h2 class=\"sec-title\">👉 Get KDP Mafia Now — One-Time $17</h2>\n      \n      <a href=\"#checkout\" class=\"btn-editorial-gold\">\n        [ YES! GIVE ME INSTANT ACCESS ]\n        <span class=\"btn-caption\">✅ 20+ book types · ✅ Compliant-by-construction · ✅ Commercial License · ✅ 5 bonuses · ✅ 30-day guarantee</span>\n      </a>\n      \n      <div class=\"mono-spec\" style=\"color: var(--crimson-fail); font-weight: 800; margin-top: 15px; position: relative; z-index: 2;\">\n        *Price rises with every sale.*\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-52-final-cta"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4a328bce",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "57. SECTION 53: P.S. & P.P.S.",
+        "css_classes": "kdp-section kdp-section-53-p-s-p-p-s"
+      },
+      "elements": [
+        {
+          "id": "a50dd388",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "db79802a",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-light-gold\"></div>\n    <div class=\"container\" style=\"max-width: 900px;\">\n      <div class=\"card-panel text-left\" style=\"background: #ffffff; font-size: 1.1rem; line-height: 1.8;\">\n        <p style=\"margin-bottom: 16px;\">\n          <strong>P.S.</strong> — Everyone else is racing to spit out a 6-minute AI book — the exact slop Amazon is now flagging and readers are refunding. KDP Mafia is the opposite: real, verified books across 20+ formats, every file built to pass Amazon's check. One-time $17, 30-day guarantee.\n        </p>\n        <p>\n          <strong>P.P.S.</strong> — It's a dime-sale, so this is the cheapest it will ever be. The next buyer pays more. Lock in your price now.\n        </p>\n        <div style=\"text-align: center; margin-top: 25px;\">\n          <a href=\"#checkout\" class=\"btn-editorial-gold\" style=\"padding: 14px 32px; font-size: 1.1rem;\">\n            [ SECURE MY COPY AT THE LOWEST PRICE → ]\n          </a>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-53-p-s-p-p-s"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1c5375ff",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "58. SECTION 54: FOOTER / LEGAL",
+        "css_classes": "kdp-section kdp-section-54-footer-legal"
+      },
+      "elements": [
+        {
+          "id": "6ff68a12",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6e87da7c",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<footer style=\"padding: 50px 0 120px; background: #0b0f19; color: #94a3b8; font-size: 0.88rem; text-align: center; position: relative; z-index: 2;\">\n    <div class=\"container\">\n      <img src=\"/wp-content/uploads/kdp-mafia/assets/logo.png\" alt=\"KDP Mafia Logo\" style=\"height: 50px; opacity: 0.9; margin-bottom: 20px;\">\n      \n      <p style=\"max-width: 800px; margin: 0 auto 15px; color: #cbd5e1;\">\n        <em>Earnings Disclaimer: Results are not typical or guaranteed. Income examples illustrate potential, not promises. Your results depend on effort, market, and execution.</em>\n      </p>\n\n      <p style=\"max-width: 800px; margin: 0 auto 20px; color: #64748b; font-size: 0.8rem;\">\n        <em>Not affiliated with, endorsed by, or sponsored by Amazon.com, Inc. \"Amazon,\" \"Kindle,\" and \"KDP\" are trademarks of Amazon.com, Inc. or its affiliates.</em>\n      </p>\n\n      <div style=\"display: flex; justify-content: center; gap: 20px; font-weight: 700;\">\n        <a href=\"#\" style=\"color: #cbd5e1; text-decoration: none;\">Support</a>\n        <a href=\"#\" style=\"color: #cbd5e1; text-decoration: none;\">Terms</a>\n        <a href=\"#\" style=\"color: #cbd5e1; text-decoration: none;\">Privacy</a>\n        <a href=\"#\" style=\"color: #cbd5e1; text-decoration: none;\">Refund Policy</a>\n        <a href=\"#\" style=\"color: #cbd5e1; text-decoration: none;\">Contact</a>\n      </div>\n    </div>\n  </footer>",
+                "_element_id": "section-54-footer-legal"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9860b16f",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "59. FLOATING STICKY FOOTER CTA BAR",
+        "css_classes": "kdp-section kdp-floating-sticky-footer-cta-bar"
+      },
+      "elements": [
+        {
+          "id": "a964884c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "864d1afd",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<div id=\"stickyBar\" class=\"floating-bottom-bar\">\n    <div style=\"display: flex; align-items: center; gap: 14px;\">\n      <img src=\"/wp-content/uploads/kdp-mafia/assets/logo.png\" alt=\"KDP Mafia\" style=\"height: 40px;\">\n      <div>\n        <div style=\"font-weight: 800; font-size: 1.05rem; color: #0b0f19;\">KDP MAFIA — ANTI-AI SLOP ENGINE</div>\n        <div class=\"mono-spec\" style=\"color: var(--crimson-fail); font-weight: 800; font-size: 0.85rem;\">⏳ Dime-Sale Active: Current Price <span class=\"dime-price\">$17.00</span></div>\n      </div>\n    </div>\n    <a href=\"#checkout\" class=\"btn-editorial-gold\" style=\"padding: 10px 22px; font-size: 0.9rem; border-width: 2px;\">\n      LOCK IN $17 PRICE NOW\n    </a>\n  </div>",
+                "_element_id": "floating-sticky-footer-cta-bar"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

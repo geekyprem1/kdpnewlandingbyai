@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 8: TRUST BAR",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "607f8a86",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "04. SECTION 8: TRUST BAR",
+        "css_classes": "kdp-section kdp-section-8-trust-bar"
+      },
+      "elements": [
+        {
+          "id": "4d38ba59",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "3eb6eb33",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"trust-bar mono-spec\" aria-label=\"Trust highlights\">\n    <div class=\"trust-bar-marquee\">\n      <div class=\"trust-bar-track\">\n        <div class=\"trust-bar-content\">\n          <span>✔️ Passes Amazon's KDP Previewer</span>\n          <span>✔️ 20+ Book Types</span>\n          <span>✔️ Verified Puzzles & Answer Keys</span>\n          <span>✔️ Full Commercial Rights</span>\n          <span>✔️ Works Worldwide</span>\n        </div>\n        <div class=\"trust-bar-content\" aria-hidden=\"true\">\n          <span>✔️ Passes Amazon's KDP Previewer</span>\n          <span>✔️ 20+ Book Types</span>\n          <span>✔️ Verified Puzzles & Answer Keys</span>\n          <span>✔️ Full Commercial Rights</span>\n          <span>✔️ Works Worldwide</span>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-8-trust-bar"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

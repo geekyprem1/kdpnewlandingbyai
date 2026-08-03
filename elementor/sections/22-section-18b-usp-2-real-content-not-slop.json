@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 18b: USP #2 - REAL CONTENT, NOT SLOP",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "98b6c8a0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "22. SECTION 18b: USP #2 - REAL CONTENT, NOT SLOP",
+        "css_classes": "kdp-section kdp-section-18b-usp-2-real-content-not-slop"
+      },
+      "elements": [
+        {
+          "id": "34fc08ed",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "a56b791c",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero text-center\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\" style=\"max-width: 950px;\">\n      <div class=\"eyebrow-badge\">USP #2</div>\n      <h2 class=\"sec-title\">Verified, Deterministic, Refund-Proof Quality.</h2>\n      <div class=\"card-panel text-left\" style=\"font-size: 1.15rem; line-height: 1.8;\">\n        <p style=\"margin-bottom: 14px;\">• <strong>Puzzle books</strong> are built by deterministic algorithms — Sudoku with a single guaranteed solution, mazes with a verified solved path, and <strong>correct answer keys</strong> every time.</p>\n        <p style=\"margin-bottom: 14px;\">• <strong>Ebooks</strong> are written chapter-by-chapter with a locked voice — structured, coherent, not one-shot filler.</p>\n        <p style=\"margin-bottom: 14px;\">• <strong>Story books</strong> hold a consistent character on every page (the hardest problem in AI illustration — solved).</p>\n        <div style=\"font-weight: 800; color: var(--blue-cobalt);\">\n          This is content built to survive Amazon's quality bar and keep your reviews clean.\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-18b-usp-2-real-content-not-slop"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

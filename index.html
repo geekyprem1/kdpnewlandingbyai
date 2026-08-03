@@ -6,9 +6,9 @@
   <title>KDP Mafia - Real Amazon-Compliant Books Across 20+ Formats</title>
   <meta name="description" content="Turn a single keyword into real, Amazon-compliant books across 20+ formats in minutes. The anti-AI slop KDP tool that passes KDP Print Previewer with zero errors.">
   <link rel="icon" type="image/png" href="assets/logo.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
-<body>
+<body class="front-page">
 
   <!-- TOP TICKER BAR (DIME-SALE TICKER) -->
   <div class="top-ticker">
@@ -16,16 +16,16 @@
   </div>
 
   <!-- HEADER -->
-  <header style="padding: 18px 0; background: rgba(255, 255, 255, 0.98); backdrop-filter: blur(10px); border-bottom: 1px solid var(--surface-border); position: relative; z-index: 10;">
-    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-      <a href="#hero">
-        <img src="assets/logo.png" alt="KDP Mafia Logo" style="height: 55px; width: auto;">
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a href="#hero" class="site-header-logo">
+        <img src="assets/kdp-mafia-wordmark.png?v=3" alt="KDP Mafia">
       </a>
-      <div class="mono-spec" style="display: flex; align-items: center; gap: 8px; background: var(--emerald-bg); border: 1px solid #6ee7b7; padding: 6px 16px; border-radius: 50px; color: var(--emerald-pass); font-weight: 800;">
-        <span style="width: 8px; height: 8px; background: var(--emerald-pass); border-radius: 50%;"></span>
+      <div class="mono-spec site-header-badge">
+        <span class="site-header-dot"></span>
         COMMERCIAL LICENSE INCLUDED
       </div>
-      <a href="#pricing" class="btn-editorial-gold" style="padding: 10px 22px; font-size: 0.9rem; border-width: 2px;">
+      <a href="#checkout" class="btn-editorial-gold site-header-cta">
         GET KDP MAFIA NOW ($17)
       </a>
     </div>
@@ -53,7 +53,7 @@
       </div>
       
       <!-- SECTION 2: MAIN HEADLINE WITH ORANGE HIGHLIGHT BOX (MATCHING REFINED COPYWRITING USP ANGLE) -->
-      <h1 class="sec-title" style="font-size: 3.2rem; max-width: 1080px; margin: 0 auto 20px; line-height: 1.25;">
+      <h1 class="sec-title hero-title">
         World's First <span class="highlight-orange-box">Autonomous KDP Publishing Engine</span> <br>
         Turns Single Keywords Into <span style="color: var(--amber-dark);">Real Amazon-Compliant Books Across 20+ Formats</span> <span style="color: #c026d3;">Without Ever Worrying About Trim Rejections Or AI Slop Flags Again!</span>
       </h1>
@@ -75,26 +75,36 @@
         Research a profitable niche… generate verified puzzle interiors, coloring pages, journals, planners, workbooks AND voice-locked ebooks… design a scroll-stopping 3D cover… and get a complete KDP "Launch Kit" — all from ONE dashboard. Every file built to Amazon's exact specs, so it passes on the first upload.
       </p>
 
-      <!-- SECTION 6: HERO VIDEO / VSL BLOCK -->
-      <div style="max-width: 880px; margin: 0 auto 35px; padding: 8px; background: linear-gradient(135deg, #fef08a 0%, #f59e0b 100%); border-radius: var(--radius-lg); box-shadow: var(--shadow-amber); position: relative; z-index: 2;">
-        <div style="position: relative; width: 100%; padding-top: 56.25%; background: #0b0f19; border-radius: 20px; overflow: hidden;" id="vslInner">
-          <img src="assets/bundle.png" alt="4-Minute Demo Video" style="position: absolute; top:0; left:0; width:100%; height:100%; object-fit: cover; opacity: 0.85;">
-          <div id="playBtn" style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 95px; height: 95px; background: linear-gradient(180deg, #fbbf24 0%, #d97706 100%); border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer; box-shadow: 0 0 40px rgba(245, 158, 11, 0.8); border: 4px solid #ffffff;">
-            <div style="width:0; height:0; border-top: 16px solid transparent; border-bottom: 16px solid transparent; border-left: 28px solid #ffffff; margin-left: 6px;"></div>
+      <!-- SECTION 6: HERO PRODUCT DEMO BLOCK -->
+      <div class="hero-demo-shell">
+        <div class="hero-demo-panel" id="vslInner">
+          <div class="hero-demo-topline"><span class="hero-demo-dot"></span> LIVE PRODUCT WALKTHROUGH</div>
+          <div class="hero-demo-workspace">
+            <div class="hero-demo-copy">
+              <span class="hero-demo-label">ONE KEYWORD. ONE WORKFLOW.</span>
+              <strong>Research → Create → Package → Launch</strong>
+              <span>Every stage of the publishing workflow, organised in one dashboard.</span>
+            </div>
+            <div class="hero-demo-visual">
+              <div class="hero-demo-ring"></div>
+              <img src="assets/analytics_3d.png" alt="KDP Mafia publishing workflow dashboard">
+              <span class="hero-demo-status">20+ FORMATS READY</span>
+            </div>
           </div>
-          <div style="position: absolute; bottom: 18px; width: 100%; text-align: center; color: #ffffff; font-weight: 800; font-size: 1.15rem; text-shadow: 0 2px 10px rgba(0,0,0,0.9);">
-            ▶ WATCH THE 4-MINUTE DEMO (Watch a finished book pass Amazon's KDP Print Previewer with zero errors)
-          </div>
+          <button id="playBtn" class="hero-demo-play" type="button" aria-label="Play the KDP Mafia demo">
+            <span aria-hidden="true"></span>
+          </button>
+          <div class="vsl-caption">WATCH THE 4-MINUTE DEMO — See the full workflow from a keyword to a KDP-ready book package.</div>
         </div>
       </div>
 
       <!-- SECTION 7: TOP CTA (ABOVE THE FOLD) -->
       <div style="display: flex; flex-direction: column; align-items: center; gap: 14px;">
-        <a href="#pricing" class="btn-editorial-gold">
+        <a href="#checkout" class="btn-editorial-gold">
           👉 GET INSTANT ACCESS TO KDP MAFIA — JUST $17 TODAY
           <span class="btn-caption">YES! CLAIM MY DIME-SALE DISCOUNT • Commercial License Included</span>
         </a>
-        <div style="display: flex; gap: 18px; font-size: 0.95rem; color: var(--ink-muted); font-weight: 700;">
+        <div class="hero-trust-row">
           <span>✅ Commercial License</span>
           <span>•</span>
           <span>✅ 30-Day Money-Back Guarantee</span>
@@ -109,14 +119,23 @@
   </section>
 
   <!-- SECTION 8: TRUST BAR -->
-  <section style="background: #0b0f19; color: #ffffff; padding: 25px 0; position: relative; z-index: 2;" class="mono-spec">
-    <div class="container">
-      <div style="display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap; gap: 20px; text-align: center; font-weight: 800; font-size: 1rem;">
-        <div>✔️ Passes Amazon's KDP Previewer</div>
-        <div>✔️ 20+ Book Types</div>
-        <div>✔️ Verified Puzzles & Answer Keys</div>
-        <div>✔️ Full Commercial Rights</div>
-        <div>✔️ Works Worldwide</div>
+  <section class="trust-bar mono-spec" aria-label="Trust highlights">
+    <div class="trust-bar-marquee">
+      <div class="trust-bar-track">
+        <div class="trust-bar-content">
+          <span>✔️ Passes Amazon's KDP Previewer</span>
+          <span>✔️ 20+ Book Types</span>
+          <span>✔️ Verified Puzzles & Answer Keys</span>
+          <span>✔️ Full Commercial Rights</span>
+          <span>✔️ Works Worldwide</span>
+        </div>
+        <div class="trust-bar-content" aria-hidden="true">
+          <span>✔️ Passes Amazon's KDP Previewer</span>
+          <span>✔️ 20+ Book Types</span>
+          <span>✔️ Verified Puzzles & Answer Keys</span>
+          <span>✔️ Full Commercial Rights</span>
+          <span>✔️ Works Worldwide</span>
+        </div>
       </div>
     </div>
   </section>
@@ -496,16 +515,8 @@
     </div>
   </section>
 
-  <!-- SECTION 16: MID-PAGE CTA -->
-  <section class="sec-editorial bg-img-pricing text-center">
-    <div class="overlay-layer overlay-warm-amber"></div>
-    <div class="container">
-      <h2 class="sec-title">👉 Yes — Give Me Instant Access for $17</h2>
-      <a href="#pricing" class="btn-editorial-gold">
-        [ SECURE MY COPY NOW ]
-      </a>
-    </div>
-  </section>
+  <!-- SECTION 16: MID-PAGE CTA BREAK -->
+  <div data-cta-break></div>
 
   <!-- SECTION 17: CORE USP MATRIX TABLE -->
   <section class="sec-editorial bg-img-hero text-center">
@@ -515,6 +526,7 @@
       <h2 class="sec-title">⭐ Why This Is NOT Another "AI Book" Tool</h2>
       <p class="sec-desc">Read this before you buy anything else in this space.</p>
 
+      <div class="table-scroll-wrap">
       <table class="editorial-table">
         <thead>
           <tr>
@@ -551,6 +563,7 @@
           </tr>
         </tbody>
       </table>
+      </div>
       <div style="font-size: 1.25rem; font-weight: 800; color: var(--blue-cobalt); margin-top: 20px; position: relative; z-index: 2;">
         This is the difference between "made fast" and "made right." On Amazon, only one of those pays you for years.
       </div>
@@ -650,6 +663,9 @@
       </div>
     </div>
   </section>
+
+  <!-- CTA BREAK #2 -->
+  <div data-cta-break></div>
 
   <!-- DEEP FEATURE SUITE — STANDALONE SECTIONS (SECTIONS 20-29) -->
 
@@ -906,6 +922,7 @@
       <div class="eyebrow-badge">SECTION 33</div>
       <h2 class="sec-title">Features → Benefits Matrix</h2>
 
+      <div class="table-scroll-wrap">
       <table class="editorial-table">
         <thead>
           <tr>
@@ -1075,6 +1092,7 @@
       <div class="eyebrow-badge">SECTION 35</div>
       <h2 class="sec-title">Full Comparison Matrix</h2>
 
+      <div class="table-scroll-wrap">
       <table class="editorial-table">
         <thead>
           <tr>
@@ -1429,7 +1447,7 @@
   </section>
 
   <!-- SCREENSHOT-MATCHED OFFER VALUE RECAP & CHECKOUT BLOCK (AFTER BONUSES) -->
-  <section class="sec-editorial bg-grid-paper" id="checkout">
+  <section class="sec-editorial bg-grid-paper checkout-section">
     <div class="overlay-layer overlay-light-gold"></div>
     <div class="container">
       
@@ -1456,6 +1474,8 @@
           <div class="offer-bullet-item"><span class="bullet-check">✅</span> <span>Top 5 Exclusive Bonus Package = $1,330 Value</span></div>
         </div>
 
+        <!-- PRICING ANCHOR — all page CTAs scroll here -->
+        <div id="checkout" class="checkout-pricing-block">
         <!-- TOTAL REAL WORLD VALUE HEADLINE -->
         <div style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; color: var(--ink-deep); margin-top: 25px;">
           Total Real World Value You Are Getting Today:
@@ -1483,113 +1503,63 @@
         <a href="https://checkout.example.com/kdp-mafia" target="_blank" class="btn-screenshot-orange">
           Grab KDP Mafia Now!
         </a>
+        </div>
       </div>
 
     </div>
   </section>
 
-  <!-- SECTION 49: SCARCITY / DIME SALE -->
-  <section class="sec-editorial bg-img-pricing text-center">
-    <div class="overlay-layer overlay-warm-amber"></div>
+  <!-- CTA BREAK #3 (BEFORE FAQ) -->
+  <div data-cta-break></div>
+
+  <!-- SECTION 50: FAQ -->
+  <section class="faq-section" id="faq">
+    <div class="faq-blob faq-blob--orange" aria-hidden="true"></div>
+    <div class="faq-blob faq-blob--blue" aria-hidden="true"></div>
     <div class="container">
-      <div class="eyebrow-badge" style="background: var(--crimson-bg); color: var(--crimson-fail);">SECTION 49</div>
-      <h2 class="sec-title">⏳ This Price Is Rising With Every Sale.</h2>
-      <p style="font-size: 1.25rem; max-width: 800px; margin: 0 auto 30px;">
-        KDP Mafia launches on a <strong>dime-sale</strong> — the price ticks up with every copy sold. The <span class="dime-price mono-spec" style="font-weight: 900; color: var(--crimson-fail);">$17.00</span> you see is the lowest it will ever be. Wait, and you'll pay $27, then full price.
-      </p>
+      <div class="faq-section-header">
+        <h2 class="faq-brush-title">Frequently Asked Questions</h2>
+      </div>
 
-      <a href="#checkout" class="btn-editorial-gold">
-        [ LOCK IN MY LAUNCH PRICE — $17 ]
-      </a>
-    </div>
-  </section>
-
-  <!-- SECTION 50: FAQ ACCORDION (8 QUESTIONS) -->
-  <section class="sec-editorial bg-img-features" id="faq">
-    <div class="overlay-layer overlay-slate-cool"></div>
-    <div class="container" style="max-width: 900px;">
-      <div class="eyebrow-badge text-center" style="display: flex; width: max-content; margin: 0 auto 20px;">SECTION 50</div>
-      <h2 class="sec-title text-center">Frequently Asked Questions</h2>
-
-      <div style="margin-top: 35px;">
-        <div class="accordion-item active">
-          <div class="accordion-q">
-            <span>Q: Do I need experience?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            No — KDP Mafia is built for total beginners with zero writing or design experience.
-          </div>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Will I get support for KDP Mafia?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> Absolutely. Our dedicated 24/7 real human support team is always available to help you get the best possible results from KDP Mafia whenever you need us — day or night.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Are there any monthly fees?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            No monthly fee at launch — one-time payment of $17. Credits power generation; you start with 120 (most books cost 1–3).
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Are there any monthly fees?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> No. Right now we are offering KDP Mafia at a one-time price with zero recurring charges. However, this will be switching to a monthly subscription very soon — so grab this lifetime deal before that happens.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Will Amazon accept my files?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            Yes — files are built to KDP's exact specs and pass Amazon's Print Previewer check with zero errors.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Do I need experience?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> No — KDP Mafia is built for total beginners with zero writing, design, or technical experience. If you can type a keyword and click a button, you can publish.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Will my books get flagged as "AI slop"?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            No — puzzles & low-content books are verified structure; ebooks are voice-locked and chaptered.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Will Amazon accept my files?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> Yes — every file is built to KDP's exact specs and passes Amazon's Print Previewer check with zero errors, by design — not by luck.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Can I sell what I make?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            Yes — a full commercial license is included with your purchase today.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Will my books get flagged as "AI slop"?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> No — puzzle books use verified deterministic algorithms with correct answer keys. Ebooks are voice-locked and chaptered. Low-content books follow Amazon's quality standards.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: What do I need to get started?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            Just a modern web browser and a free Amazon KDP author account.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Can I sell what I make?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> Yes — a full commercial license is included with your purchase. Publish on Amazon, sell services to clients, and keep 100% of your royalties.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Does this work on Mac / PC / Mobile?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            Yes — it's a cloud-based web app. Access from any device with an internet connection.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> Does this work on Mac / PC / Mobile?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> Yes — it's 100% cloud-based web software. Log in from any modern browser on Mac, PC, Android, or iPhone. Nothing to install.</p>
         </div>
 
-        <div class="accordion-item">
-          <div class="accordion-q">
-            <span>Q: Is customer support included?</span>
-            <span style="color: var(--amber-primary); font-size: 1.4rem;">+</span>
-          </div>
-          <div class="accordion-a">
-            Yes — full support is included plus our quickstart guides and private publishers community.
-          </div>
+        <div class="faq-card">
+          <p class="faq-card-q"><span class="faq-label">Q.</span> What do I need to get started?</p>
+          <p class="faq-card-a"><span class="faq-label">A.</span> Just a modern web browser and a free Amazon KDP author account. That's it — you can generate and upload your first book tonight.</p>
         </div>
       </div>
     </div>
@@ -1617,13 +1587,13 @@
   </section>
 
   <!-- SECTION 52: FINAL CTA -->
-  <section class="sec-editorial bg-img-pricing text-center" id="checkout">
+  <section class="sec-editorial bg-img-pricing text-center">
     <div class="overlay-layer overlay-warm-amber"></div>
     <div class="container">
       <div class="eyebrow-badge">SECTION 52</div>
       <h2 class="sec-title">👉 Get KDP Mafia Now — One-Time $17</h2>
       
-      <a href="https://checkout.example.com/kdp-mafia" target="_blank" class="btn-editorial-gold">
+      <a href="#checkout" class="btn-editorial-gold">
         [ YES! GIVE ME INSTANT ACCESS ]
         <span class="btn-caption">✅ 20+ book types · ✅ Compliant-by-construction · ✅ Commercial License · ✅ 5 bonuses · ✅ 30-day guarantee</span>
       </a>
@@ -1655,9 +1625,9 @@
   </section>
 
   <!-- SECTION 54: FOOTER / LEGAL -->
-  <footer style="padding: 50px 0 120px; background: #0b0f19; color: #94a3b8; font-size: 0.88rem; text-align: center; position: relative; z-index: 2;">
+  <footer class="site-footer">
     <div class="container">
-      <img src="assets/logo.png" alt="KDP Mafia Logo" style="height: 50px; opacity: 0.9; margin-bottom: 20px;">
+      <img src="assets/logo.png" alt="KDP Mafia Logo" class="site-footer-logo">
       
       <p style="max-width: 800px; margin: 0 auto 15px; color: #cbd5e1;">
         <em>Earnings Disclaimer: Results are not typical or guaranteed. Income examples illustrate potential, not promises. Your results depend on effort, market, and execution.</em>
@@ -1667,7 +1637,7 @@
         <em>Not affiliated with, endorsed by, or sponsored by Amazon.com, Inc. "Amazon," "Kindle," and "KDP" are trademarks of Amazon.com, Inc. or its affiliates.</em>
       </p>
 
-      <div style="display: flex; justify-content: center; gap: 20px; font-weight: 700;">
+      <div class="site-footer-links">
         <a href="#" style="color: #cbd5e1; text-decoration: none;">Support</a>
         <a href="#" style="color: #cbd5e1; text-decoration: none;">Terms</a>
         <a href="#" style="color: #cbd5e1; text-decoration: none;">Privacy</a>
@@ -1679,17 +1649,84 @@
 
   <!-- FLOATING STICKY FOOTER CTA BAR -->
   <div id="stickyBar" class="floating-bottom-bar">
-    <div style="display: flex; align-items: center; gap: 14px;">
-      <img src="assets/logo.png" alt="KDP Mafia" style="height: 40px;">
+    <div class="sticky-bar-content">
+      <img src="assets/logo.png" alt="KDP Mafia">
       <div>
-        <div style="font-weight: 800; font-size: 1.05rem; color: #0b0f19;">KDP MAFIA — ANTI-AI SLOP ENGINE</div>
-        <div class="mono-spec" style="color: var(--crimson-fail); font-weight: 800; font-size: 0.85rem;">⏳ Dime-Sale Active: Current Price <span class="dime-price">$17.00</span></div>
+        <div class="sticky-bar-title">KDP MAFIA — ANTI-AI SLOP ENGINE</div>
+        <div class="mono-spec sticky-bar-price">⏳ Dime-Sale Active: Current Price <span class="dime-price">$17.00</span></div>
       </div>
     </div>
-    <a href="#checkout" class="btn-editorial-gold" style="padding: 10px 22px; font-size: 0.9rem; border-width: 2px;">
+    <a href="#checkout" class="btn-editorial-gold sticky-bar-btn">
       LOCK IN $17 PRICE NOW
     </a>
   </div>
+
+  <template id="cta-break-template">
+    <section class="cta-break" aria-label="Get instant access to KDP Mafia">
+      <div class="cta-break-blob cta-break-blob--left" aria-hidden="true"></div>
+      <div class="cta-break-blob cta-break-blob--right" aria-hidden="true"></div>
+      <div class="cta-break-shell">
+        <div class="cta-break-inner">
+          <div class="cta-break-grid">
+            <div class="cta-break-copy">
+              <h2 class="cta-break-title">One Click Away From Unlimited Book Publishing</h2>
+              <p class="cta-break-sub">For A Tiny 1-Time Price, No Monthly Fees, EVER!</p>
+              <a href="#checkout" class="cta-break-btn">
+                <span class="cta-break-btn-icon"><span>→</span></span>
+                <span class="cta-break-btn-text">
+                  <strong>Click here now to get started</strong>
+                  <small>Hurry Before The Price Increase</small>
+                </span>
+              </a>
+              <div class="cta-break-trust">
+                <div class="cta-break-payments">
+                  <span class="pay-badge pay-visa">VISA</span>
+                  <span class="pay-badge pay-amex">AMEX</span>
+                  <span class="pay-badge pay-discover">DISCOVER</span>
+                  <span class="pay-badge pay-mc">MC</span>
+                </div>
+                <div class="cta-break-guarantee">
+                  <span>30 Days</span>
+                  <strong>Money Back</strong>
+                  <span>Guarantee</span>
+                </div>
+                <div class="cta-break-devices">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-5 18a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM7 5h10v11H7V5z"/></svg>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v10H4V4zm0 12h7v4H4v-4zm9 0h7v4h-7v-4zM2 2v20h20V2H2z"/></svg>
+                  <span class="cta-break-web-badge">Web Based Software</span>
+                </div>
+              </div>
+            </div>
+            <div class="cta-break-visual">
+              <img src="assets/bundle.png" alt="KDP Mafia dashboard on desktop and mobile" class="cta-break-mockup" loading="lazy">
+              <div class="cta-break-urgency">
+                <div class="cta-break-urgency-bar">HURRY: PRICE RISES AGAIN IN...</div>
+                <div class="cta-countdown">
+                  <div class="cta-countdown-unit">
+                    <span class="cta-countdown-num" data-days>00</span>
+                    <span class="cta-countdown-label">DAYS</span>
+                  </div>
+                  <div class="cta-countdown-unit">
+                    <span class="cta-countdown-num" data-hours>00</span>
+                    <span class="cta-countdown-label">HOURS</span>
+                  </div>
+                  <div class="cta-countdown-unit">
+                    <span class="cta-countdown-num" data-mins>00</span>
+                    <span class="cta-countdown-label">MIN</span>
+                  </div>
+                  <div class="cta-countdown-unit">
+                    <span class="cta-countdown-num" data-secs>00</span>
+                    <span class="cta-countdown-label">SEC</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </template>
 
   <script src="script.js"></script>
 </body>

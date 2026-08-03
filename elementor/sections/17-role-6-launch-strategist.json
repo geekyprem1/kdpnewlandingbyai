@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — ROLE 6: LAUNCH STRATEGIST",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "e3655f1e",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "17. ROLE 6: LAUNCH STRATEGIST",
+        "css_classes": "kdp-section kdp-role-6-launch-strategist"
+      },
+      "elements": [
+        {
+          "id": "acefddbb",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "6ab92f5f",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_launch.png\" alt=\"Launch Strategist Package\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">TEAM ROLE 06</div>\n          <h2 class=\"sec-title\">A Launch Strategist</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 18px;\">\n            Hands you 7 primary + 20 long-tail keywords, secret backend categories, AI book descriptions, and metadata.json bundled in a single ZIP file.\n          </p>\n          <div class=\"mono-spec\" style=\"color: var(--blue-cobalt); font-weight: 800;\">\n            ✓ Complete listing package · 1-Click ZIP download · Category domination\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "role-6-launch-strategist"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

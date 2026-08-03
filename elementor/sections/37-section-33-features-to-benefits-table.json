@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 33: FEATURES TO BENEFITS TABLE",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "571c43c1",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "37. SECTION 33: FEATURES TO BENEFITS TABLE",
+        "css_classes": "kdp-section kdp-section-33-features-to-benefits-table"
+      },
+      "elements": [
+        {
+          "id": "bb0f3e6d",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "b8e0312d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing text-center\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"eyebrow-badge\">SECTION 33</div>\n      <h2 class=\"sec-title\">Features → Benefits Matrix</h2>\n\n      <table class=\"editorial-table\">\n        <thead>\n          <tr>\n            <th>What You Get</th>\n            <th>What It Means For You</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td><strong>Compliant-by-construction engine</strong></td>\n            <td>No more rejected uploads or margin/trim errors</td>\n          </tr>\n          <tr>\n            <td><strong>Verified puzzles + voice-locked ebooks</strong></td>\n            <td>No refunds for \"AI junk\"</td>\n          </tr>\n          <tr>\n            <td><strong>20+ book types</strong></td>\n            <td>An entire product catalog from one single tool</td>\n          </tr>\n          <tr>\n            <td><strong>Market Intelligence™</strong></td>\n            <td>Publish what actually sells backed by data</td>\n          </tr>\n          <tr>\n            <td><strong>Cover Studio</strong></td>\n            <td>Pro covers with zero design skills needed</td>\n          </tr>\n          <tr>\n            <td><strong>Launch Kit™</strong></td>\n            <td>Perfect Amazon listings in a single click</td>\n          </tr>\n          <tr>\n            <td><strong>Background jobs & Autopilot</strong></td>\n            <td>Create books while you live your life</td>\n          </tr>\n          <tr>\n            <td><strong>Commercial license</strong></td>\n            <td>Keep 100% of what you earn</td>\n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </section>",
+                "_element_id": "section-33-features-to-benefits-table"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

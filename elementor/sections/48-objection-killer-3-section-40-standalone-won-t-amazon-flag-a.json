@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — OBJECTION KILLER 3 (SECTION 40 STANDALONE): WON'T AMAZON FLAG AI BOOKS?",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "36180f69",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "48. OBJECTION KILLER 3 (SECTION 40 STANDALONE): WON'T AMAZON FLAG AI BOOKS?",
+        "css_classes": "kdp-section kdp-objection-killer-3-section-40-standalone-won-t-amazon-flag-a"
+      },
+      "elements": [
+        {
+          "id": "b1c35d1e",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f9a5da78",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-hero\" id=\"sec-40-ai-flag\">\n    <div class=\"overlay-layer overlay-emerald-pass\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <div class=\"eyebrow-badge\" style=\"background: var(--emerald-bg); color: var(--emerald-pass); border-color: #86efac;\">SECTION 40: OBJECTION KILLER #3</div>\n          <h2 class=\"sec-title\">\"Won't Amazon Flag Or Remove AI Books?\"</h2>\n          <p style=\"font-size: 1.25rem; color: var(--ink-body); margin-bottom: 22px; line-height: 1.8;\">\n            Amazon flags low-quality, one-shot AI <em>slop</em>. Puzzle and low-content books are verified mathematical structures. Our ebooks are voice-locked and chaptered.\n          </p>\n          <div class=\"card-panel text-left\" style=\"background: #ffffff; border-left: 4px solid var(--emerald-pass);\">\n            <div style=\"font-weight: 800; font-size: 1.1rem; color: var(--emerald-pass);\" class=\"mono-spec\">⚡ REFUND-PROOF QUALITY:</div>\n            <p style=\"font-size: 1.05rem; margin-top: 6px;\">Our deterministic engines build real puzzle grids with guaranteed correct answer keys that survive Amazon's strict compliance standards.</p>\n          </div>\n        </div>\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Verified Deterministic Structure\" class=\"feature-img-frame\" style=\"border-color: var(--emerald-pass);\">\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "objection-killer-3-section-40-standalone-won-t-amazon-flag-a"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

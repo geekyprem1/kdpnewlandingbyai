@@ -1,0 +1,59 @@
+{
+  "title": "KDP Mafia — SECTION 23: KIDS & LEARNING",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes",
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "d1857ac0",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "full_width",
+        "gap": "no",
+        "content_width": {
+          "unit": "px",
+          "size": 1200,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "_title": "28. SECTION 23: KIDS & LEARNING",
+        "css_classes": "kdp-section kdp-section-23-kids-learning"
+      },
+      "elements": [
+        {
+          "id": "fdd6dcf1",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "f31f0b0d",
+              "elType": "widget",
+              "widgetType": "html",
+              "isInner": false,
+              "settings": {
+                "html": "<section class=\"sec-editorial bg-img-pricing\">\n    <div class=\"overlay-layer overlay-warm-amber\"></div>\n    <div class=\"container\">\n      <div class=\"feature-split-grid\">\n        <div>\n          <img src=\"/wp-content/uploads/kdp-mafia/assets/feature_puzzle.png\" alt=\"Kids Coloring Book Interior\" class=\"feature-img-frame\">\n        </div>\n        <div>\n          <div class=\"eyebrow-badge\">SECTION 23: KIDS & LEARNING</div>\n          <h2 class=\"sec-title\">The Evergreen \"Parents Always Buy\" Market</h2>\n          <p style=\"font-size: 1.18rem; color: var(--ink-body); margin-bottom: 20px;\">\n            • <strong>Coloring Books</strong> — clean AI line-art, full-bleed pages, age groups + styles.<br>\n            • <strong>Tracing Workbooks</strong> — letters, numbers, words on proper guide lines.<br>\n            • <strong>Math Workbooks</strong> — drills with answer keys.<br>\n            • <strong>Story Books</strong> — illustrated, character-consistent picture books (ages 3–12).\n          </p>\n        </div>\n      </div>\n    </div>\n  </section>",
+                "_element_id": "section-23-kids-learning"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
