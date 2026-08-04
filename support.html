@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Support & Account Access - KDP Mafia</title>
+  <meta name="description" content="Access your KDP Mafia account credentials and contact customer support.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <style>
+    :root {
+      --sp-bg: #f8fafc;
+      --sp-card-bg: #ffffff;
+      --sp-text-main: #0f172a;
+      --sp-text-muted: #64748b;
+      --sp-primary: #1e40af;
+      --sp-primary-hover: #1d4ed8;
+      --sp-accent-blue: #3b82f6;
+      --sp-border: #e2e8f0;
+      --sp-radius: 20px;
+      --sp-shadow: 0 10px 30px -5px rgba(15, 23, 42, 0.05), 0 0 1px rgba(15, 23, 42, 0.1);
+    }
+
+    body.support-body {
+      background-color: #f1f5f9;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(59, 130, 246, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(245, 158, 11, 0.05) 0%, transparent 40%);
+      color: var(--sp-text-main);
+      font-family: var(--font-body), system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .support-nav {
+      background: #ffffff;
+      border-bottom: 1px solid var(--sp-border);
+      padding: 14px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    }
+    .support-nav-inner {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .support-logo img {
+      height: 48px;
+      width: auto;
+    }
+
+    .support-container {
+      max-width: 1140px;
+      margin: 40px auto 80px;
+      padding: 0 24px;
+    }
+
+    /* TOP GRID LAYOUT */
+    .support-top-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: start;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 900px) {
+      .support-top-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    /* LEFT HERO COPY */
+    .welcome-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #334155;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    }
+    .welcome-pill-dot {
+      width: 8px;
+      height: 8px;
+      background-color: #3b82f6;
+      border-radius: 50%;
+    }
+
+    .hero-heading {
+      font-family: 'DM Sans', serif;
+      font-size: clamp(2.4rem, 4vw, 3.4rem);
+      font-weight: 900;
+      color: #0f172a;
+      line-height: 1.15;
+      margin: 0 0 16px 0;
+      letter-spacing: -1px;
+    }
+    .hero-heading span {
+      color: #2563eb;
+    }
+
+    .hero-subtext {
+      font-size: 1.1rem;
+      color: #475569;
+      margin-bottom: 24px;
+      max-width: 520px;
+    }
+
+    .callout-box {
+      background: #e0f2fe;
+      border: 1px solid #bae6fd;
+      border-radius: 16px;
+      padding: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      color: #0369a1;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+    .callout-icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    /* RIGHT CREDENTIALS CARD */
+    .cred-card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: var(--sp-shadow);
+      border: 1px solid var(--sp-border);
+    }
+    .cred-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #f1f5f9;
+      padding-bottom: 16px;
+    }
+    .cred-eyebrow {
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      color: #64748b;
+      margin-bottom: 4px;
+    }
+    .cred-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0;
+    }
+
+    .btn-copy-all {
+      background: #1e293b;
+      color: #ffffff;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.88rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+    }
+    .btn-copy-all:hover {
+      background: #0f172a;
+      transform: translateY(-1px);
+    }
+
+    .cred-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 18px;
+      background: #f8fafc;
+      border-radius: 14px;
+      margin-bottom: 14px;
+      border: 1px solid #f1f5f9;
+    }
+    .cred-label {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: #334155;
+    }
+    .cred-icon-wrap {
+      width: 36px;
+      height: 36px;
+      background: #e2e8f0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #334155;
+      font-size: 1.1rem;
+    }
+    .cred-value {
+      font-family: monospace;
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #0f172a;
+      background: #e2e8f0;
+      padding: 6px 14px;
+      border-radius: 8px;
+      word-break: break-all;
+    }
+    .cred-url-link {
+      color: #2563eb;
+      text-decoration: underline;
+    }
+
+    .btn-copy-sm {
+      background: #e2e8f0;
+      color: #0f172a;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: all 0.2s ease;
+    }
+    .btn-copy-sm:hover {
+      background: #cbd5e1;
+    }
+
+    /* BOTTOM TWO CARDS GRID */
+    .support-bottom-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+    }
+    @media (max-width: 900px) {
+      .support-bottom-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    .info-card {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: var(--sp-shadow);
+      border: 1px solid var(--sp-border);
+    }
+
+    .info-card-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 12px;
+    }
+    .info-card-icon {
+      width: 48px;
+      height: 48px;
+      background: #eff6ff;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #2563eb;
+    }
+    .info-card-title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0;
+    }
+
+    .info-card-desc {
+      color: #64748b;
+      font-size: 0.98rem;
+      margin-bottom: 20px;
+    }
+
+    .support-policy-box {
+      background: #f1f5f9;
+      border-radius: 14px;
+      padding: 18px;
+      font-size: 0.92rem;
+      color: #334155;
+      margin-bottom: 20px;
+    }
+    .support-policy-box strong {
+      color: #0f172a;
+    }
+
+    .action-btn-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .btn-support-action {
+      flex: 1;
+      min-width: 180px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: #2563eb;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 12px 20px;
+      border-radius: 12px;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+    }
+    .btn-support-action:hover {
+      background: #1d4ed8;
+      transform: translateY(-1px);
+    }
+    .btn-support-sec {
+      background: #ffffff;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+      box-shadow: none;
+    }
+    .btn-support-sec:hover {
+      background: #f8fafc;
+      border-color: #94a3b8;
+    }
+
+    .feature-list-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 14px 18px;
+      border-radius: 14px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: #1e293b;
+    }
+
+    /* TOAST NOTIFICATION */
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+      pointer-events: none;
+      z-index: 1000;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="support-body">
+
+  <!-- TOP NAV -->
+  <nav class="support-nav">
+    <div class="support-nav-inner">
+      <a href="index.html" class="support-logo">
+        <img src="assets/kdp-mafia-wordmark.png?v=3" alt="KDP Mafia Logo" onerror="this.onerror=null; this.src='assets/logo.png';">
+      </a>
+      <a href="https://teamkalki.tawk.help/" target="_blank" rel="noopener noreferrer" class="btn-support-action btn-support-sec" style="min-width:auto; padding: 8px 16px;">
+        💬 Live Help Center
+      </a>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTAINER -->
+  <main class="support-container">
+    
+    <!-- TOP GRID -->
+    <div class="support-top-grid">
+      
+      <!-- HERO LEFT -->
+      <div>
+        <div class="welcome-pill">
+          <span class="welcome-pill-dot"></span>
+          Welcome to KDP Mafia
+        </div>
+
+        <h1 class="hero-heading">
+          Build Your Amazon<br><span>Book Empire</span>
+        </h1>
+
+        <p class="hero-subtext">
+          Your account is ready. Use the credentials below to sign in and start creating AI-generated books that sell on Amazon KDP.
+        </p>
+
+        <div class="callout-box">
+          <span class="callout-icon">🚀</span>
+          <div>
+            Discover profitable niches, create better books, and grow your Amazon royalty empire from one command center.
+          </div>
+        </div>
+      </div>
+
+      <!-- CREDENTIALS RIGHT -->
+      <div class="cred-card">
+        <div class="cred-card-header">
+          <div>
+            <div class="cred-eyebrow">Thank you for choosing KDP Mafia</div>
+            <h2 class="cred-title">Your Login Credentials</h2>
+          </div>
+          <button class="btn-copy-all" onclick="copyAllCredentials()">
+            📋 Copy All
+          </button>
+        </div>
+
+        <div class="cred-row">
+          <div class="cred-label">
+            <div class="cred-icon-wrap">🌐</div>
+            <span>Login URL:</span>
+          </div>
+          <div>
+            <a href="https://app.kdpmafia.online" target="_blank" rel="noopener noreferrer" class="cred-url-link" id="urlVal">https://app.kdpmafia.online</a>
+          </div>
+        </div>
+
+        <div class="cred-row">
+          <div class="cred-label">
+            <div class="cred-icon-wrap">✉️</div>
+            <span>Email:</span>
+          </div>
+          <div style="display:flex; align-items:center;">
+            <span class="cred-value" id="emailVal">Your Purchase Email Address</span>
+          </div>
+        </div>
+
+        <div class="cred-row">
+          <div class="cred-label">
+            <div class="cred-icon-wrap">🔒</div>
+            <span>Password:</span>
+          </div>
+          <div style="display:flex; align-items:center;">
+            <span class="cred-value" id="passVal">kdpmafia46678</span>
+            <button class="btn-copy-sm" onclick="copyText('passVal', 'Password copied!')">📋 Copy</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM GRID -->
+    <div class="support-bottom-grid">
+      
+      <!-- NEED HELP CARD -->
+      <div class="info-card">
+        <div class="info-card-header">
+          <div class="info-card-icon">🎧</div>
+          <div>
+            <h3 class="info-card-title">Need Help?</h3>
+          </div>
+        </div>
+        <p class="info-card-desc">
+          Our support team is here to help you build your book empire.
+        </p>
+
+        <div class="support-policy-box">
+          <div style="display:flex; gap:10px; align-items:flex-start;">
+            <span style="font-size:1.2rem;">ℹ️</span>
+            <div>
+              <strong>We're here to help you succeed with KDP Mafia.</strong><br>
+              Our support team responds within <strong>24-48 hours</strong> (excluding Sundays). We operate on a first-come, first-served basis.<br><br>
+              Your success is our priority. Thank you for your patience and understanding.
+            </div>
+          </div>
+        </div>
+
+        <div class="action-btn-row">
+          <a href="https://teamkalki.tawk.help/" target="_blank" rel="noopener noreferrer" class="btn-support-action">
+            💬 Open Help Center Desk
+          </a>
+          <a href="mailto:hello@kdpmafia.online" class="btn-support-action btn-support-sec">
+            ✉️ Email Support
+          </a>
+        </div>
+      </div>
+
+      <!-- BOOK EMPIRE STARTS HERE CARD -->
+      <div class="info-card">
+        <div class="info-card-header">
+          <div class="info-card-icon" style="background:#fef3c7; color:#d97706;">📖</div>
+          <div>
+            <h3 class="info-card-title">🚀 Your Book Empire Starts Here</h3>
+          </div>
+        </div>
+        <p class="info-card-desc">
+          Welcome to KDP Mafia. Discover profitable niches, create better books, and grow your Amazon royalty empire from one command center.
+        </p>
+
+        <div>
+          <div class="feature-list-item">
+            <span style="color:#2563eb;">⚡</span>
+            <span>AI-Powered Book Generation</span>
+          </div>
+          <div class="feature-list-item">
+            <span style="color:#059669;">📈</span>
+            <span>Niche &amp; Opportunity Finder</span>
+          </div>
+          <div class="feature-list-item">
+            <span style="color:#d97706;">🎨</span>
+            <span>One-Click KDP Print &amp; Cover Formatter</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <div id="toast" class="toast">Copied to clipboard!</div>
+
+  <script>
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      toast.textContent = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2500);
+    }
+
+    function copyText(elementId, successMsg) {
+      const el = document.getElementById(elementId);
+      if (!el) return;
+      const text = el.textContent || el.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(successMsg || 'Copied!');
+      }).catch(err => {
+        showToast('Copied to clipboard!');
+      });
+    }
+
+    function copyAllCredentials() {
+      const url = document.getElementById('urlVal').textContent;
+      const email = document.getElementById('emailVal').textContent;
+      const pass = document.getElementById('passVal').textContent;
+      const fullText = `KDP Mafia Account Credentials:\nURL: ${url}\nEmail: ${email}\nPassword: ${pass}`;
+      
+      navigator.clipboard.writeText(fullText).then(() => {
+        showToast('All credentials copied!');
+      }).catch(err => {
+        showToast('Credentials copied!');
+      });
+    }
+  </script>
+
+</body>
+</html>
