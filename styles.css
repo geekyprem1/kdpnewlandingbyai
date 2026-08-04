@@ -1181,6 +1181,7 @@ body.has-sticky-bar {
 .trust-badge-payments {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 6px;
   margin-left: auto;
 }
@@ -1200,6 +1201,81 @@ body.has-sticky-bar {
 .pay-mc { color: #f87171; }
 .pay-amex { color: #38bdf8; }
 .pay-discover { color: #fb923c; }
+
+/* ==========================================================================
+   CTA PAYMENT ICONS & TRUST BADGE SYSTEM
+   ========================================================================== */
+.cta-payment-trust {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-payment-lock {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.cta-payment-lock svg {
+  color: #22c55e;
+  flex-shrink: 0;
+}
+
+.cta-payment-trust--light .cta-payment-lock {
+  color: var(--ink-muted);
+}
+
+.cta-payment-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: rgba(15, 23, 42, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+}
+
+.cta-payment-trust--light .cta-payment-icons {
+  background: rgba(248, 250, 252, 0.95);
+  border: 1px solid rgba(203, 213, 225, 0.8);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.cta-payment-icons img,
+.trust-badge-payments img.pay-icon-img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  background: #ffffff;
+  padding: 3px 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, filter 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cta-payment-icons img:hover,
+.trust-badge-payments img.pay-icon-img:hover {
+  transform: translateY(-2px) scale(1.08);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  filter: brightness(1.05);
+}
 
 .cta-break-tech-footer {
   display: flex;
@@ -2874,4 +2950,172 @@ img[src*="assets/bundle.png"] {
 [class*="sec-"]::after {
   background-image: none !important;
   display: none !important;
+}
+
+/* ==========================================================================
+   SEE YOU ON THE INSIDE - TEAM KALKI AI SECTION
+   ========================================================================== */
+.see-you-inside-section {
+  padding: 60px 20px 40px;
+  background: #05070d;
+  text-align: center;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.see-you-inside-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4.5vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 30px;
+  letter-spacing: -0.02em;
+}
+
+.see-you-inside-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.see-you-inside-circle-wrap {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  padding: 6px;
+  background: linear-gradient(135deg, #a855f7, #3b82f6, #ec4899);
+  box-shadow: 0 0 35px rgba(168, 85, 247, 0.55), 0 0 15px rgba(59, 130, 246, 0.4);
+  margin-bottom: 18px;
+  animation: pulseNeon 3s infinite alternate;
+}
+
+@keyframes pulseNeon {
+  0% { box-shadow: 0 0 25px rgba(168, 85, 247, 0.5), 0 0 12px rgba(59, 130, 246, 0.3); }
+  100% { box-shadow: 0 0 45px rgba(168, 85, 247, 0.8), 0 0 25px rgba(236, 72, 153, 0.6); }
+}
+
+.see-you-inside-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #090d16;
+}
+
+.see-you-inside-name-badge {
+  display: inline-block;
+  background: linear-gradient(180deg, #fb923c 0%, #ea580c 100%);
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 900;
+  padding: 10px 36px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(234, 88, 12, 0.45);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.see-you-inside-promise {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  max-width: 720px;
+  margin: 0 auto 16px;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.see-you-inside-ps {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--amber-dark);
+  margin-top: 10px;
+}
+
+/* ==========================================================================
+   BOOK SHOWCASE MARQUEE SLIDER
+   ========================================================================== */
+.book-marquee-section {
+  padding: 40px 0 60px;
+  background: #080c14;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.book-marquee-title {
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--amber-dark);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.book-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 25px;
+  animation: marqueeScroll 38s linear infinite;
+}
+
+.book-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.book-showcase-card {
+  flex-shrink: 0;
+  width: 220px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: #1e293b;
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-showcase-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  border-color: #fbbf24;
+  box-shadow: 0 18px 40px rgba(251, 191, 36, 0.35);
+}
+
+.book-showcase-card img {
+  width: 100%;
+  height: 310px;
+  object-fit: cover;
+  display: block;
+}
+
+.book-marquee-track--reverse {
+  display: flex;
+  width: max-content;
+  gap: 25px;
+  margin-top: 25px;
+  animation: marqueeScrollReverse 34s linear infinite;
+}
+
+.book-marquee-track--reverse:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marqueeScrollReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
