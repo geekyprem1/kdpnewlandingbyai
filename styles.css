@@ -668,9 +668,12 @@ body.has-sticky-bar {
 }
 
 .site-footer-logo {
-  height: 50px;
-  opacity: 0.9;
-  margin-bottom: 20px;
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+  margin: 0 auto 25px;
+  display: block;
 }
 
 .site-footer-links {
