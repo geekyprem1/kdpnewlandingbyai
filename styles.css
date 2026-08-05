@@ -184,6 +184,12 @@ p {
   z-index: 2;
 }
 
+.screenshot-offer-box > img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .offer-bullet-list {
   text-align: left;
   margin: 30px auto;
