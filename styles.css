@@ -4960,3 +4960,83 @@ img[src*="assets/bundle.png"] {
   transform: scale(1.04);
   filter: drop-shadow(0 0 45px rgba(56, 189, 248, 0.55));
 }
+
+/* ==========================================================================
+   OTO Dual Action Buttons (Side-by-Side Accept & Decline CTA)
+   ========================================================================== */
+.oto-dual-cta-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 28px;
+  max-width: 960px;
+  margin: 32px auto 0;
+  flex-wrap: wrap;
+}
+
+.oto-cta-col {
+  flex: 1 1 340px;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none !important;
+}
+
+.oto-btn-box-green {
+  width: 100%;
+  background: #00c853;
+  color: #ffffff !important;
+  font-family: var(--font-heading, sans-serif);
+  font-size: 1.22rem;
+  font-weight: 900;
+  padding: 18px 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 200, 83, 0.4);
+  transition: all 0.25s ease;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+
+.oto-btn-box-green:hover {
+  background: #00e676;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0, 230, 118, 0.5);
+}
+
+.oto-btn-box-red {
+  width: 100%;
+  background: #ff0000;
+  color: #ffffff !important;
+  font-family: var(--font-heading, sans-serif);
+  font-size: 1.22rem;
+  font-weight: 900;
+  padding: 18px 20px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(255, 0, 0, 0.4);
+  transition: all 0.25s ease;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+}
+
+.oto-btn-box-red:hover {
+  background: #ff3333;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(255, 51, 51, 0.5);
+}
+
+.oto-btn-subcaption {
+  margin-top: 10px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  text-align: center;
+}
