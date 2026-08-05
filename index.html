@@ -13,9 +13,15 @@
 </head>
 <body class="front-page">
 
-  <!-- TOP TICKER BAR (DIME-SALE TICKER) -->
+  <!-- TOP TICKER BAR -->
   <div class="top-ticker">
-    🔥 LAUNCH DIME-SALE IS LIVE: CURRENT PRICE IS <span class="dime-price">$17.00</span> — PRICE INCREASES WITH EVERY COPY SOLD!
+    <div class="top-ticker-content">
+      <span>Grab Your Early Bird $2 Off Discount With Coupon Code: <span class="ticker-coupon-code">KMVIP</span></span>
+      <a href="#checkout" class="ticker-buy-btn">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;"><path d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm7 17H5V8h14v12z"/></svg>
+        BUY NOW
+      </a>
+    </div>
   </div>
 
   <!-- HEADER -->
@@ -55,16 +61,28 @@
         Without AI Slop Or Trim Rejections.
       </h1>
 
-      <!-- SECTION 3: DARK FORMAT PILL BAR (MATCHING REFERENCE SCREENSHOT) -->
+      <!-- SECTION 3: DARK FORMAT PILL BAR (ANIMATED ROTATOR) -->
       <div class="dark-pill-bar">
-        Create Unlimited <span style="color: #f97316;">Books</span> &nbsp;•&nbsp; <span style="color: #f59e0b;">Journals</span> &nbsp;•&nbsp; <span style="color: #ea580c;">Planners</span>
+        <span class="pill-text-lead">Create Unlimited</span>
+        <div class="pill-rotator-group" id="pillRotatorGroup">
+          <span class="pill-word pill-word-1">Ebooks</span>
+          <span class="pill-dot">•</span>
+          <span class="pill-word pill-word-2">Word Search</span>
+          <span class="pill-dot">•</span>
+          <span class="pill-word pill-word-3">Sudoku</span>
+        </div>
       </div>
 
       <!-- SECTION 4: BRUSH STROKE BANNER (MATCHING REFERENCE SCREENSHOT) -->
-      <div style="margin-bottom: 35px;">
+      <div style="margin-bottom: 16px;">
         <div class="brush-stroke-banner">
-          & More From One Powerful Autonomous AI Dashboard
+          &amp; More From One Powerful Autonomous AI Dashboard
         </div>
+      </div>
+
+      <!-- NO SKILLS BAR -->
+      <div class="hero-no-skills-bar">
+        <span class="no-highlight">No</span> Writing Skills &mdash; <span class="no-highlight">No</span> Design Skills &mdash; <span class="no-highlight">No</span> Experience Needed
       </div>
 
       <!-- SECTION 5: SUB-HEADLINE & DECK -->
@@ -2068,6 +2086,38 @@
     </section>
   </template>
 
+  <!-- EXIT INTENT POPUP MODAL -->
+  <div id="exitPopupOverlay" class="exit-popup-overlay" aria-hidden="true">
+    <div class="exit-popup-modal" role="dialog" aria-modal="true" aria-labelledby="exitPopupTitle">
+      <button type="button" class="exit-popup-close" id="exitPopupClose" aria-label="Close popup">&times;</button>
+      
+      <div class="exit-popup-header">
+        <div class="exit-popup-warning-icon">!</div>
+        <h2 id="exitPopupTitle" class="exit-popup-title">STOP!!!</h2>
+      </div>
+
+      <div class="exit-popup-body">
+        <div class="exit-popup-inner">
+          <p class="exit-popup-headline">
+            Use The Code <span class="exit-coupon-badge">"KMVIP"</span> On<br>
+            Checkout For An Instant
+          </p>
+          <div class="exit-popup-discount">
+            $2 Discount
+          </div>
+          <div class="exit-popup-pricing">
+            <span class="reg-price">Regular Price : <span class="strike">$997</span></span>
+            <span class="today-price">Today : $12.00</span>
+          </div>
+          <a href="#" class="exit-popup-cta-btn" id="exitPopupCta">
+            BUY NOW! <span class="cta-arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
+

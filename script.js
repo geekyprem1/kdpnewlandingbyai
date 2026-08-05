@@ -10,7 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
   initVideoPlayer();
   initDimeSaleTicker();
   initPreviewerSimulator();
+  initExitPopup();
+  initPillRotator();
 });
+
+
 
 /* 1. Reusable CTA Break Sections */
 function initCtaBreakSections() {
@@ -216,3 +220,93 @@ function initPreviewerSimulator() {
     idx = (idx + 1) % simItems.length;
   }, 2500);
 }
+
+/* 7. Exit-Intent Popup Handler */
+function initExitPopup() {
+  const overlay = document.getElementById('exitPopupOverlay');
+  const closeBtn = document.getElementById('exitPopupClose');
+  const ctaBtn = document.getElementById('exitPopupCta');
+  if (!overlay) return;
+
+  let hasShown = false;
+
+  function showPopup() {
+    if (hasShown || sessionStorage.getItem('kdp_exit_popup_shown')) return;
+    overlay.classList.add('active');
+    overlay.setAttribute('aria-hidden', 'false');
+    hasShown = true;
+    sessionStorage.setItem('kdp_exit_popup_shown', 'true');
+  }
+
+  function hidePopup() {
+    overlay.classList.remove('active');
+    overlay.setAttribute('aria-hidden', 'true');
+  }
+
+  // Detect mouse leaving viewport from top boundary (Desktop Exit-Intent)
+  document.addEventListener('mouseleave', (e) => {
+    if (e.clientY <= 15) {
+      showPopup();
+    }
+  });
+
+  // Close when clicking Close (X) button
+  if (closeBtn) {
+    closeBtn.addEventListener('click', hidePopup);
+  }
+
+  // Close when clicking backdrop outside modal
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) {
+      hidePopup();
+    }
+  });
+
+  // Hide popup on CTA button click
+  if (ctaBtn) {
+    ctaBtn.addEventListener('click', () => {
+      hidePopup();
+    });
+  }
+
+  // Close on Escape key press
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay.classList.contains('active')) {
+      hidePopup();
+    }
+  });
+}
+
+/* 8. Dark Pill Bar 3-Item Group Rotator */
+function initPillRotator() {
+  const container = document.getElementById('pillRotatorGroup');
+  if (!container) return;
+
+  const groups = [
+    ['Ebooks', 'Word Search', 'Sudoku'],
+    ['Coloring Books', 'Planners', 'Crosswords'],
+    ['Activity Books', 'Math Workbook', 'Journals']
+  ];
+
+  let currentIdx = 0;
+
+  setInterval(() => {
+    container.classList.add('changing');
+    setTimeout(() => {
+      currentIdx = (currentIdx + 1) % groups.length;
+      const currentGroup = groups[currentIdx];
+
+      const word1 = container.querySelector('.pill-word-1');
+      const word2 = container.querySelector('.pill-word-2');
+      const word3 = container.querySelector('.pill-word-3');
+
+      if (word1) word1.textContent = currentGroup[0];
+      if (word2) word2.textContent = currentGroup[1];
+      if (word3) word3.textContent = currentGroup[2];
+
+      container.classList.remove('changing');
+    }, 350);
+  }, 2600);
+}
+
+
