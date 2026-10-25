@@ -1,0 +1,32 @@
+/* AI-generated image backgrounds, inspired by the reference's quiet centers and edge accents.
+   Each asset is reused across related sections to keep the complete set under 260 KB. */
+.booknexa-v3 [data-v3-background="light-orbit"] { --v3-section-art:url('assets/backgrounds/v3/light-orbit.webp'); --v3-art-base:#fdfaff; }
+.booknexa-v3 [data-v3-background="light-paper"] { --v3-section-art:url('assets/backgrounds/v3/light-paper.webp'); --v3-art-base:#fdfaff; }
+.booknexa-v3 [data-v3-background="light-sky"] { --v3-section-art:url('assets/backgrounds/v3/light-sky.webp'); --v3-art-base:#fdfaff; }
+.booknexa-v3 [data-v3-background="light-rose"] { --v3-section-art:url('assets/backgrounds/v3/light-rose.webp'); --v3-art-base:#fdfaff; }
+.booknexa-v3 [data-v3-background="dark-orbit"] { --v3-section-art:url('assets/backgrounds/v3/dark-orbit.webp'); --v3-art-base:#141019; }
+.booknexa-v3 [data-v3-background="dark-grid"] { --v3-section-art:url('assets/backgrounds/v3/dark-grid.webp'); --v3-art-base:#141019; }
+.booknexa-v3 [data-v3-background="dark-shelf"] { --v3-section-art:url('assets/backgrounds/v3/dark-shelf.webp'); --v3-art-base:#141019; }
+.booknexa-v3 [data-v3-background="dark-spark"] { --v3-section-art:url('assets/backgrounds/v3/dark-spark.webp'); --v3-art-base:#141019; }
+
+.booknexa-v3 section[data-v3-background],
+.booknexa-v3.front-page > #hero[data-v3-background] {
+ background-color:var(--v3-art-base);
+ background-image:var(--v3-section-art);
+ background-size:100% 100%;
+ background-position:center;
+ background-repeat:no-repeat;
+}
+/* The hero's existing book animation stays above its new image backdrop. */
+.booknexa-v3 #hero > .v2-hero-intro::before { background:none; }
+.booknexa-v3 .checkout-section[data-v3-background] > .overlay-layer { background:none; }
+.booknexa-v3 .v2-demo-section[data-v3-background]::before { opacity:.12; }
+/* Keep tall content sections' text clear even when edge art stretches with the section. */
+@media(max-width:760px) {
+ .booknexa-v3 section[data-v3-background] { background-size:100% 100%; }
+}
+/* Shared legacy checkout styles force their own background; override only on V3. */
+.booknexa-v3.front-page .checkout-section[data-v3-background] {
+ background-color:var(--v3-art-base)!important;
+ background-image:var(--v3-section-art)!important;
+}
